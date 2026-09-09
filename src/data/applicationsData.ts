@@ -44,13 +44,13 @@ export const applications: Application[] = [
   {
     slug: 'heatwave-portal',
     title: 'Heatwave Portal',
-    url: 'https://heatpulse-india.netlify.app/',
+    url: 'https://heat-wave.netlify.app/',
     domainTag: 'Heatwave & Climate',
     accent: '#dc2626',
     icon: '/assets/images/app-heatwave-portal-icon.png',
     description: 'Climate intelligence and heat risk analytics platform.',
-    embeddable: false,
-    status: 'unavailable',
+    embeddable: true,
+    status: 'live',
   },
   {
     slug: 'central-india-water-portal',

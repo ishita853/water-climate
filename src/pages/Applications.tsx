@@ -55,10 +55,13 @@ function Applications() {
         <h1 className="mt-2 font-serif text-4xl font-bold tracking-tight text-stone-900 dark:text-stone-50 sm:text-5xl">
           Applications
         </h1>
-        <p className="mt-4 max-w-2xl text-base leading-[1.7] text-stone-600 dark:text-stone-400">
-          Research applications and decision-support tools deployed by the Water, Climate and
-          Sustainability Lab — open each one to explore it directly inside the portfolio, or launch
-          it in its own tab.
+        <p className="mt-4 max-w-2xl font-serif text-xl font-semibold text-stone-800 dark:text-stone-100">
+          We build research tools for a sustainable future.
+        </p>
+        <p className="mt-3 max-w-2xl text-base leading-[1.7] text-stone-600 dark:text-stone-400">
+          Our platforms span climate, water, and air quality, making complex environmental data
+          accessible and actionable for India. Open each one to explore it directly inside the
+          portfolio, or launch it in its own tab.
         </p>
       </div>
 

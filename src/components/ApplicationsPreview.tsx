@@ -14,8 +14,12 @@ function ApplicationsPreview() {
               Digital Platforms
             </p>
             <h2 className="mt-2 font-serif text-2xl font-semibold text-stone-900 dark:text-stone-50">
-              Selected Applications
+              We build research tools for a sustainable future.
             </h2>
+            <p className="mt-2 max-w-xl text-sm text-stone-600 dark:text-stone-400">
+              Our platforms span climate, water, and air quality, making complex environmental
+              data accessible and actionable for India.
+            </p>
           </div>
           <Link
             to="/applications"
