@@ -1,0 +1,112 @@
+[
+  {
+    "id": "book-2026-environmental-monitoring",
+    "title": "Environmental Monitoring with Integrated Earth Observation Data and Machine Learning",
+    "authors": "Srija Roy, Manish Kumar Goyal",
+    "publisher": "Springer Nature",
+    "year": 2026,
+    "doi": "10.1007/978-3-032-19935-5",
+    "cover": "/assets/images/b11.webp"
+  },
+  {
+    "id": "book-2025-ramsar-wetlands",
+    "title": "Monitoring India's Ramsar Wetlands: Water Quality and Ecosystem Health via Remote Sensing and AI",
+    "authors": "Manish Kumar Goyal, Vijay Jain, Utkarsh Yadav",
+    "publisher": "Springer",
+    "year": 2025,
+    "isbn": "978-3-031-96818-1",
+    "doi": "10.1007/978-3-031-96818-1",
+    "cover": "/assets/images/b1.png"
+  },
+  {
+    "id": "book-2025-key-biodiversity-areas",
+    "title": "Key Biodiversity Areas: Technology–Policy Interface for Combating Forest Loss and Fires",
+    "authors": "Manish Kumar Goyal, Shivukumar Rakkasagi",
+    "publisher": "Springer",
+    "year": 2025,
+    "isbn": "9783031848193",
+    "doi": "10.1007/978-3-031-84820-9",
+    "cover": "/assets/images/b2.png"
+  },
+  {
+    "id": "book-2024-ai-water-policy",
+    "title": "AI Innovation for Water Policy and Sustainability",
+    "authors": "Manish Kumar Goyal, Sachidanand Kumar, Akhilesh Gupta",
+    "publisher": "Springer Cham",
+    "year": 2024,
+    "doi": "10.1007/978-3-031-72014-7",
+    "cover": "/assets/images/b3.png"
+  },
+  {
+    "id": "book-2024-aerosol-atmospheric-rivers",
+    "title": "Aerosol Atmospheric Rivers Availability, Spatiotemporal Characterisation, Predictability, and Impacts",
+    "authors": "Manish Kumar Goyal, Kuldeep Singh Rautela",
+    "publisher": "Springer Cham",
+    "year": 2024,
+    "doi": "10.1007/978-3-031-66758-9",
+    "cover": "/assets/images/b4.png"
+  },
+  {
+    "id": "book-2024-atmospheric-rivers-ml",
+    "title": "Understanding Atmospheric Rivers Using Machine Learning",
+    "authors": "Manish Kumar Goyal, Shivam Singh",
+    "publisher": "Springer Cham",
+    "year": 2024,
+    "doi": "10.1007/978-3-031-63478-9",
+    "cover": "/assets/images/b5.png"
+  },
+  {
+    "id": "book-2023-ecosystem-restoration",
+    "title": "Ecosystem Restoration: Towards Sustainability and Resilient Development",
+    "authors": "Manish Kumar Goyal, A. Gupta",
+    "publisher": "Springer",
+    "year": 2023,
+    "doi": "10.1007/978-981-99-3687-8",
+    "cover": "/assets/images/b6.png"
+  },
+  {
+    "id": "book-2022-hydro-meteorological-extremes",
+    "title": "Hydro-Meteorological Extremes and Disasters",
+    "authors": "Manish Kumar Goyal, A.K. Gupta, A. Gupta",
+    "publisher": "Springer",
+    "year": 2022,
+    "doi": "10.1007/978-981-19-0725-8",
+    "cover": "/assets/images/b7.png"
+  },
+  {
+    "id": "book-2020-sustainability-fundamentals",
+    "title": "Sustainability: Fundamentals and Applications",
+    "authors": "Rao Y. Surampalli, T.C. Zhang, Manish Kumar Goyal, S.K. Brar, R.D. Tyagi",
+    "publisher": "John Wiley & Sons",
+    "year": 2020,
+    "doi": "10.1002/9781119434016",
+    "cover": "/assets/images/b9.png"
+  },
+  {
+    "id": "book-2020-integrated-risk-pandemic",
+    "title": "Integrated Risk of Pandemic: COVID-19 Impacts, Resilience, and Recommendations",
+    "authors": "Manish Kumar Goyal, A.K. Gupta, A. Gupta",
+    "publisher": "Springer Singapore",
+    "year": 2020,
+    "doi": "10.1007/978-981-15-7679-9",
+    "cover": "/assets/images/b10.png"
+  },
+  {
+    "id": "book-2017-engineering-hydrology",
+    "title": "Engineering Hydrology",
+    "authors": "Manish Kumar Goyal",
+    "publisher": "PHI Learning Pvt. Ltd., New Delhi",
+    "year": 2017,
+    "isbn": "978-81-203-5243-8",
+    "cover": "/assets/images/b12.jpg"
+  },
+  {
+    "id": "book-2015-fluid-mechanics",
+    "title": "Fluid Mechanics and Hydraulic Machines",
+    "authors": "Manish Kumar Goyal",
+    "publisher": "PHI Learning Pvt. Ltd., New Delhi",
+    "year": 2015,
+    "isbn": "978-81-203-5117-2",
+    "cover": "/assets/images/b8.jpg"
+  }
+]

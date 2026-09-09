@@ -1,0 +1,129 @@
+{
+  "areas": [
+    {
+      "name": "Climate Change",
+      "description": "Impact of climate change on water resources, statistical downscaling, and change detection methodologies."
+    },
+    {
+      "name": "Hydrology and Glaciology",
+      "description": "Hydro-climatology, hydrological modeling, snowmelt dynamics, glacial lake monitoring, hydro-geoinformatics, and remote sensing applications."
+    },
+    {
+      "name": "Irrigation",
+      "description": "Crop modeling and irrigation water management strategies."
+    },
+    {
+      "name": "Carbon Sequestration",
+      "description": "Soil carbon sequestration mechanisms."
+    },
+    {
+      "name": "Data Mining",
+      "description": "Multivariate statistical analysis and machine learning, including neural networks and fuzzy logic."
+    }
+  ],
+  "nationalProjects": [
+    {
+      "title": "Green House Gas Emission and Carbon Sequestration",
+      "role": "PI",
+      "duration": "2013-2015",
+      "agency": "IIT, Guwahati"
+    },
+    {
+      "title": "An Integrated Approach for Snowmelt Hydrological Modeling at Downstream of Sikkim Glaciers",
+      "role": "PI",
+      "duration": "2014-2017",
+      "agency": "DST, India"
+    },
+    {
+      "title": "Quantification of Soil Organic Carbon Sequestration Using Remote Sensing and Field-Based Approach",
+      "role": "PI",
+      "duration": "2014-2019",
+      "agency": "DST, India"
+    },
+    {
+      "title": "Assessment of Snowmelt and Glacier Melt Runoff Contribution in the Upstream Part of Teesta River Catchment Using Hydrological Modeling and Field Based Measurements",
+      "role": "PI",
+      "duration": "2015-2018",
+      "agency": "DST, India"
+    },
+    {
+      "title": "Statistical Downscaling for Hydro-Climatic Projections with CMIP5 Simulations to Assess Impacts of Climate Change",
+      "role": "Co-PI",
+      "duration": "2015-2018",
+      "agency": "DST, India"
+    },
+    {
+      "title": "Basin Level Study on Impact of Climate Change on Brahmaputra and Barak Basin",
+      "role": "Co-PI",
+      "duration": "2016-2019",
+      "agency": "ICCCC, India"
+    },
+    {
+      "title": "Assessment of Impact of Climate Change on Crop Water Requirements and Productivity of Major Crop in Sikkim, Himalayan Region of Northeast India",
+      "role": "PI",
+      "duration": "2017-2020",
+      "agency": "DST, India"
+    },
+    {
+      "title": "An Integral Assessment of Groundwater and Surface Water Using Stable Isotopes of Water",
+      "role": "PI",
+      "duration": "2017-2020",
+      "agency": "BRNS, India"
+    },
+    {
+      "title": "Comparative Analysis of Different Rice Cultivars Contaminated with Arsenic and Fluoride in the Brahmaputra Flood Plains: A Health Risk Assessment Coupled with a Modeling Approach",
+      "role": "PI",
+      "duration": "2017-2020",
+      "agency": "DST, India"
+    },
+    {
+      "title": "Assessment of the Potential Glacier Lake Outburst Flood (GLOF) Risk in the Upper Teesta River Basin Using Remote Sensing Techniques",
+      "role": "PI",
+      "duration": "2018-2021",
+      "agency": "CSIR"
+    },
+    {
+      "title": "Identification of Hydropower Sites and Critical Glacial Lakes for Sustainable Water Resources Management in Himachal Pradesh",
+      "role": "PI",
+      "duration": "2018-2021",
+      "agency": "NMHS, MOEF&CC"
+    },
+    {
+      "title": "Development of a Big Data-Based Extreme Events Prediction System Using Satellite Images and Field-Based Observations Under Climate Change",
+      "role": "PI",
+      "duration": "2018",
+      "agency": "NVIDIA"
+    },
+    {
+      "title": "Implementation of Indo-South Korea Joint Network Center for Environmental Cyber Physical Systems",
+      "role": "Co-PI",
+      "duration": "January 2021-January 2024",
+      "agency": "DST"
+    },
+    {
+      "title": "Multi-Hazard Disaster Risk & Resilience: Practical Learning and Step-by-Step Guide to Improve Disaster Resilience at City Levels",
+      "role": "PI",
+      "duration": "Aug 2021-March 2022",
+      "agency": "NIDM"
+    },
+    {
+      "title": "Compound Extremes Using Variance Transform Method",
+      "role": "PI",
+      "duration": "Jan 2022-Jan 2025",
+      "agency": "SERB"
+    },
+    {
+      "title": "Narmada River Basin Management Studies",
+      "role": "PI",
+      "duration": "April 2024-April 2027",
+      "agency": "Ministry of Jal Shakti, GOI"
+    }
+  ],
+  "tools": [
+    "Smart India Flood Analysis Tool",
+    "Wetlands Analysis Platform",
+    "Air Quality Prediction System",
+    "Central India Water Body Analysis",
+    "Central India Water Portal"
+  ]
+}

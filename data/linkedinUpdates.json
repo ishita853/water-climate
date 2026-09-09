@@ -1,0 +1,39 @@
+[
+  {
+    "id": "post-01",
+    "date": "",
+    "category": "Professional Update",
+    "title": "Prof. Manish Kumar Goyal Appointed as Guest Professor at the University of Notre Dame, USA",
+    "excerpt": "A proud moment for the Water Climate and Sustainability Lab, IIT Indore. This prestigious appointment reflects his continued commitment to excellence in research, innovation, and education, and will provide a platform to engage with distinguished faculty and researchers while fostering international collaboration.",
+    "image": "/assets/images/1783592655850.jpeg",
+    "gallery": ["/assets/images/1783592655641.jpeg", "/assets/images/1783592656197.jpeg"],
+    "linkedinUrl": "https://www.linkedin.com/in/prof-manish-kumar-goyal-8062b86/recent-activity/all/"
+  },
+  {
+    "id": "post-02",
+    "date": "2026-06-30",
+    "category": "Workshop",
+    "title": "Strengthening Capacities for Sustainable River Rejuvenation",
+    "excerpt": "At the two-day Capacity Building Workshop on DPR Preparation & Betwa River Rejuvenation under the Namami Gange Programme (Bhopal), Prof. Goyal delivered a session on \"Innovative Tools for Conservation, Rejuvenation and Decentralized Planning,\" covering GIS-based river basin planning, decentralized wastewater management, and nature-based solutions.",
+    "image": "/assets/images/1783072350502.jpeg",
+    "linkedinUrl": "https://www.linkedin.com/in/prof-manish-kumar-goyal-8062b86/recent-activity/all/"
+  },
+  {
+    "id": "post-03",
+    "date": "",
+    "category": "Research Alert",
+    "title": "Mass Movement Hazard and Exposure in the Himalaya",
+    "excerpt": "Published in Earth's Future (Wiley, AGU), this study traces rockfall, ice avalanche, and landslide trajectories across six mountain ranges spanning the Hindu Kush Karakoram Himalaya, one of the first regional-scale hazard and exposure assessments ever produced for the world's highest terrain. With Saket Dubey, Ashim Sattar, Simon Allen, Holger Frey, Umesh K. Haritashya, and Christian Huggel.",
+    "pdf": "/assets/images/1784197378246.pdf",
+    "linkedinUrl": "https://www.linkedin.com/in/prof-manish-kumar-goyal-8062b86/recent-activity/all/"
+  },
+  {
+    "id": "post-04",
+    "date": "2023-04-01",
+    "category": "Publication",
+    "title": "An Innovative Approach to Predict Atmospheric Rivers: Exploring Convolutional Autoencoder",
+    "excerpt": "Published in Atmospheric Research (Apr 2023), this work trains a deep learning model on 8 years of global ERA5 reanalysis data to forecast atmospheric river behavior, scoring SSIM 0.739 / PSNR 64.42, roughly 4× better than a comparable ConvLSTM benchmark. With Shivam Singh.",
+    "image": "/assets/images/1784285974551.jpeg",
+    "linkedinUrl": "https://www.linkedin.com/in/prof-manish-kumar-goyal-8062b86/recent-activity/all/"
+  }
+]

@@ -1,0 +1,1627 @@
+[
+  {
+    "id": "book-2026-earth-observation-ml",
+    "type": "book",
+    "title": "Environmental Monitoring with Integrated Earth Observation Data and Machine Learning",
+    "authors": "Roy, S., and Goyal, M. K.",
+    "venue": "Book, Springer Nature",
+    "year": 2026,
+    "link": "https://doi.org/10.1007/978-3-032-19935-5"
+  },
+  {
+    "id": "book-2025-ramsar-wetlands",
+    "type": "book",
+    "title": "Monitoring India's Ramsar Wetlands: Water Quality and Ecosystem Health via Remote Sensing and AI",
+    "authors": "Goyal, M. K., Jain, V., and Yadav, U.",
+    "venue": "Book, Springer",
+    "year": 2025,
+    "link": "https://doi.org/10.1007/978-3-031-96818-1"
+  },
+  {
+    "id": "book-2025-key-biodiversity-areas",
+    "type": "book",
+    "title": "Key Biodiversity Areas: Technology–Policy Interface for Combating Forest Loss and Fires",
+    "authors": "Goyal, M. K., and Rakkasagi, S.",
+    "venue": "Book, Springer",
+    "year": 2025,
+    "link": "https://doi.org/10.1007/978-3-031-84820-9"
+  },
+  {
+    "id": "book-2024-ai-water-policy",
+    "type": "book",
+    "title": "AI Innovation for Water Policy and Sustainability",
+    "authors": "Goyal, M. K., Kumar, S., and Gupta, A.",
+    "venue": "Book, Springer Cham",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-72014-7"
+  },
+  {
+    "id": "book-2024-aerosol-atmospheric-rivers",
+    "type": "book",
+    "title": "Aerosol Atmospheric Rivers: Availability, Spatiotemporal Characterisation, Predictability, and Impacts",
+    "authors": "Goyal, M. K., and Rautela, K. S.",
+    "venue": "Book, Springer Cham",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-66758-9"
+  },
+  {
+    "id": "book-2024-understanding-atmospheric-rivers-ml",
+    "type": "book",
+    "title": "Understanding Atmospheric Rivers Using Machine Learning",
+    "authors": "Goyal, M. K., and Singh, S.",
+    "venue": "Book, Springer Cham",
+    "year": 2024,
+    "link": "http://dx.doi.org/10.1007/978-3-031-63478-9"
+  },
+  {
+    "id": "book-2023-ecosystem-restoration",
+    "type": "book",
+    "title": "Ecosystem Restoration: Towards Sustainability and Resilient Development",
+    "authors": "Goyal, M. K., and Gupta, A.",
+    "venue": "Book, Springer",
+    "year": 2023,
+    "link": "https://doi.org/10.1007/978-981-99-3687-8"
+  },
+  {
+    "id": "book-2022-hydro-meteorological-extremes",
+    "type": "book",
+    "title": "Hydro-Meteorological Extremes and Disasters",
+    "authors": "Goyal, M. K., Gupta, A. K., and Gupta, A.",
+    "venue": "Book, Springer",
+    "year": 2022,
+    "link": "https://doi.org/10.1007/978-981-19-0725-8"
+  },
+  {
+    "id": "book-2020-sustainability-fundamentals",
+    "type": "book",
+    "title": "Sustainability: Fundamentals and Applications",
+    "authors": "Surampalli, R. Y., Zhang, T. C., Goyal, M. K., Brar, S. K., and Tyagi, R. D.",
+    "venue": "Book, John Wiley & Sons",
+    "year": 2020,
+    "link": "https://doi.org/10.1002/9781119434016"
+  },
+  {
+    "id": "book-2020-covid-risk",
+    "type": "book",
+    "title": "Integrated Risk of Pandemic: COVID-19 Impacts, Resilience, and Recommendations",
+    "authors": "Goyal, M. K., Gupta, A. K., and Gupta, A.",
+    "venue": "Book, Springer Singapore",
+    "year": 2020,
+    "link": "https://doi.org/10.1007/978-981-15-7679-9"
+  },
+  {
+    "id": "book-2017-engineering-hydrology",
+    "type": "book",
+    "title": "Engineering Hydrology",
+    "authors": "Goyal, M. K.",
+    "venue": "Book, PHI Learning Pvt. Ltd., New Delhi",
+    "year": 2017
+  },
+  {
+    "id": "book-2015-fluid-mechanics",
+    "type": "book",
+    "title": "Fluid Mechanics and Hydraulic Machines",
+    "authors": "Goyal, M. K.",
+    "venue": "Book, PHI Learning Pvt. Ltd., New Delhi",
+    "year": 2015
+  },
+  {
+    "id": "pub-2026-air-pollution-measurement-review",
+    "type": "journal",
+    "title": "A Review of Extreme Air Pollution Measurement and Modeling Techniques with Applications",
+    "authors": "Rautela, K. S., Goyal, M. K., and Mohan, M.",
+    "venue": "Renewable and Sustainable Energy Reviews, 240, 117178",
+    "year": 2026,
+    "impactFactor": "18.0"
+  },
+  {
+    "id": "pub-2026-wetland-resilience-sdg",
+    "type": "journal",
+    "title": "Climate Change, Wetland Resilience, and the Sustainable Development Goals in Central India: Implications for Water Security and Adaptation Policy",
+    "authors": "Raj, A., Rautela, K. S., and Goyal, M. K.",
+    "venue": "Sustainable Development",
+    "year": 2026,
+    "impactFactor": "9.3"
+  },
+  {
+    "id": "pub-2026-flood-risk-arid-ramsar-wetlands",
+    "type": "journal",
+    "title": "Flood Risk in India's Arid Ramsar Wetlands: Integrating Extreme Rainfall, Fuzzy Risk Assessment, and CMIP6 Projections",
+    "authors": "Rakkasagi, S., Patil, K. J., Goyal, M. K., and Maman, S.",
+    "venue": "Physics and Chemistry of the Earth, Parts A/B/C, 104522",
+    "year": 2026,
+    "impactFactor": "4.6"
+  },
+  {
+    "id": "pub-2026-ai-air-quality-mapping-pm25",
+    "type": "journal",
+    "title": "Artificial Intelligence–Driven Air Quality Mapping and Forecasting for Extreme PM2.5 Pollution Events",
+    "authors": "Rautela, K. S., Upadhyay, M., Goyal, M. K., and Taigor, S.",
+    "venue": "Physics and Chemistry of the Earth, Parts A/B/C, 104459",
+    "year": 2026,
+    "impactFactor": "4.6"
+  },
+  {
+    "id": "pub-2026-ramsar-wetlands-precipitation-extremes",
+    "type": "journal",
+    "title": "The Future of Global Ramsar Wetlands under Intensifying Precipitation Extremes: Arid Regions as Emerging Hotspots",
+    "authors": "Mishra, D., Kumar, N. N., Singh, S., and Goyal, M. K.",
+    "venue": "Environmental Impact Assessment Review, 118, 108275",
+    "year": 2026,
+    "link": "https://doi.org/10.1016/j.eiar.2025.108275",
+    "impactFactor": "11.2"
+  },
+  {
+    "id": "pub-2025-landfill-sar-characterization",
+    "type": "journal",
+    "title": "High-Resolution Landfill Characterization Using SAR Remote Sensing and Cloud-Based Processing",
+    "authors": "Agrawal, S., Rakkasagi, S., and Goyal, M. K.",
+    "venue": "Scientific Reports",
+    "year": 2025,
+    "link": "https://doi.org/10.1038/s41598-025-32908-9",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2025-population-weighted-pollution-extremes",
+    "type": "journal",
+    "title": "Unequal Spatio-Temporal Distribution of Population-Weighted Pollution Extremes through Deep Learning",
+    "authors": "Rautela, K. S., Goyal, M. K., and Nagpure, A. S.",
+    "venue": "npj Climate and Atmospheric Science, 8(1), 340",
+    "year": 2025,
+    "link": "https://doi.org/10.1038/s41612-025-01183-w",
+    "impactFactor": "8.4"
+  },
+  {
+    "id": "pub-2025-techno-societal-heavy-rainfall-ramsar",
+    "type": "journal",
+    "title": "A Techno-Societal Framework for Quantifying the Risk of Heavy Rainfall Events over Ramsar Wetlands",
+    "authors": "Rakkasagi, S., Goyal, M. K., and Jha, S.",
+    "venue": "Journal of Geophysical Research: Oceans, 130(9), e2025JC022563",
+    "year": 2025,
+    "link": "https://doi.org/10.1029/2025JC022563",
+    "impactFactor": "3.4"
+  },
+  {
+    "id": "pub-2025-flash-drought-biodiversity-areas",
+    "type": "journal",
+    "title": "A Socio-Technical Framework for Assessing Flash Drought Risks to Key Biodiversity Areas: A Scientists' Warning",
+    "authors": "Rakkasagi, S., Edris, S. G., and Goyal, M. K.",
+    "venue": "Technology in Society, 82, 102893",
+    "year": 2025,
+    "link": "https://doi.org/10.1016/j.techsoc.2025.102893",
+    "impactFactor": "12.5"
+  },
+  {
+    "id": "pub-2025-climate-shifts-drought-central-india",
+    "type": "journal",
+    "title": "Evaluating Climate Shifts and Drought Regions in the Central Indian River Basins",
+    "authors": "Singh, S., Jain, V., and Goyal, M. K.",
+    "venue": "Scientific Reports, 15(1), 29701",
+    "year": 2025,
+    "link": "https://doi.org/10.1038/s41598-025-15231-1",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2025-protecting-wetlands-south-asia",
+    "type": "journal",
+    "title": "Protecting Wetlands for Future Generations: A Comprehensive Approach to the Water-Climate-Society Nexus in South Asia",
+    "authors": "Rakkasagi, S., and Goyal, M. K.",
+    "venue": "Environmental Impact Assessment Review, 115, 107988",
+    "year": 2025,
+    "link": "https://doi.org/10.1016/j.eiar.2025.107988",
+    "impactFactor": "11.2"
+  },
+  {
+    "id": "pub-2025-corrigendum-urban-precipitation-smart-cities",
+    "type": "journal",
+    "title": "Corrigendum: Urban Precipitation Dynamics Risk Assessment across Indian Smart Cities",
+    "authors": "Jain, V., Singh, S., and Goyal, M. K.",
+    "venue": "Environmental Research Letters, 20(8), 089502",
+    "year": 2025,
+    "link": "https://doi.org/10.1088/1748-9326/ade3f0",
+    "impactFactor": "5.6"
+  },
+  {
+    "id": "pub-2025-fsaet-2023-editorial",
+    "type": "journal",
+    "title": "Futuristic and Sustainable Aspects in Engineering and Technology (FSAET-2023)",
+    "authors": "Ojha, C. S. P., Singh, V. P., Goyal, M. K., Sharma, A., and Tiwari, D. K.",
+    "venue": "Journal of Water and Climate Change, 16(8), iii-v",
+    "year": 2025,
+    "impactFactor": "3.0"
+  },
+  {
+    "id": "pub-2025-ai-ml-waste-management-air-pollution",
+    "type": "journal",
+    "title": "AI and Machine Learning for Optimizing Waste Management and Reducing Air Pollution",
+    "authors": "Rautela, K. S., Goyal, M. K., and Surampalli, R. Y.",
+    "venue": "Journal of Hazardous, Toxic, and Radioactive Waste, 29(3), 04025014",
+    "year": 2025,
+    "link": "https://doi.org/10.1061/JHTRBP.HZENG-1483",
+    "impactFactor": "2.9"
+  },
+  {
+    "id": "pub-2025-headwater-basins-himalayan-region",
+    "type": "journal",
+    "title": "Assessing Hydro-Climatological Variability and Land Use Characteristics of the Headwater Basins of the Indian Himalayan Region",
+    "authors": "Rautela, K. S., Kanwar, N., Kuniyal, J. C., Sofi, M. S., Goyal, M. K., Bhoj, A. S., Bhat, S. U., et al.",
+    "venue": "Earth Systems and Environment, 9, 2211–2233",
+    "year": 2025,
+    "link": "https://doi.org/10.1007/s41748-025-00662-7",
+    "impactFactor": "4.7"
+  },
+  {
+    "id": "pub-2025-rapid-onset-drying-forest-fires",
+    "type": "journal",
+    "title": "Are Rapid Onset Drying Events Escalating Forest Fires across India's Ecoregions?",
+    "authors": "Rakkasagi, S., and Goyal, M. K.",
+    "venue": "Environmental Research Letters, 20(6), 064004",
+    "year": 2025,
+    "link": "https://doi.org/10.1088/1748-9326/add1f5",
+    "impactFactor": "5.6"
+  },
+  {
+    "id": "pub-2025-precipitation-temperature-smart-cities",
+    "type": "journal",
+    "title": "Relationship between Daily Precipitation Extremes and Temperature in Changing Climate across Smart Cities of Central India",
+    "authors": "Jain, V., Kumar, S., and Goyal, M. K.",
+    "venue": "Journal of Environmental Management, 380, 125036",
+    "year": 2025,
+    "link": "https://doi.org/10.1016/j.jenvman.2025.125036",
+    "impactFactor": "8.4"
+  },
+  {
+    "id": "pub-2025-india-water-policy-review",
+    "type": "journal",
+    "title": "A Review of India's Water Policy and Implementation toward a Sustainable Future",
+    "authors": "Singh, S., and Goyal, M. K.",
+    "venue": "Water and Climate Change, 16(2), 493–510",
+    "year": 2025,
+    "link": "https://doi.org/10.2166/wcc.2025.560",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2025-pm25-health-implications-review",
+    "type": "journal",
+    "title": "Modelling Health Implications of Extreme PM2.5 Concentrations in Indian Sub-Continent: Comprehensive Review with Longitudinal Trends and Deep Learning Predictions",
+    "authors": "Rautela, K. S., and Goyal, M. K.",
+    "venue": "Technology in Society, 81, 102843",
+    "year": 2025,
+    "link": "https://doi.org/10.1016/j.techsoc.2025.102843",
+    "impactFactor": "12.5"
+  },
+  {
+    "id": "pub-2025-soybean-yield-madhya-pradesh",
+    "type": "journal",
+    "title": "Assessing Soybean Yield in Madhya Pradesh by Using a Multi-Model Approach",
+    "authors": "Nargund, R., Rautela, K. S., Goyal, M. K., Sinha, N. K., Mohanty, M., and Bhatia, V. S.",
+    "venue": "Field Crops Research, 322, 109716",
+    "year": 2025,
+    "link": "https://doi.org/10.1016/j.fcr.2024.109716",
+    "impactFactor": "6.4"
+  },
+  {
+    "id": "pub-2025-spatiotemporal-air-pollution-risk",
+    "type": "journal",
+    "title": "Spatio-Temporal Analysis of Extreme Air Pollution and Risk Assessment",
+    "authors": "Rautela, K. S., and Goyal, M. K.",
+    "venue": "Journal of Environmental Management, 373, 123807",
+    "year": 2025,
+    "link": "https://doi.org/10.1016/j.jenvman.2024.123807",
+    "impactFactor": "8.4"
+  },
+  {
+    "id": "pub-2024-ai-ml-water-wastewater-treatment",
+    "type": "journal",
+    "title": "Role of AI & ML in Modernizing Water and Wastewater Treatment Processes",
+    "authors": "Kumar, R., and Goyal, M. K.",
+    "venue": "Water, Air, & Soil Pollution, 236, 1–22",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/s11270-024-07618-z",
+    "impactFactor": "3.8"
+  },
+  {
+    "id": "pub-2024-ramsar-wetland-sites-south-asia",
+    "type": "journal",
+    "title": "Enhancing Sustainable Development through Spatiotemporal Analysis of Ramsar Wetland Sites in South Asia",
+    "authors": "Goyal, M. K., Rakkasagi, S., Surampalli, R. Y., Zhang, T. C., Erumalla, S., Gupta, A., Dubey, S., and U-tapao, C.",
+    "venue": "Technology in Society, 79, 102723",
+    "year": 2024,
+    "link": "https://doi.org/10.1016/j.techsoc.2024.102723",
+    "impactFactor": "10.1"
+  },
+  {
+    "id": "pub-2024-wastewater-management-policies-india",
+    "type": "journal",
+    "title": "Wastewater Management Policies: A Perspective and Roadmap for India",
+    "authors": "Kumar, R., Mishra, A., and Goyal, M. K.",
+    "venue": "Current Science, 127(7), 795",
+    "year": 2024,
+    "link": "http://dx.doi.org/10.18520/cs/v127/i7/795-807",
+    "impactFactor": "1.0"
+  },
+  {
+    "id": "pub-2024-monsoonal-dry-hot-extremes",
+    "type": "journal",
+    "title": "Projected Changes in Monsoonal Compound Dry-Hot Extremes in India",
+    "authors": "Kumar, N., and Goyal, M. K.",
+    "venue": "Atmospheric Research, 310, 107605",
+    "year": 2024,
+    "link": "https://doi.org/10.1016/j.atmosres.2024.107605",
+    "impactFactor": "4.5"
+  },
+  {
+    "id": "pub-2024-river-pollution-india-regulatory",
+    "type": "journal",
+    "title": "River Pollution in India: Exploring Regulatory and Remedial Paths",
+    "authors": "Kumar, R., Goyal, M. K., Surampalli, R. Y., and Zhang, T. C.",
+    "venue": "Clean Technologies and Environmental Policy, 26, 2777–2799",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/s10098-024-02763-9",
+    "impactFactor": "4.2"
+  },
+  {
+    "id": "pub-2024-air-pollution-management-ai-ml",
+    "type": "journal",
+    "title": "Transforming Air Pollution Management in India with AI and Machine Learning Technologies",
+    "authors": "Rautela, K. S., and Goyal, M. K.",
+    "venue": "Scientific Reports, 20412",
+    "year": 2024,
+    "link": "https://doi.org/10.1038/s41598-024-71269-7",
+    "impactFactor": "3.8"
+  },
+  {
+    "id": "pub-2024-water-neutrality-concept",
+    "type": "journal",
+    "title": "Water Neutrality: Concept, Challenges, Policies, and Recommendations",
+    "authors": "Kumar, R., Mishra, A., and Goyal, M. K.",
+    "venue": "Groundwater for Sustainable Development, 26, 101306",
+    "year": 2024,
+    "link": "https://doi.org/10.1016/j.gsd.2024.101306",
+    "impactFactor": "4.9"
+  },
+  {
+    "id": "pub-2024-aerosol-atmospheric-rivers-insights",
+    "type": "journal",
+    "title": "Aerosol Atmospheric Rivers: Patterns, Impacts, and Societal Insights",
+    "authors": "Rautela, K. S., Singh, S., and Goyal, M. K.",
+    "venue": "Environmental Science and Pollution Research",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/s11356-024-34625-8",
+    "impactFactor": "5.8"
+  },
+  {
+    "id": "pub-2024-resilience-air-pollution-aerosol-rivers",
+    "type": "journal",
+    "title": "Resilience to Air Pollution: A Novel Approach for Detecting and Predicting Aerosol Atmospheric Rivers within Earth System Boundaries",
+    "authors": "Rautela, K. S., Singh, S., and Goyal, M. K.",
+    "venue": "Earth Systems and Environment",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/s41748-024-00421-0",
+    "impactFactor": "5.3"
+  },
+  {
+    "id": "pub-2024-dhauliganga-hydro-sedimentological-flows",
+    "type": "journal",
+    "title": "Assessment and Modelling of Hydro-Sedimentological Flows of the Eastern River Dhauliganga, North-Western Himalaya, India",
+    "authors": "Rautela, K. S., Kuniyal, J. C., Goyal, M. K., Kanwar, N., and Bhoj, A. S.",
+    "venue": "Natural Hazards, 120, 5385–5409",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/s11069-024-06413-7",
+    "impactFactor": "3.3"
+  },
+  {
+    "id": "pub-2024-coastal-ramsar-wetlands-fuzzy-logic",
+    "type": "journal",
+    "title": "Evaluating the Future Risk of Coastal Ramsar Wetlands in India to Extreme Rainfalls Using Fuzzy Logic",
+    "authors": "Rakkasagi, S., Goyal, M. K., and Jha, S.",
+    "venue": "Journal of Hydrology, 632, 130869",
+    "year": 2024,
+    "link": "https://doi.org/10.1016/j.jhydrol.2024.130869",
+    "impactFactor": "5.9"
+  },
+  {
+    "id": "pub-2024-climate-vulnerability-ramsar-cmip6",
+    "type": "journal",
+    "title": "Assessing Climate Vulnerability of Ramsar Wetlands through CMIP6 Projections",
+    "authors": "Singh, S., Goyal, M. K., and Saikumar, E.",
+    "venue": "Water Resources Management, 38, 1381–1395",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/s11269-023-03726-3",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2024-glacial-lakes-hindu-kush-karakoram",
+    "type": "journal",
+    "title": "Transboundary Hazard and Downstream Impact of Glacial Lakes in Hindu-Kush Karakoram Himalayas",
+    "authors": "Dubey, S., Sattar, A., Gupta, V., Goyal, M. K., Haritashya, U. K., and Kargel, J. S.",
+    "venue": "Science of The Total Environment, 914, 169758",
+    "year": 2024,
+    "link": "https://doi.org/10.1016/j.scitotenv.2023.169758",
+    "impactFactor": "8.2"
+  },
+  {
+    "id": "pub-2024-aerosol-atmospheric-rivers-global-scale",
+    "type": "journal",
+    "title": "Characterizing the Spatiotemporal Distribution, Detection, and Prediction of Aerosol Atmospheric Rivers on a Global Scale",
+    "authors": "Rautela, K. S., Singh, S., and Goyal, M. K.",
+    "venue": "Journal of Environmental Management, 351, 119675",
+    "year": 2024,
+    "link": "https://doi.org/10.1016/j.jenvman.2023.119675",
+    "impactFactor": "8.0"
+  },
+  {
+    "id": "pub-2024-heat-waves-climate-oscillations",
+    "type": "journal",
+    "title": "Univariate and Bivariate Spatiotemporal Characteristics of Heat Waves and Relative Influence of Large-Scale Climate Oscillations over India",
+    "authors": "Singh, S., Yadav, A., and Goyal, M. K.",
+    "venue": "Journal of Hydrology, 628, 130596",
+    "year": 2024,
+    "link": "https://doi.org/10.1016/j.jhydrol.2023.130596",
+    "impactFactor": "5.9"
+  },
+  {
+    "id": "pub-2023-groundwater-nepal-swat",
+    "type": "journal",
+    "title": "Ground Water Availability Assessment for a Data-Scarce River Basin in Nepal Using SWAT Hydrological Model",
+    "authors": "Prajapati, R. N., Ibrahim, N., Goyal, M. K., Thapa, B. R., and Maharjan, K. R.",
+    "venue": "Water Supply",
+    "year": 2023,
+    "link": "https://doi.org/10.2166/ws.2023.332",
+    "impactFactor": "1.9"
+  },
+  {
+    "id": "pub-2023-atmospheric-rivers-data-driven-prediction",
+    "type": "journal",
+    "title": "Predicting the Spatiotemporal Characteristics of Atmospheric Rivers: A Novel Data-Driven Approach",
+    "authors": "Meghani, S., Singh, S., Kumar, N., and Goyal, M. K.",
+    "venue": "Global and Planetary Change, 231, 104295",
+    "year": 2023,
+    "link": "https://doi.org/10.1016/j.gloplacha.2023.104295",
+    "impactFactor": "4.0"
+  },
+  {
+    "id": "pub-2023-pm25-deep-learning-new-delhi",
+    "type": "journal",
+    "title": "PM2.5 Air Pollution Prediction through Deep Learning Using Meteorological, Vehicular, and Emission Data: A Case Study of New Delhi, India",
+    "authors": "Shakya, D., Deshpande, V., Goyal, M. K., and Agarwal, M.",
+    "venue": "Journal of Cleaner Production, 427, 139278",
+    "year": 2023,
+    "link": "https://doi.org/10.1016/j.jclepro.2023.139278",
+    "impactFactor": "9.7"
+  },
+  {
+    "id": "pub-2023-inundation-mapping-ramsar-gee",
+    "type": "journal",
+    "title": "Spatiotemporal-Based Automated Inundation Mapping of Ramsar Wetlands Using Google Earth Engine",
+    "authors": "Goyal, M. K., Rakkasagi, S., Shaga, S., Zhang, T. C., Surampalli, R. Y., and Dubey, S.",
+    "venue": "Scientific Reports, 17324",
+    "year": 2023,
+    "link": "https://doi.org/10.1038/s41598-023-43910-4",
+    "impactFactor": "3.8"
+  },
+  {
+    "id": "pub-2023-mass-movement-hazard-himalaya",
+    "type": "journal",
+    "title": "Mass Movement Hazard and Exposure in the Himalaya",
+    "authors": "Dubey, S., Sattar, A., Goyal, M. K., Allen, S., Frey, H., Haritashya, U. K., and Huggel, C.",
+    "venue": "Earth's Future",
+    "year": 2023,
+    "link": "https://doi.org/10.1029/2022EF003253",
+    "impactFactor": "7.3"
+  },
+  {
+    "id": "pub-2023-heat-waves-intensification-smart-cities",
+    "type": "journal",
+    "title": "Heat Waves Characteristics Intensification across Indian Smart Cities",
+    "authors": "Goyal, M. K., Singh, S., and Jain, V.",
+    "venue": "Scientific Reports",
+    "year": 2023,
+    "link": "https://doi.org/10.1038/s41598-023-41968-8",
+    "impactFactor": "3.8"
+  },
+  {
+    "id": "pub-2023-heatwave-magnitude-cmip6",
+    "type": "journal",
+    "title": "Heatwave Magnitude Impact over Indian Cities: CMIP 6 Projections",
+    "authors": "Goyal, M. K., Gupta, A. K., Das, J., Jain, V., and Rakkasagi, S.",
+    "venue": "Theoretical and Applied Climatology, 154, 959–971",
+    "year": 2023,
+    "link": "https://doi.org/10.1007/s00704-023-04599-7",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2023-flash-drought-climate-threat",
+    "type": "journal",
+    "title": "Flash Drought as a New Climate Threat: Drought Indices, Insights from India's Study, and Implications for Future Research",
+    "authors": "Rakkasagi, S., Poonia, V., and Goyal, M. K.",
+    "venue": "Water and Climate Change, 14(9), 3368–3384",
+    "year": 2023,
+    "link": "https://doi.org/10.2166/wcc.2023.347",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2023-nonstationarity-hydroclimatic-extremes",
+    "type": "journal",
+    "title": "Understanding Non-Stationarity of Hydroclimatic Extremes and Resilience in Peninsular Catchments, India",
+    "authors": "Kumar, N., Patel, P., Singh, S., and Goyal, M. K.",
+    "venue": "Scientific Reports",
+    "year": 2023,
+    "link": "https://doi.org/10.1038/s41598-023-38771-w",
+    "impactFactor": "3.8"
+  },
+  {
+    "id": "pub-2023-urban-drought-variability-smart-cities",
+    "type": "journal",
+    "title": "Three Decadal Urban Drought Variability Risk Assessment for Indian Smart Cities",
+    "authors": "Goyal, M. K., Poonia, V., and Jain, V.",
+    "venue": "Journal of Hydrology, 625(A), 130056",
+    "year": 2023,
+    "link": "https://doi.org/10.1016/j.jhydrol.2023.130056",
+    "impactFactor": "5.9"
+  },
+  {
+    "id": "pub-2023-climate-resilience-businesses-ai",
+    "type": "journal",
+    "title": "Enhancing Climate Resilience in Businesses: The Role of Artificial Intelligence",
+    "authors": "Singh, S., and Goyal, M. K.",
+    "venue": "Journal of Cleaner Production, 418, 138228",
+    "year": 2023,
+    "link": "https://doi.org/10.1016/j.jclepro.2023.138228",
+    "impactFactor": "9.7"
+  },
+  {
+    "id": "pub-2023-fibre-bragg-grating-sensors-review",
+    "type": "journal",
+    "title": "Applications of Fibre Bragg Grating Sensors for Monitoring Geotechnical Structures: A Comprehensive Review",
+    "authors": "Singh, M. J., Choudhary, S., Chen, W.-B., Wu, P.-C., Goyal, M. K., Rajput, A., and Borana, L.",
+    "venue": "Measurement, 218, 113171",
+    "year": 2023,
+    "link": "https://doi.org/10.1016/j.measurement.2023.113171",
+    "impactFactor": "5.2"
+  },
+  {
+    "id": "pub-2023-atmospheric-rivers-convolutional-autoencoder",
+    "type": "journal",
+    "title": "An Innovative Approach to Predict Atmospheric Rivers: Exploring Convolutional Autoencoder",
+    "authors": "Singh, S., and Goyal, M. K.",
+    "venue": "Atmospheric Research, 289, 106754",
+    "year": 2023,
+    "link": "https://doi.org/10.1016/j.atmosres.2023.106754",
+    "impactFactor": "4.5"
+  },
+  {
+    "id": "pub-2023-enso-iod-amo-narmada-basin",
+    "type": "journal",
+    "title": "Relative Influence of ENSO, IOD, and AMO over Spatiotemporal Variability of Hydroclimatic Extremes in Narmada Basin, India",
+    "authors": "Singh, S., Kumar, N., Goyal, M. K., and Jha, S.",
+    "venue": "AQUA: Water Infrastructure Ecosystems and Society, 72(4), 520–539",
+    "year": 2023,
+    "link": "https://doi.org/10.2166/aqua.2023.219",
+    "impactFactor": "2.1"
+  },
+  {
+    "id": "pub-2023-climate-oscillations-precipitation-extremes",
+    "type": "journal",
+    "title": "Role of Large-Scale Climate Oscillations in Precipitation Extremes Associated with Atmospheric Rivers: Nonstationary Framework",
+    "authors": "Singh, S., Goyal, M. K., and Jha, S.",
+    "venue": "Hydrological Sciences Journal, 68(3), 395–411",
+    "year": 2023,
+    "link": "https://doi.org/10.1080/02626667.2022.2159412",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2022-terrestrial-ecosystem-flash-droughts",
+    "type": "journal",
+    "title": "Terrestrial Ecosystem Response to Flash Droughts over India",
+    "authors": "Poonia, V., Goyal, M. K., Jha, S., and Dubey, S.",
+    "venue": "Journal of Hydrology, 605, 127402",
+    "year": 2022,
+    "link": "https://doi.org/10.1016/j.jhydrol.2021.127402",
+    "impactFactor": "5.9"
+  },
+  {
+    "id": "pub-2021-co2-emissions-maize-soy-rotation",
+    "type": "journal",
+    "title": "Modelling Carbon Dioxide Emissions under a Maize-Soy Rotation Using Machine Learning",
+    "authors": "Abbasi, N. A., Hamrani, A., Madramootoo, C. A., Zhang, T., Tan, C. S., and Goyal, M. K.",
+    "venue": "Biosystems Engineering, 212, 1–18",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.biosystemseng.2021.09.013",
+    "impactFactor": "4.4"
+  },
+  {
+    "id": "pub-2021-isotope-hydrology-big-data",
+    "type": "journal",
+    "title": "Big Data and Environmental Sustainability Based Integrated Framework for Isotope Hydrology Applications in India",
+    "authors": "Keesari, T., Goyal, M. K., Gupta, B., Kumar, N., Roy, A., Sinha, U. K., Surampalli, R. Y., Zhang, T. C., and Goyal, R. K.",
+    "venue": "Environmental Technology & Innovation, 24, 101889",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.eti.2021.101889",
+    "impactFactor": "6.7"
+  },
+  {
+    "id": "pub-2021-hydroclimatological-changes-ne-india",
+    "type": "journal",
+    "title": "Assessment of Hydroclimatological Changes in Eastern Himalayan River Catchment of Northeast India",
+    "authors": "Gupta, S., Goyal, M. K., and Sarma, A. K.",
+    "venue": "Journal of Hydrologic Engineering, 26(10)",
+    "year": 2021,
+    "link": "https://doi.org/10.1061/(ASCE)HE.1943-5584.0002124",
+    "impactFactor": "2.4"
+  },
+  {
+    "id": "pub-2021-soil-carbon-resilience-big-data",
+    "type": "journal",
+    "title": "Soil Carbon and Its Associate Resilience Using Big Data Analytics: For Food Security and Environmental Management",
+    "authors": "Hinge, G., Surampalli, R. Y., Goyal, M. K., Gupta, B. B., and Chang, X.",
+    "venue": "Technological Forecasting and Social Change, 169, 120823",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.techfore.2021.120823",
+    "impactFactor": "12.9"
+  },
+  {
+    "id": "pub-2021-net-primary-productivity-global",
+    "type": "journal",
+    "title": "Regional Sustainable Development of Renewable Natural Resources Using Net Primary Productivity on a Global Scale",
+    "authors": "Dubey, S., Sharma, A., Panchariya, V. K., Goyal, M. K., Surampalli, R. Y., and Zhang, T. C.",
+    "venue": "Ecological Indicators, 127, 107768",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.ecolind.2021.107768",
+    "impactFactor": "7.0"
+  },
+  {
+    "id": "pub-2021-glacial-lake-development-flood-impacts",
+    "type": "journal",
+    "title": "Assessment of Glacial Lake Development and Downstream Flood Impacts of Critical Glacial Lake",
+    "authors": "Goswami, U. P., and Goyal, M. K.",
+    "venue": "Natural Hazards, 109, 1–20",
+    "year": 2021,
+    "link": "https://doi.org/10.1007/s11069-021-04866-8",
+    "impactFactor": "3.7"
+  },
+  {
+    "id": "pub-2021-drought-blockchain-disaster-management",
+    "type": "journal",
+    "title": "Drought Occurrence in Different River Basins of India and Blockchain Technology-Based Framework for Disaster Management",
+    "authors": "Poonia, V., Goyal, M. K., Gupta, B. B., Gupta, A. K., Jha, S., and Das, J.",
+    "venue": "Journal of Cleaner Production, 312, 127737",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.jclepro.2021.127737",
+    "impactFactor": "9.7"
+  },
+  {
+    "id": "pub-2021-joint-behaviour-climate-extremes",
+    "type": "journal",
+    "title": "Joint Behaviour of Climate Extremes across India: Past and Future",
+    "authors": "Kumar, N., Goyal, M. K., Gupta, A. K., Jha, S., Das, J., and Madramootoo, C. A.",
+    "venue": "Journal of Hydrology, 597, 126185",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.jhydrol.2021.126185",
+    "impactFactor": "5.9"
+  },
+  {
+    "id": "pub-2021-covid19-risk-india",
+    "type": "journal",
+    "title": "A Novel Analysis of COVID-19 Risk in India Incorporating Climatic and Socioeconomic Factors",
+    "authors": "Jha, S., Goyal, M. K., Gupta, B., and Gupta, A. K.",
+    "venue": "Technological Forecasting and Social Change, 167, 120679",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.techfore.2021.120679",
+    "impactFactor": "12.9"
+  },
+  {
+    "id": "pub-2021-crop-water-irrigation-himalaya",
+    "type": "journal",
+    "title": "Impact of Climate Change on Crop Water and Irrigation Requirements over Eastern Himalayan Region",
+    "authors": "Poonia, V., Das, J., and Goyal, M. K.",
+    "venue": "Stochastic Environmental Research and Risk Assessment, 35, 1175–1188",
+    "year": 2021,
+    "link": "https://doi.org/10.1007/s00477-020-01942-6",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2021-extreme-climate-risk-framework",
+    "type": "journal",
+    "title": "A Methodological Framework for Extreme Climate Risk Assessment Integrating Satellite and Location-Based Data Sets in Intelligent Systems",
+    "authors": "Jha, S., Goyal, M. K., Gupta, B. B., Hsu, C.-H., Gilleland, E., and Das, J.",
+    "venue": "International Journal of Intelligent Systems",
+    "year": 2021,
+    "link": "https://doi.org/10.1002/int.22475",
+    "impactFactor": "5.0"
+  },
+  {
+    "id": "pub-2021-precipitation-datasets-gee",
+    "type": "journal",
+    "title": "Evaluation of Precipitation Datasets Available on Google Earth Engine over India",
+    "authors": "Dubey, S., Gupta, H., Goyal, M. K., and Joshi, N.",
+    "venue": "International Journal of Climatology, 41(10), 4844–4863",
+    "year": 2021,
+    "link": "https://doi.org/10.1002/joc.7102",
+    "impactFactor": "3.5"
+  },
+  {
+    "id": "pub-2021-copula-drought-characteristics",
+    "type": "journal",
+    "title": "Copula Based Analysis of Meteorological, Hydrological and Agricultural Drought Characteristics across Indian River Basins",
+    "authors": "Poonia, V., Jha, S., and Goyal, M. K.",
+    "venue": "International Journal of Climatology, 41(9), 4637–4652",
+    "year": 2021,
+    "link": "https://doi.org/10.1002/joc.7091",
+    "impactFactor": "3.5"
+  },
+  {
+    "id": "pub-2021-snow-glacier-melt-runoff",
+    "type": "journal",
+    "title": "An Assessment of Snow-Glacier Melt Runoff under Climate Change Scenarios in the Himalayan Basin",
+    "authors": "Singh, V., Jain, S. K., and Goyal, M. K.",
+    "venue": "Stochastic Environmental Research and Risk Assessment, 2067–2092",
+    "year": 2021,
+    "link": "https://doi.org/10.1007/s00477-021-01987-1",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2021-phosphorus-fate-organic-soils-review",
+    "type": "journal",
+    "title": "Phosphorus Fate, Transport and Management on Subsurface Drained Agricultural Organic Soils: A Review",
+    "authors": "Grenon, G., Singh, B., De Sena, A., Madramootoo, C. A., von Sperber, C., Goyal, M. K., and Zhang, T.",
+    "venue": "Environmental Research Letters, 16, 013004",
+    "year": 2021,
+    "link": "https://doi.org/10.1088/1748-9326/abce81",
+    "impactFactor": "5.8"
+  },
+  {
+    "id": "pub-2021-critical-infrastructure-resilience-framework",
+    "type": "journal",
+    "title": "A Novel Framework for Risk Assessment and Resilience of Critical Infrastructure towards Climate Change",
+    "authors": "Kumar, N., Poonia, V., Gupta, B. B., and Goyal, M. K.",
+    "venue": "Technological Forecasting and Social Change, 165, 120532",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.techfore.2020.120532",
+    "impactFactor": "12.9"
+  },
+  {
+    "id": "pub-2020-groundwater-sensitivity-resilience",
+    "type": "journal",
+    "title": "Quantifying Groundwater Sensitivity and Resilience over Peninsular India",
+    "authors": "Kumar, N., Sinha, J., Madramootoo, C. A., and Goyal, M. K.",
+    "venue": "Hydrological Processes, 34(26), 5327–5339",
+    "year": 2020,
+    "link": "https://doi.org/10.1002/hyp.13945",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2020-crop-yield-eastern-himalaya-gcm",
+    "type": "journal",
+    "title": "Understanding the Climate Change Impact on Crop Yield over Eastern Himalayan Region: Ascertaining GCM and Scenario Uncertainty",
+    "authors": "Das, J., Poonia, V., Jha, S., and Goyal, M. K.",
+    "venue": "Theoretical and Applied Climatology, 142, 467–482",
+    "year": 2020,
+    "link": "https://doi.org/10.1007/s00704-020-03332-y",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2020-drought-trend-wavelet-transform",
+    "type": "journal",
+    "title": "Assessment of Drought Trend and Variability in India Using Wavelet Transform",
+    "authors": "Sharma, A., and Goyal, M. K.",
+    "venue": "Hydrological Sciences Journal, 65, 1539–1554",
+    "year": 2020,
+    "link": "https://doi.org/10.1080/02626667.2020.1754422",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2020-teleconnections-wavelet-coherence",
+    "type": "journal",
+    "title": "On the Relationship of Climatic and Monsoon Teleconnections with Monthly Precipitation over Meteorologically Homogenous Regions in India: Wavelet & Global Coherence Approaches",
+    "authors": "Das, J., Jha, S., and Goyal, M. K.",
+    "venue": "Atmospheric Research, 238, 104889",
+    "year": 2020,
+    "link": "https://doi.org/10.1016/j.atmosres.2020.104889",
+    "impactFactor": "4.5"
+  },
+  {
+    "id": "pub-2020-glof-himalayas",
+    "type": "journal",
+    "title": "Glacial Lake Outburst Flood (GLOF) Hazard, Downstream Impact, and Risk over the Indian Himalayas",
+    "authors": "Dubey, S., and Goyal, M. K.",
+    "venue": "Water Resources Research, 56",
+    "year": 2020,
+    "link": "https://doi.org/10.1029/2019WR026533",
+    "impactFactor": "4.6"
+  },
+  {
+    "id": "pub-2020-model-disparity-runoff",
+    "type": "journal",
+    "title": "Analysing Model Disparity in Diagnosing the Climatic and Human Stresses on Runoff Variability over India",
+    "authors": "Sinha, J., Das, J., Jha, S., and Goyal, M. K.",
+    "venue": "Journal of Hydrology, 581, 124407",
+    "year": 2020,
+    "link": "https://doi.org/10.1016/j.jhydrol.2019.124407",
+    "impactFactor": "5.9"
+  },
+  {
+    "id": "pub-2020-drought-copula-himalayan-states",
+    "type": "journal",
+    "title": "Non-Stationary and Copula-Based Approach to Assess the Drought Characteristics Encompassing Climate Indices over the Himalayan States in India",
+    "authors": "Das, J., Jha, S., and Goyal, M. K.",
+    "venue": "Journal of Hydrology, 580, 124356",
+    "year": 2020,
+    "link": "https://doi.org/10.1016/j.jhydrol.2019.124356",
+    "impactFactor": "5.9"
+  },
+  {
+    "id": "pub-2020-teesta-basin-precipitation-temperature",
+    "type": "journal",
+    "title": "Assessment of the Changes in Precipitation and Temperature in Teesta River Basin in Indian Himalayan Region under Climate Change",
+    "authors": "Sharma, A., and Goyal, M. K.",
+    "venue": "Atmospheric Research, 231, 104670",
+    "year": 2020,
+    "link": "https://doi.org/10.1016/j.atmosres.2019.104670",
+    "impactFactor": "4.5"
+  },
+  {
+    "id": "pub-2020-global-scale-modes-rainfall-extremes",
+    "type": "journal",
+    "title": "Low Frequency Global-Scale Modes and Its Influence on Rainfall Extremes over India: Nonstationary and Uncertainty Analysis",
+    "authors": "Jha, S., Das, J., and Goyal, M. K.",
+    "venue": "International Journal of Climatology, 41(3), 1873–1888",
+    "year": 2020,
+    "link": "https://doi.org/10.1002/joc.6935",
+    "impactFactor": "3.5"
+  },
+  {
+    "id": "pub-2019-ecosystem-resilience-risk",
+    "type": "journal",
+    "title": "Assessment of Risk and Resilience of Terrestrial Ecosystem Productivity under the Influence of Extreme Climatic Conditions over India",
+    "authors": "Jha, S., Das, J., and Goyal, M. K.",
+    "venue": "Scientific Reports, 18923",
+    "year": 2019,
+    "link": "https://doi.org/10.1038/s41598-019-55067-0",
+    "impactFactor": "3.8"
+  },
+  {
+    "id": "pub-2019-watershed-water-balance",
+    "type": "journal",
+    "title": "Influences of Watershed Characteristics on Long-Term Annual and Intra-Annual Water Balances over India",
+    "authors": "Sinha, J., Jha, S., and Goyal, M. K.",
+    "venue": "Journal of Hydrology, 577, 123970",
+    "year": 2019,
+    "link": "https://doi.org/10.1016/j.jhydrol.2019.123970",
+    "impactFactor": "5.9"
+  },
+  {
+    "id": "pub-2019-extreme-precipitation-fuzzy-clustering",
+    "type": "journal",
+    "title": "Spatial Homogeneity of Extreme Precipitation Indices Using Fuzzy Clustering over Northeast India",
+    "authors": "Goyal, M. K., Gupta, S., and Sarma, A. K.",
+    "venue": "Natural Hazards, 98, 559–574",
+    "year": 2019,
+    "link": "https://doi.org/10.1007/s11069-019-03715-z",
+    "impactFactor": "3.7"
+  },
+  {
+    "id": "pub-2019-air-quality-lstm-delhi",
+    "type": "journal",
+    "title": "Air Quality Modelling Using Long Short-Term Memory (LSTM) over NCT-Delhi, India",
+    "authors": "Krishan, M., Jha, S., Das, J., Singh, A., Goyal, M. K., and Sekar, C.",
+    "venue": "Air Quality, Atmosphere & Health, 12, 899–908",
+    "year": 2019,
+    "link": "https://doi.org/10.1007/s11869-019-00696-7",
+    "impactFactor": "2.9"
+  },
+  {
+    "id": "pub-2019-vegetation-drought-likelihood",
+    "type": "journal",
+    "title": "Probabilistic Evaluation of Vegetation Drought Likelihood and Its Implications to Resilience across India",
+    "authors": "Jha, S., Das, J., Sharma, A., Hazra, B., and Goyal, M. K.",
+    "venue": "Global and Planetary Change, 176, 23–35",
+    "year": 2019,
+    "link": "https://doi.org/10.1016/j.gloplacha.2019.01.014",
+    "impactFactor": "4.0"
+  },
+  {
+    "id": "pub-2019-land-use-soil-quality-himalayas",
+    "type": "journal",
+    "title": "Effects of Land Use and Soil Management on Soil Quality in India's Northeastern Himalayas",
+    "authors": "Hinge, G., Surampalli, R. Y., and Goyal, M. K.",
+    "venue": "Journal of Environmental Engineering, 145, 04019007",
+    "year": 2019,
+    "link": "https://doi.org/10.1061/(ASCE)EE.1943-7870.0001507",
+    "impactFactor": "2.2"
+  },
+  {
+    "id": "pub-2019-water-provisioning-sediment-load",
+    "type": "journal",
+    "title": "Assessment of Future Water Provisioning and Sediment Load under Climate and LULC Change Scenarios in a Peninsular River Basin, India",
+    "authors": "Khan, M., Sharma, A., and Goyal, M. K.",
+    "venue": "Hydrological Sciences Journal, 64, 405–419",
+    "year": 2019,
+    "link": "https://doi.org/10.1080/02626667.2019.1584401",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2019-regcm4-cmip5-eastern-himalaya",
+    "type": "journal",
+    "title": "Projection of Hydro-Climatological Changes over Eastern Himalayan Catchment by the Evaluation of RegCM4 RCM and CMIP5 GCM Models",
+    "authors": "Singh, V., Sharma, A., and Goyal, M. K.",
+    "venue": "Hydrology Research, 50, 117–137",
+    "year": 2019,
+    "link": "https://doi.org/10.2166/nh.2017.193",
+    "impactFactor": "2.6"
+  },
+  {
+    "id": "pub-2018-precipitation-extremes-copula",
+    "type": "journal",
+    "title": "Copula-Based Probabilistic Characterization of Precipitation Extremes over North Sikkim Himalaya",
+    "authors": "Goswami, U. P., Hazra, B., and Goyal, M. K.",
+    "venue": "Atmospheric Research, 212, 273–284",
+    "year": 2018,
+    "link": "https://doi.org/10.1016/j.atmosres.2018.05.019",
+    "impactFactor": "4.5"
+  },
+  {
+    "id": "pub-2018-glacier-classification-remote-sensing",
+    "type": "journal",
+    "title": "An Improved Coupled Framework for Glacier Classification: An Integration of Optical and Thermal Infrared Remote-Sensing Bands",
+    "authors": "Singh, V., and Goyal, M. K.",
+    "venue": "International Journal of Remote Sensing, 39, 6864–6892",
+    "year": 2018,
+    "link": "https://doi.org/10.1080/01431161.2018.1468104",
+    "impactFactor": "3.0"
+  },
+  {
+    "id": "pub-2018-regional-carbon-fluxes-ne-india",
+    "type": "journal",
+    "title": "Regional Carbon Fluxes from Land-Use Conversion and Land-Use Management in Northeast India",
+    "authors": "Hinge, G., Surampalli, R. Y., and Goyal, M. K.",
+    "venue": "Journal of Hazardous, Toxic, and Radioactive Waste, 22, 04018016",
+    "year": 2018,
+    "link": "https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000404",
+    "impactFactor": "2.1"
+  },
+  {
+    "id": "pub-2018-hydrologic-resilience",
+    "type": "journal",
+    "title": "Assessment of the Impacts of Climatic Variability and Anthropogenic Stress on Hydrologic Resilience to Warming Shifts in Peninsular India",
+    "authors": "Sinha, J., Sharma, A., Khan, M., and Goyal, M. K.",
+    "venue": "Scientific Reports, 8, 13833",
+    "year": 2018,
+    "link": "https://doi.org/10.1038/s41598-018-32091-0",
+    "impactFactor": "3.8"
+  },
+  {
+    "id": "pub-2018-ecohydrological-resilience",
+    "type": "journal",
+    "title": "District-Level Assessment of the Ecohydrological Resilience to Hydroclimatic Disturbances and Its Controlling Factors in India",
+    "authors": "Sharma, A., and Goyal, M. K.",
+    "venue": "Journal of Hydrology, 564, 1048–1057",
+    "year": 2018,
+    "link": "https://doi.org/10.1016/j.jhydrol.2018.07.079",
+    "impactFactor": "5.9"
+  },
+  {
+    "id": "pub-2018-climate-change-water-resources-india",
+    "type": "journal",
+    "title": "Impact of Climate Change on Water Resources in India",
+    "authors": "Goyal, M. K., and Surampalli, R. Y.",
+    "venue": "Journal of Environmental Engineering, 144, 04018054",
+    "year": 2018,
+    "link": "https://doi.org/10.1061/(ASCE)EE.1943-7870.0001394",
+    "impactFactor": "1.6"
+  },
+  {
+    "id": "pub-2018-sikkim-adaptation",
+    "type": "journal",
+    "title": "Diagnosing Climate Change Impacts and Identifying Adaptation Strategies by Involving Key Stakeholder Organisations and Farmers in Sikkim, India: Challenges and Opportunities",
+    "authors": "Azhoni, A., and Goyal, M. K.",
+    "venue": "Science of the Total Environment, 626, 468–477",
+    "year": 2018,
+    "link": "https://doi.org/10.1016/j.scitotenv.2018.01.112",
+    "impactFactor": "8.2"
+  },
+  {
+    "id": "pub-2018-soil-organic-carbon-digital-mapping",
+    "type": "journal",
+    "title": "Prediction of Soil Organic Carbon Stock Using Digital Mapping Approach in Humid India",
+    "authors": "Hinge, G., Surampalli, R. Y., and Goyal, M. K.",
+    "venue": "Environmental Earth Sciences, 77, 1–10",
+    "year": 2018,
+    "link": "https://doi.org/10.1007/s12665-018-7374-x",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2018-ecosystem-resilience-hydroclimatic",
+    "type": "journal",
+    "title": "Assessment of Ecosystem Resilience to Hydroclimatic Disturbances in India",
+    "authors": "Sharma, A., and Goyal, M. K.",
+    "venue": "Global Change Biology, 24, e432–e441",
+    "year": 2018,
+    "link": "https://doi.org/10.1111/gcb.13874",
+    "impactFactor": "10.8"
+  },
+  {
+    "id": "pub-2018-swat-model-dem-scenarios",
+    "type": "journal",
+    "title": "Comparative Assessment of SWAT Model Performance in Two Distinct Catchments under Various DEM Scenarios of Varying Resolution, Sources and Resampling Methods",
+    "authors": "Goyal, M. K., Panchariya, V. K., Sharma, A., and Singh, V.",
+    "venue": "Water Resources Management, 32, 805–825",
+    "year": 2018,
+    "link": "https://doi.org/10.1007/s11269-017-1840-1",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2017-himalayan-precipitation-heterogeneity",
+    "type": "journal",
+    "title": "Spatio-Temporal Heterogeneity and Changes in Extreme Precipitation over Eastern Himalayan Catchments India",
+    "authors": "Singh, V., and Goyal, M. K.",
+    "venue": "Stochastic Environmental Research and Risk Assessment, 31, 2527–2546",
+    "year": 2017,
+    "link": "https://doi.org/10.1007/s00477-016-1350-3",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2017-curve-number-uncertainty",
+    "type": "journal",
+    "title": "Curve Number Modifications and Parameterization Sensitivity Analysis for Reducing Model Uncertainty in Simulated and Projected Streamflows in a Himalayan Catchment",
+    "authors": "Singh, V., and Goyal, M. K.",
+    "venue": "Ecological Engineering, 108, 17–29",
+    "year": 2017,
+    "link": "https://doi.org/10.1016/j.ecoleng.2017.08.002",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2017-subansiri-precipitation",
+    "type": "journal",
+    "title": "Index-Based Study of Future Precipitation Changes over Subansiri River Catchment under Changing Climate",
+    "authors": "Shivam, G., Goyal, M. K., and Sarma, A. K.",
+    "venue": "Journal of Environmental Informatics, 34, 1–14",
+    "year": 2017,
+    "link": "https://doi.org/10.3808/jei.201700376",
+    "impactFactor": "6.0"
+  },
+  {
+    "id": "pub-2017-temperature-extremes-himalaya",
+    "type": "journal",
+    "title": "Spatiotemporal and Joint Probability Behavior of Temperature Extremes over the Himalayan Region under Changing Climate",
+    "authors": "Goswami, U. P., Bhargav, K., Hazra, B., and Goyal, M. K.",
+    "venue": "Theoretical and Applied Climatology, 134, 477–498",
+    "year": 2017,
+    "link": "https://doi.org/10.1007/s00704-017-2288-1",
+    "impactFactor": "2.9"
+  },
+  {
+    "id": "pub-2017-karstic-springs-svm",
+    "type": "journal",
+    "title": "Prediction of Flow Rate of Karstic Springs Using Support Vector Machines",
+    "authors": "Goyal, M. K., Sharma, A., and Katsifarakis, K. L.",
+    "venue": "Hydrological Sciences Journal, 62, 2175–2186",
+    "year": 2017,
+    "link": "https://doi.org/10.1080/02626667.2017.1371847",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2017-pm25-co-forecasting-closure",
+    "type": "journal",
+    "title": "Closure to \"Potential Assessment of Neural Network and Decision Tree Algorithms for Forecasting Ambient PM2.5 and CO Concentrations: Case Study\"",
+    "authors": "Sekar, C., Gurjar, B. R., Ojha, C. S. P., and Goyal, M. K.",
+    "venue": "Journal of Hazardous, Toxic, and Radioactive Waste, 21, 07017002",
+    "year": 2017,
+    "link": "https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000378",
+    "impactFactor": "2.1"
+  },
+  {
+    "id": "pub-2017-soft-computing-rainfall-forecast",
+    "type": "journal",
+    "title": "A Comparison of Three Soft Computing Techniques, Bayesian Regression, Support Vector Regression, and Wavelet Regression, for Monthly Rainfall Forecast",
+    "authors": "Sharma, A., and Goyal, M. K.",
+    "venue": "Journal of Intelligent Systems, 26, 641–655",
+    "year": 2017,
+    "link": "https://doi.org/10.1515/jisys-2016-0065",
+    "impactFactor": "1.8"
+  },
+  {
+    "id": "pub-2017-flood-flows-rating-curves",
+    "type": "journal",
+    "title": "Unsteady High Velocity Flood Flows and the Development of Rating Curves in a Himalayan Basin under Climate Change Scenarios",
+    "authors": "Singh, V., and Goyal, M. K.",
+    "venue": "Journal of Hydrologic Engineering, 22, 04017023",
+    "year": 2017,
+    "link": "https://doi.org/10.1061/(ASCE)HE.1943-5584.0001530",
+    "impactFactor": "2.4"
+  },
+  {
+    "id": "pub-2017-subansiri-temperature-cmip5",
+    "type": "journal",
+    "title": "Analysis of the Change in Temperature Trends in Subansiri River Basin for RCP Scenarios Using CMIP5 Datasets",
+    "authors": "Shivam, Goyal, M. K., and Sarma, A. K.",
+    "venue": "Theoretical and Applied Climatology, 129, 1175–1187",
+    "year": 2017,
+    "link": "https://doi.org/10.1007/s00704-016-1842-6",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2017-sutlej-tungabhadra-water-balance",
+    "type": "journal",
+    "title": "Assessment of Spatially Explicit Annual Water-Balance Model for Sutlej River Basin in Eastern Himalayas and Tungabhadra River Basin in Peninsular India",
+    "authors": "Goyal, M. K., and Khan, M.",
+    "venue": "Hydrology Research, 48, 542–558",
+    "year": 2017,
+    "link": "https://doi.org/10.2166/nh.2016.053",
+    "impactFactor": "2.6"
+  },
+  {
+    "id": "pub-2017-snowpack-snowmelt-elevation-bands",
+    "type": "journal",
+    "title": "Sub-Catchment Assessment of Snowpack and Snowmelt Change by Analyzing Elevation Bands and Parameter Sensitivity in the High Himalayas",
+    "authors": "Munoz-Arriola, F., Singh, V., Goyal, M. K., and Surampalli, R. Y.",
+    "venue": "Hydrology and Earth System Sciences",
+    "year": 2017,
+    "link": "https://doi.org/10.5194/hess-2016-689",
+    "impactFactor": "5.7"
+  },
+  {
+    "id": "pub-2016-fuzzy-cmeans-drought-regions",
+    "type": "journal",
+    "title": "A Fuzzy C-Means Approach Regionalization for Analysis of Meteorological Drought Homogeneous Regions in Western India",
+    "authors": "Goyal, M. K., and Sharma, A.",
+    "venue": "Natural Hazards, 84, 1831–1847",
+    "year": 2016,
+    "link": "https://doi.org/10.1007/s11069-016-2520-9",
+    "impactFactor": "3.7"
+  },
+  {
+    "id": "pub-2016-bayesian-network-rainfall-forecast",
+    "type": "journal",
+    "title": "Bayesian Network for Monthly Rainfall Forecast: A Comparison of K2 and MCMC Algorithm",
+    "authors": "Sharma, A., and Goyal, M. K.",
+    "venue": "International Journal of Computers and Applications, 38, 199–206",
+    "year": 2016,
+    "link": "https://doi.org/10.1080/1206212X.2016.1237131"
+  },
+  {
+    "id": "pub-2016-pm25-co-forecasting-ann-dt",
+    "type": "journal",
+    "title": "Potential Assessment of Neural Network and Decision Tree Algorithms for Forecasting Ambient PM2.5 and CO Concentrations: Case Study",
+    "authors": "Sekar, C., Gurjar, B. R., Ojha, C. S. P., and Goyal, M. K.",
+    "venue": "Journal of Hazardous, Toxic, and Radioactive Waste, 20, A5015001",
+    "year": 2016,
+    "link": "https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000276",
+    "impactFactor": "1.4"
+  },
+  {
+    "id": "pub-2016-ozone-nox-modeling-urban",
+    "type": "journal",
+    "title": "Modeling and Prediction of Hourly Ambient Ozone (O3) and Oxides of Nitrogen (NOx) Concentrations Using Artificial Neural Network and Decision Tree Algorithms for an Urban Intersection in India",
+    "authors": "Sekar, C., Ojha, C. S. P., Gurjar, B. R., and Goyal, M. K.",
+    "venue": "Journal of Hazardous, Toxic, and Radioactive Waste, 20, A4015001",
+    "year": 2016,
+    "link": "https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000270",
+    "impactFactor": "2.1"
+  },
+  {
+    "id": "pub-2016-climate-extremes-cmip5-himalayas",
+    "type": "journal",
+    "title": "Changes in Climate Extremes by the Use of CMIP5 Coupled Climate Models over Eastern Himalayas",
+    "authors": "Singh, V., and Goyal, M. K.",
+    "venue": "Environmental Earth Sciences, 75, 839",
+    "year": 2016,
+    "link": "https://doi.org/10.1007/s12665-016-5651-0",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2016-sikkim-precipitation-cmip5",
+    "type": "journal",
+    "title": "Analysis and Trends of Precipitation Lapse Rate and Extreme Indices over North Sikkim Eastern Himalayas under CMIP5 ESM-2M RCPs Experiments",
+    "authors": "Singh, V., and Goyal, M. K.",
+    "venue": "Atmospheric Research",
+    "year": 2016,
+    "link": "https://doi.org/10.1016/j.atmosres.2015.07.005",
+    "impactFactor": "4.5"
+  },
+  {
+    "id": "pub-2016-parametric-uncertainty-extreme-flows",
+    "type": "journal",
+    "title": "Multicriteria Evaluation Approach for Assessing Parametric Uncertainty during Extreme Peak and Low Flow Conditions over Snow Glaciated and Inland Catchments",
+    "authors": "Singh, V., Goyal, M. K., and Chu, X.",
+    "venue": "Journal of Hydrologic Engineering, 21, 04015044",
+    "year": 2016,
+    "link": "https://doi.org/10.1061/(ASCE)HE.1943-5584.0001217",
+    "impactFactor": "2.4"
+  },
+  {
+    "id": "pub-2015-clean-development-mechanism",
+    "type": "journal",
+    "title": "Clean Development Mechanism – An Opportunity to Mitigate Carbon Footprint from the Energy Sector of India",
+    "authors": "Ranganathan, K., and Goyal, M. K.",
+    "venue": "Current Science, 109, 672–678",
+    "year": 2015,
+    "impactFactor": "1.0"
+  },
+  {
+    "id": "pub-2015-brahmaputra-floods-cmip5",
+    "type": "journal",
+    "title": "Impact of Climate Change on Floods in the Brahmaputra Basin Using CMIP5 Decadal Predictions",
+    "authors": "Apurv, T., Mehrotra, R., Sharma, A., Goyal, M. K., and Dutta, S.",
+    "venue": "Journal of Hydrology, 527, 281–291",
+    "year": 2015,
+    "link": "https://doi.org/10.1016/j.jhydrol.2015.04.056",
+    "impactFactor": "5.9"
+  },
+  {
+    "id": "pub-2015-hydropower-potential-geospatial",
+    "type": "journal",
+    "title": "Geospatial and Hydrological Modeling to Assess Hydropower Potential Zones and Site Location over Rainfall Dependent Inland Catchment",
+    "authors": "Goyal, M. K., Singh, V., and Meena, A. H.",
+    "venue": "Water Resources Management, 29, 2875–2894",
+    "year": 2015,
+    "link": "https://doi.org/10.1007/s11269-015-0975-1",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2015-rio-nuevo-streamflow-jamaica",
+    "type": "journal",
+    "title": "Simulation of the Streamflow for the Rio Nuevo Watershed of Jamaica for Use in Agriculture Water Scarcity Planning",
+    "authors": "Goyal, M. K., Madramootoo, C. A., and Richards, J. F.",
+    "venue": "Journal of Irrigation and Drainage Engineering, 141, 04014056",
+    "year": 2015,
+    "link": "https://doi.org/10.1061/(ASCE)IR.1943-4774.0000802",
+    "impactFactor": "1.6"
+  },
+  {
+    "id": "pub-2014-rainfall-regimes-fuzzy-cluster",
+    "type": "journal",
+    "title": "Identification of Homogeneous Rainfall Regimes in Northeast Region of India Using Fuzzy Cluster Analysis",
+    "authors": "Goyal, M. K., and Gupta, V.",
+    "venue": "Water Resources Management, 28, 4491–4511",
+    "year": 2014,
+    "link": "https://doi.org/10.1007/s11269-014-0699-7",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2014-monthly-rainfall-wavelet-neural-network",
+    "type": "journal",
+    "title": "Monthly Rainfall Prediction Using Wavelet Regression and Neural Network: An Analysis of 1901–2002 Data, Assam, India",
+    "authors": "Goyal, M. K.",
+    "venue": "Theoretical and Applied Climatology, 118, 25–34",
+    "year": 2014,
+    "link": "https://doi.org/10.1007/s00704-013-1029-3",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2014-pan-evaporation-ann-anfis",
+    "type": "journal",
+    "title": "Modeling of Daily Pan Evaporation in Sub Tropical Climates Using ANN, LS-SVR, Fuzzy Logic, and ANFIS",
+    "authors": "Goyal, M. K., Bharti, B., Quilty, J., Adamowski, J., and Pandey, A.",
+    "venue": "Expert Systems with Applications, 41, 5267–5276",
+    "year": 2014,
+    "link": "https://doi.org/10.1016/j.eswa.2014.02.047",
+    "impactFactor": "7.5"
+  },
+  {
+    "id": "pub-2014-swat-evapotranspirative-discussion",
+    "type": "journal",
+    "title": "Discussion of \"SWAT-Based Evapotranspirative Water Conservation Analysis Performed on Irrigated Croplands to Determine Potential Regional Water Savings\" by Andrew Gayley",
+    "authors": "Goyal, M. K., and Singh, V.",
+    "venue": "Journal of Irrigation and Drainage Engineering, 140",
+    "year": 2014,
+    "link": "https://doi.org/10.1061/(ASCE)IR.1943-4774.0000684",
+    "impactFactor": "1.6"
+  },
+  {
+    "id": "pub-2014-soil-carbon-stocks-assam",
+    "type": "journal",
+    "title": "Estimation of Soil Carbon Stocks in Pabitora Sanctuary and Manas National Park in Assam",
+    "authors": "Royal, I., and Goyal, M. K.",
+    "venue": "Current Science, 107, 94–98",
+    "year": 2014,
+    "link": "http://www.jstor.org/stable/24103410",
+    "impactFactor": "1.0"
+  },
+  {
+    "id": "pub-2014-irrigation-requirements-jamaica",
+    "type": "journal",
+    "title": "Determining Irrigation Requirements for Vegetables and Sugarcane in Jamaica",
+    "authors": "Richards, J., Madramootoo, C. A., and Goyal, M. K.",
+    "venue": "Irrigation and Drainage, 63, 340–348",
+    "year": 2014,
+    "link": "https://doi.org/10.1002/ird.1811",
+    "impactFactor": "1.6"
+  },
+  {
+    "id": "pub-2014-sediment-yield-m5-wavelet",
+    "type": "journal",
+    "title": "Modeling of Sediment Yield Prediction Using M5 Model Tree Algorithm and Wavelet Regression",
+    "authors": "Goyal, M. K.",
+    "venue": "Water Resources Management, 28, 1991–2003",
+    "year": 2014,
+    "link": "https://doi.org/10.1007/s11269-014-0590-6",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2014-wastewater-bioreactor-svr",
+    "type": "journal",
+    "title": "Support Vector Regression Model of Wastewater Bioreactor Performance Using Microbial Community Diversity Indices: Effect of Stress and Bioaugmentation",
+    "authors": "Seshan, H., Goyal, M. K., Falk, M. W., and Wuertz, S.",
+    "venue": "Water Research, 53, 282–296",
+    "year": 2014,
+    "link": "https://doi.org/10.1016/j.watres.2014.01.015",
+    "impactFactor": "11.4"
+  },
+  {
+    "id": "pub-2014-rainfall-trends-assam",
+    "type": "journal",
+    "title": "Statistical Analysis of Long Term Trends of Rainfall during 1901–2002 at Assam, India",
+    "authors": "Goyal, M. K.",
+    "venue": "Water Resources Management, 28, 1501–1515",
+    "year": 2014,
+    "link": "https://doi.org/10.1007/s11269-014-0529-y",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2014-corn-yield-stics-model",
+    "type": "journal",
+    "title": "Corn Yield Simulation Using the STICS Model under Varying Nitrogen Management and Climate-Change Scenarios",
+    "authors": "Singh, A. K., Madramootoo, C. A., Goyal, M. K., and Smith, D. L.",
+    "venue": "Journal of Irrigation and Drainage Engineering, 140, 04013023",
+    "year": 2014,
+    "link": "https://doi.org/10.1061/(ASCE)IR.1943-4774.0000682",
+    "impactFactor": "1.6"
+  },
+  {
+    "id": "pub-2014-rule-decision-tree-climate-scenarios",
+    "type": "journal",
+    "title": "Evaluation of Rule and Decision Tree Induction Algorithms for Generating Climate Change Scenarios for Temperature and Pan Evaporation on a Lake Basin",
+    "authors": "Goyal, M. K., and Ojha, C. S. P.",
+    "venue": "Journal of Hydrologic Engineering, 19, 828–835",
+    "year": 2014,
+    "link": "https://doi.org/10.1061/(ASCE)HE.1943-5584.0000795",
+    "impactFactor": "2.4"
+  },
+  {
+    "id": "pub-2013-streamflow-kasol-ann-fuzzy",
+    "type": "journal",
+    "title": "Application of Artificial Neural Network, Fuzzy Logic and Decision Tree Algorithms for Modelling of Streamflow at Kasol in India",
+    "authors": "Goyal, M. K., Ojha, C. S. P., Singh, R. D., and Swamee, P. K.",
+    "venue": "Water Science and Technology, 68, 2521–2526",
+    "year": 2013,
+    "link": "https://doi.org/10.2166/wst.2013.491",
+    "impactFactor": "2.5"
+  },
+  {
+    "id": "pub-2013-spi-ndvi-irrigation-jamaica",
+    "type": "journal",
+    "title": "Application of the Standardized Precipitation Index and Normalized Difference Vegetation Index for Evaluation of Irrigation Demands at Three Sites in Jamaica",
+    "authors": "Richards, J., Madramootoo, C. A., Goyal, M. K., and Trotman, A.",
+    "venue": "Journal of Irrigation and Drainage Engineering, 139, 922–932",
+    "year": 2013,
+    "link": "http://dx.doi.org/10.1061/(ASCE)IR.1943-4774.0000629",
+    "impactFactor": "2.5"
+  },
+  {
+    "id": "pub-2013-pharmaceutical-fate-hydroponic-mesocosms",
+    "type": "journal",
+    "title": "Fate of Pharmaceutical Compounds in Hydroponic Mesocosms Planted with Scirpus Validus",
+    "authors": "Zhang, D. Q., Gersberg, R. M., Hua, T., Zhu, J., Goyal, M. K., Ng, W. J., and Tan, S. K.",
+    "venue": "Environmental Pollution, 181, 98–106",
+    "year": 2013,
+    "link": "https://doi.org/10.1016/j.envpol.2013.06.016",
+    "impactFactor": "7.6"
+  },
+  {
+    "id": "pub-2013-precipitation-knn-gamma-kernel",
+    "type": "journal",
+    "title": "Precipitation Simulation Based on k-Nearest Neighbor Approach Using Gamma Kernel",
+    "authors": "Goyal, M. K., Burn, D. H., and Ojha, C. S. P.",
+    "venue": "Journal of Hydrologic Engineering, 18, 481–487",
+    "year": 2013,
+    "link": "https://doi.org/10.1061/(ASCE)HE.1943-5584.0000615",
+    "impactFactor": "2.4"
+  },
+  {
+    "id": "pub-2013-reservoir-operating-rules-ann",
+    "type": "journal",
+    "title": "Application of ANN, Fuzzy Logic and Decision Tree Algorithms for the Development of Reservoir Operating Rules",
+    "authors": "Goyal, M. K., Ojha, C. S. P., Singh, R. D., Swamee, P. K., and Nema, R. K.",
+    "venue": "Water Resources Management, 27, 911–925",
+    "year": 2013,
+    "link": "https://doi.org/10.1007/s11269-012-0225-8",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2012-floating-wetland-baseflow-treatment",
+    "type": "journal",
+    "title": "Treatment of Baseflow from an Urban Catchment by a Floating Wetland System",
+    "authors": "Chua, L. H. C., Tan, S. B. K., Sim, C. H., and Goyal, M. K.",
+    "venue": "Ecological Engineering, 49, 170–180",
+    "year": 2012,
+    "link": "https://doi.org/10.1016/j.ecoleng.2012.08.031",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2012-pier-scour-depth-svr",
+    "type": "journal",
+    "title": "Predicting Time-Dependent Pier Scour Depth with Support Vector Regression",
+    "authors": "Hong, J.-H., Goyal, M. K., Chiew, Y.-M., and Chua, L. H. C.",
+    "venue": "Journal of Hydrology, 468, 241–248",
+    "year": 2012,
+    "link": "https://doi.org/10.1016/j.jhydrol.2012.08.038",
+    "impactFactor": "5.9"
+  },
+  {
+    "id": "pub-2012-downscaling-precipitation-lake-basin",
+    "type": "journal",
+    "title": "Downscaling of Precipitation on a Lake Basin: Evaluation of Rule and Decision Tree Induction Algorithms",
+    "authors": "Goyal, M. K., and Ojha, C. S. P.",
+    "venue": "Hydrology Research, 43, 215–230",
+    "year": 2012,
+    "link": "https://doi.org/10.2166/nh.2012.040",
+    "impactFactor": "2.6"
+  },
+  {
+    "id": "pub-2012-nonparametric-downscaling-semiarid",
+    "type": "journal",
+    "title": "Nonparametric Statistical Downscaling of Temperature, Precipitation, and Evaporation in a Semiarid Region in India",
+    "authors": "Goyal, M. K., Ojha, C. S. P., and Burn, D. H.",
+    "venue": "Journal of Hydrologic Engineering, 17, 615–627",
+    "year": 2012,
+    "link": "https://doi.org/10.1061/(ASCE)HE.1943-5584.0000479",
+    "impactFactor": "2.4"
+  },
+  {
+    "id": "pub-2012-ml-downscaling-thames-basin",
+    "type": "journal",
+    "title": "Evaluation of Machine Learning Tools as a Statistical Downscaling Tool: Temperatures Projections for Multi-Stations for Thames River Basin, Canada",
+    "authors": "Goyal, M. K., Burn, D. H., and Ojha, C. S. P.",
+    "venue": "Theoretical and Applied Climatology, 108, 519–534",
+    "year": 2012,
+    "link": "https://doi.org/10.1007/s00704-011-0546-1",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2012-stage-discharge-rating-curve",
+    "type": "journal",
+    "title": "Development of Stage–Discharge Rating Curve Using Model Tree and Neural Networks: An Application to Peachtree Creek in Atlanta",
+    "authors": "Ajmera, T. K., and Goyal, M. K.",
+    "venue": "Expert Systems with Applications, 39, 5702–5710",
+    "year": 2012,
+    "link": "https://doi.org/10.1016/j.eswa.2011.11.101",
+    "impactFactor": "7.5"
+  },
+  {
+    "id": "pub-2012-surface-temperature-downscaling",
+    "type": "journal",
+    "title": "Downscaling of Surface Temperature for Lake Catchment in an Arid Region in India Using Linear Multiple Regression and Neural Networks",
+    "authors": "Goyal, M. K., and Ojha, C. S. P.",
+    "venue": "International Journal of Climatology, 32, 552–566",
+    "year": 2012,
+    "impactFactor": "3.5"
+  },
+  {
+    "id": "pub-2012-suspended-sediment-kasol",
+    "type": "journal",
+    "title": "Modeling of Suspended Sediment Concentration at Kasol in India Using ANN, Fuzzy Logic, and Decision Tree Algorithms",
+    "authors": "Kumar, A. R. S., Ojha, C. S. P., Goyal, M. K., Singh, R. D., and Swamee, P. K.",
+    "venue": "Journal of Hydrologic Engineering, 17, 394–404",
+    "year": 2012,
+    "link": "https://doi.org/10.1061/(ASCE)HE.1943-5584.0000445",
+    "impactFactor": "2.4"
+  },
+  {
+    "id": "pub-2012-statistical-downscaling-thames",
+    "type": "journal",
+    "title": "Statistical Downscaling of Temperatures under Climate Change Scenarios for Thames River Basin, Canada",
+    "authors": "Goyal, M. K., Burn, D. H., and Ojha, C. S. P.",
+    "venue": "International Journal of Global Warming, 4, 13–30",
+    "year": 2012,
+    "link": "http://dx.doi.org/10.1504/IJGW.2012.047263",
+    "impactFactor": "1.0"
+  },
+  {
+    "id": "pub-2011-pls-regression-pan-evaporation",
+    "type": "journal",
+    "title": "PLS Regression-Based Pan Evaporation and Minimum–Maximum Temperature Projections for an Arid Lake Basin in India",
+    "authors": "Goyal, M. K., and Ojha, C. S. P.",
+    "venue": "Theoretical and Applied Climatology, 105, 403–415",
+    "year": 2011,
+    "link": "https://doi.org/10.1007/s00704-011-0406-z",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2011-compressive-strength-concrete-ann",
+    "type": "journal",
+    "title": "Prediction of Compressive Strength of Concrete Using Neural Network",
+    "authors": "Nath, U. K., Goyal, M. K., and Nath, T. P.",
+    "venue": "International Journal of Emerging Trends in Engineering and Development, 1, 32–43",
+    "year": 2011
+  },
+  {
+    "id": "pub-2011-ski-jump-bucket-scour",
+    "type": "journal",
+    "title": "Estimation of Scour Downstream of a Ski-Jump Bucket Using Support Vector and M5 Model Tree",
+    "authors": "Goyal, M. K., and Ojha, C. S. P.",
+    "venue": "Water Resources Management, 25, 2177–2195",
+    "year": 2011,
+    "link": "https://doi.org/10.1007/s11269-011-9801-6",
+    "impactFactor": "3.9"
+  },
+  {
+    "id": "pub-2011-linear-regression-downscaling-pichola",
+    "type": "journal",
+    "title": "Evaluation of Linear Regression Methods as Downscaling Tools in Temperature Projections over the Pichola Lake Basin in India",
+    "authors": "Goyal, M. K., and Ojha, C. S. P.",
+    "venue": "Hydrological Processes, 25, 1453–1465",
+    "year": 2011,
+    "link": "https://doi.org/10.1002/hyp.7911",
+    "impactFactor": "2.8"
+  },
+  {
+    "id": "pub-2010-downscaling-precipitation-open-hydrology",
+    "type": "journal",
+    "title": "Downscaling of Precipitation for Lake Catchment in Arid Region in India Using Linear Multiple Regression and Neural Networks",
+    "authors": "Ojha, C. S. P., Goyal, M. K., and Adeloye, A. J.",
+    "venue": "The Open Hydrology Journal, 4, 122–136",
+    "year": 2010,
+    "link": "http://dx.doi.org/10.2174/1874378101004010122"
+  },
+  {
+    "id": "pub-2010-peak-urban-water-demand-discussion",
+    "type": "journal",
+    "title": "Discussion of \"Comparison of Multivariate Regression and Artificial Neural Networks for Peak Urban Water-Demand Forecasting: Evaluation of Different ANN Learning Algorithms\" by Jan Adamowski and Christina Karapataki",
+    "authors": "Goyal, M. K., and Burn, D. H.",
+    "venue": "Journal of Hydrologic Engineering, 15, 729–743",
+    "year": 2010,
+    "link": "https://doi.org/10.1061/(ASCE)HE.1943-5584.0000542",
+    "impactFactor": "2.4"
+  },
+  {
+    "id": "pub-2010-linear-regression-methods-pichola",
+    "type": "journal",
+    "title": "Evaluation of Various Linear Regression Methods for Downscaling of Mean Monthly Precipitation in Arid Pichola Watershed",
+    "authors": "Goyal, M. K., and Ojha, C. S. P.",
+    "venue": "Natural Resources, 1, 11–18",
+    "year": 2010,
+    "link": "https://doi.org/10.4236/nr.2010.11002",
+    "impactFactor": "0.6"
+  },
+  {
+    "id": "pub-2010-rainfall-runoff-dimensionless-nn",
+    "type": "journal",
+    "title": "Analysis of Mean Monthly Rainfall Runoff Data of Indian Catchments Using Dimensionless Variables by Neural Network",
+    "authors": "Goyal, M. K., and Ojha, C. S. P.",
+    "venue": "Journal of Environmental Protection, 1, 155",
+    "year": 2010,
+    "link": "https://doi.org/10.4236/jep.2010.12020",
+    "impactFactor": "1.4"
+  },
+  {
+    "id": "pub-2010-pls-regression-downscaling-pichola",
+    "type": "journal",
+    "title": "Application of PLS-Regression as Downscaling Tool for Pichola Lake Basin in India",
+    "authors": "Goyal, M. K., and Ojha, C. S. P.",
+    "venue": "International Journal of Geosciences, 1, 51–57",
+    "year": 2010,
+    "link": "https://doi.org/10.4236/ijg.2010.12007",
+    "impactFactor": "1.0"
+  },
+  {
+    "id": "pub-2010-robust-weighted-regression-downscaling",
+    "type": "journal",
+    "title": "Robust Weighted Regression as a Downscaling Tool in Temperature Projections",
+    "authors": "Goyal, M. K., and Ojha, C. S. P.",
+    "venue": "International Journal of Global Warming, 2, 234–251",
+    "year": 2010,
+    "link": "https://doi.org/10.1504/IJGW.2010.036135",
+    "impactFactor": "1.0"
+  },
+  {
+    "id": "pub-2007-fuzzy-logic-landfill-site-selection",
+    "type": "journal",
+    "title": "Applying Fuzzy Logic and the Point Count System to Select Landfill Sites",
+    "authors": "Ojha, C. S. P., Goyal, M. K., and Kumar, S.",
+    "venue": "Environmental Monitoring and Assessment, 135, 99–106",
+    "year": 2007,
+    "link": "https://doi.org/10.1007/s10661-007-9713-3",
+    "impactFactor": "2.9"
+  }
+]

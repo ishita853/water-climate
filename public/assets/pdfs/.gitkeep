@@ -1,0 +1,2 @@
+Put CVs, syllabi, and publication PDFs here (e.g. cv.pdf).
+Reference them from data/*.json as "/assets/pdfs/your-file.pdf".

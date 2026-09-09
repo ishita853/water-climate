@@ -1,0 +1,98 @@
+[
+  {
+    "id": "patent-576312-wetland-water-quality",
+    "title": "System and a Method for Monitoring Water Quality of a Wetland",
+    "inventors": "Jain, V., Yadav, U., and Goyal, M. K.",
+    "status": "Granted",
+    "patentNumber": "576312",
+    "year": 2026,
+    "commercialization": "Under process with the Madhya Pradesh State Wetland Authority."
+  },
+  {
+    "id": "patent-589337-wetland-risk-assessment",
+    "title": "Method and System for Risk Assessment and Management for a Wetland",
+    "inventors": "Jain, V., Yadav, U., and Goyal, M. K.",
+    "status": "Granted",
+    "patentNumber": "589337",
+    "year": 2026,
+    "commercialization": "Being advanced for implementation in collaboration with the Madhya Pradesh State Wetland Authority."
+  },
+  {
+    "id": "patent-2021-hydrological-resilience",
+    "title": "A Method for Measuring Hydrological Resilience of a Region in Response to Warming Shifts",
+    "inventors": "Goyal, M. K., Sinha, J., and Das, J.",
+    "status": "Filed",
+    "applicationNumber": "201921037336",
+    "year": 2021
+  },
+  {
+    "id": "patent-2024-atmospheric-rivers-prediction",
+    "title": "Method and System for Determining Spatiotemporal Characteristics and Predicting the State of Atmospheric Rivers (AR)",
+    "inventors": "Singh, S., and Goyal, M. K.",
+    "status": "Filed",
+    "applicationNumber": "202421010646",
+    "year": 2024
+  },
+  {
+    "id": "patent-2025-flood-risk-assessment",
+    "title": "System and Method for Assessing Flood Risk",
+    "inventors": "Jain, V., Agrawal, S., and Goyal, M. K.",
+    "status": "Filed",
+    "year": 2025
+  },
+  {
+    "id": "patent-2025-air-quality-forecasting",
+    "title": "System and Method for Forecasting Air Quality",
+    "inventors": "Rautela, K. S., and Goyal, M. K.",
+    "status": "Filed",
+    "applicationNumber": "202521120675",
+    "year": 2025,
+    "commercialization": "Under process with the Madhya Pradesh Pollution Control Board (MPPCB)."
+  },
+  {
+    "id": "patent-2025-riparian-zone-tool",
+    "title": "Riparian Zone Extractor, Mapper, and Condition Assessment Tool",
+    "inventors": "Goyal, M. K., Roy, S., and Singh, S.",
+    "status": "Filed",
+    "applicationNumber": "202521130273",
+    "year": 2025
+  },
+  {
+    "id": "patent-2026-water-audit-utilities",
+    "title": "A Method and System for Conducting Water Audit in Water Utilities and Industries Across India",
+    "inventors": "Gopal, P. K., Jain, V., and Goyal, M. K.",
+    "status": "Filed",
+    "year": 2026
+  },
+  {
+    "id": "patent-low-cost-air-quality-sensor",
+    "title": "Development and Validation of a Low-Cost Air Quality Sensor",
+    "inventors": "G, A., Rautela, K. S., Upadhyay, M., and Goyal, M. K.",
+    "status": "Filed"
+  },
+  {
+    "id": "patent-automated-urban-water-body-analyzer",
+    "title": "Automated Urban Water Body Analyzer",
+    "inventors": "Roy, S., and Goyal, M. K.",
+    "status": "Filed",
+    "commercialization": "Under process with the Madhya Pradesh Water Resources Department."
+  },
+  {
+    "id": "patent-training-samples-lulc-classification",
+    "title": "Automated Extraction of Training Samples and Land Use/Land Cover Classification",
+    "inventors": "Roy, S., and Goyal, M. K.",
+    "status": "Filed"
+  },
+  {
+    "id": "patent-water-resources-flood-drought-assessment",
+    "title": "Water Resources Assessment for Regional Flood and Droughts",
+    "inventors": "Jain, V., Patel, S., and Goyal, M. K.",
+    "status": "Filed"
+  },
+  {
+    "id": "patent-urban-livability-investability-assessment",
+    "title": "System and Method for Urban Livability and Investability Assessment Using Multi-Source Earth Observation Data and Predictive Geospatial Modeling",
+    "inventors": "Roy, S., Mishra, D., and Goyal, M. K.",
+    "status": "Filed"
+  }
+]

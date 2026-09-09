@@ -1,0 +1,177 @@
+[
+  {
+    "id": "kic-teqip-stc-2014",
+    "name": "KIC TEQIP-STC 2014: Water Resources Management and Climate Change Impacts Assessment",
+    "date": "22-26 December 2014",
+    "place": "Department of Civil Engineering · Indian Institute of Technology Guwahati",
+    "photos": ["/assets/images/event1-1.png", "/assets/images/event1-2.png", "/assets/images/event1-3.png"]
+  },
+  {
+    "id": "moes-workshop-2015",
+    "name": "MOES Sponsored Workshop: Research Opportunities in Hydrology and Water Resources under Climate Change",
+    "date": "3 April 2015",
+    "place": "Department of Civil Engineering · Indian Institute of Technology Guwahati",
+    "photos": []
+  },
+  {
+    "id": "indo-japan-workshop-2016",
+    "name": "Indo-Japan Workshop for Rainfall Disaster and Human Adaptability",
+    "date": "9 March 2016",
+    "place": "Department of Civil Engineering · Indian Institute of Technology Guwahati",
+    "photos": []
+  },
+  {
+    "id": "gian-course-2016",
+    "name": "GIAN Course 2016: Optimization Methods to Groundwater Resources Management",
+    "date": "7-11 March 2016",
+    "place": "Department of Civil Engineering · Indian Institute of Technology Guwahati",
+    "photos": ["/assets/images/event4-1.png", "/assets/images/event4-2.png", "/assets/images/event4-3.png"]
+  },
+  {
+    "id": "teqip-stc-2018",
+    "name": "TEQIP Sponsored Short Term Course: Sustainable Water Resources Management under Changing Climate",
+    "date": "28 May - 2 June 2018",
+    "place": "Discipline of Civil Engineering · Indian Institute of Technology Indore",
+    "photos": ["/assets/images/event5-1.png", "/assets/images/event5-2.png", "/assets/images/event5-3.png"]
+  },
+  {
+    "id": "iac-2018",
+    "name": "Industry-Academia Conclave (IAC 2018)",
+    "date": "20 November 2018",
+    "place": "Indian Institute of Technology Indore",
+    "photos": ["/assets/images/event6-1.png", "/assets/images/event6-2.png", "/assets/images/event6-3.png", "/assets/images/event6-4.png"]
+  },
+  {
+    "id": "teqip-stc-2019",
+    "name": "TEQIP-STC on Recent Advancements in Water Resources and Environment Engineering",
+    "date": "22-27 April 2019",
+    "place": "Discipline of Civil Engineering & Discipline of Biosciences and Bioengineering · Indian Institute of Technology Indore",
+    "photos": ["/assets/images/event7-1.png", "/assets/images/event7-2.png", "/assets/images/event7-3.png"]
+  },
+  {
+    "id": "national-training-hydro-met-2020",
+    "name": "3-Weeks National Training Program: Hydro-Meteorological and Extreme Events Disaster Risk Management",
+    "date": "1-21 June 2020",
+    "place": "Indian Institute of Technology Indore, in collaboration with National Institute of Disaster Management (NIDM)",
+    "photos": ["/assets/images/event8-1.png", "/assets/images/event8-2.png", "/assets/images/event8-3.png"]
+  },
+  {
+    "id": "online-stc-civil-engineering-2020",
+    "name": "6-Days Online Short-Term Course: Advancements in Civil Engineering (with emphasis on water resources, environment engineering and climate change)",
+    "date": "2-7 November 2020",
+    "place": "Indian Institute of Technology Indore · Sponsored by TEQIP-III",
+    "photos": ["/assets/images/event9-1.png", "/assets/images/event9-2.png", "/assets/images/event9-3.png", "/assets/images/event9-4.png"]
+  },
+  {
+    "id": "international-conference-ecosystem-restoration-2021",
+    "name": "Ecosystem Restoration for Resilience and Sustainability: Living with Nature (World Environment Day, Launch of UN Decade for Ecosystem Restoration)",
+    "date": "5-7 June 2021",
+    "place": "Indian Institute of Technology Indore, in collaboration with National Institute of Disaster Management (NIDM), New Delhi",
+    "photos": []
+  },
+  {
+    "id": "big-data-multi-hazard-training-2021",
+    "name": "Three-Day Online Training Program: Big Data Applications in a Multi-Hazard Disaster under Climate Change",
+    "date": "21-23 December 2021",
+    "place": "Indian Institute of Technology Indore, in collaboration with National Institute of Disaster Management (NIDM), New Delhi",
+    "photos": ["/assets/images/event12-1.png"]
+  },
+  {
+    "id": "multi-hazard-consultation-workshop-2022",
+    "name": "Consultation Workshop: Multi-hazard Disaster Risk and Resilience, Practical Learning and Step-by-Step Guide to Improve Disaster Resilience at City Levels (4th Consultation Meeting)",
+    "date": "24 January 2022",
+    "place": "Guwahati City",
+    "photos": ["/assets/images/event11-1.png", "/assets/images/event11-2.png", "/assets/images/event11-3.png"]
+  },
+  {
+    "id": "indian-standards-agriculture-2024",
+    "name": "Indian Standards in the Agriculture Sector",
+    "date": "27 April 2024",
+    "place": "Indian Institute of Technology Indore",
+    "photos": []
+  },
+  {
+    "id": "water-management-sustainability-standardization-2024",
+    "name": "Water Management: Sustainability and Standardization",
+    "date": "24 June 2024",
+    "place": "Indian Institute of Technology Indore",
+    "photos": ["/assets/images/event13-1.png"]
+  },
+  {
+    "id": "standards-changing-climate-2024",
+    "name": "Standards for the Changing Climate: A Shared Vision for a Better World",
+    "date": "14 October 2024",
+    "place": "Indian Institute of Technology Indore",
+    "photos": ["/assets/images/event14-1.png", "/assets/images/event14-2.png", "/assets/images/event14-3.png"]
+  },
+  {
+    "id": "hydro-met-data-standards-workshop-2024",
+    "name": "One-Day National Workshop: Hydro-Meteorological Data with Standards",
+    "date": "11 December 2024",
+    "place": "Indian Institute of Technology Indore, in collaboration with BIS, cNARMADA and NASI",
+    "photos": ["/assets/images/event15-1.png", "/assets/images/event15-2.png", "/assets/images/event15-3.png"]
+  },
+  {
+    "id": "standards-water-quality-workshop-2025",
+    "name": "One-Day National Workshop: Standards in Water Quality",
+    "date": "4 January 2025",
+    "place": "Indian Institute of Technology Indore, in collaboration with BIS and cNARMADA",
+    "photos": ["/assets/images/event16-1.png", "/assets/images/event16-2.png", "/assets/images/event16-3.png", "/assets/images/event16-4.png"]
+  },
+  {
+    "id": "nrbms-workshop-2025",
+    "name": "Two-Day Workshop: Narmada River Basin Management Studies (NRBMS)",
+    "date": "16-17 January 2025",
+    "place": "Indian Institute of Technology Indore",
+    "photos": ["/assets/images/event17-1.png", "/assets/images/event17-2.png", "/assets/images/event17-3.png"]
+  },
+  {
+    "id": "sustainable-water-management-workshop-2025",
+    "name": "One-Day National Workshop: Sustainable Water Management: Policy, Technology, and Climate Resilience",
+    "date": "22 March 2025",
+    "place": "Indian Institute of Technology Indore, in collaboration with BIS, cNARMADA, NASI and DST-CPR",
+    "photos": ["/assets/images/event18-1.png", "/assets/images/event18-2.png", "/assets/images/event18-3.png", "/assets/images/event18-4.png"]
+  },
+  {
+    "id": "narmada-policy-frameworks-2025",
+    "name": "Policy Frameworks for Narmada River Basin Management",
+    "date": "29 May 2025",
+    "place": "Indian Institute of Technology Indore",
+    "photos": ["/assets/images/event19-1.png"]
+  },
+  {
+    "id": "ai-disaster-management-workshop-2025",
+    "name": "One-Day Workshop: AI and Disaster Management",
+    "date": "15 September 2025",
+    "place": "Indian Institute of Technology Indore",
+    "photos": ["/assets/images/event20-1.png", "/assets/images/event20-2.png", "/assets/images/event20-3.png", "/assets/images/event20-4.png", "/assets/images/event20-5.png"]
+  },
+  {
+    "id": "resilient-infrastructure-training-2025",
+    "name": "One-Week Training on Resilient Infrastructure",
+    "date": "1-5 December 2025",
+    "place": "Indian Institute of Technology Indore, jointly organized with KMITL",
+    "photos": [
+      "/assets/images/event21-1.png",
+      "/assets/images/event21-2.png",
+      "/assets/images/event21-3.png",
+      "/assets/images/event21-4.png",
+      "/assets/images/event21-5.png",
+      "/assets/images/event21-6.png"
+    ]
+  },
+  {
+    "id": "malwa-chemical-conclave-2025",
+    "name": "Malwa Chemical Conclave 2025",
+    "date": "13 December 2025",
+    "place": "Indian Institute of Technology Indore",
+    "photos": ["/assets/images/event22-1.png", "/assets/images/event22-2.png", "/assets/images/event22-3.png", "/assets/images/event22-4.png"]
+  },
+    {
+    "id": "National Water Conference 2026",
+    "name": "National Water Conference 2026",
+    "date": "24 March 2026",
+    "place": "Indian Institute of Technology Indore",
+    "photos": ["/assets/images/event23-1.png", "/assets/images/event23-2.png", "/assets/images/event23-3.png", "/assets/images/event23-4.png", "/assets/images/event23-5.png", "/assets/images/event23-6.png"]
+  }
+]

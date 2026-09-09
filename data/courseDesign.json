@@ -1,0 +1,148 @@
+[
+  {
+    "id": "design-ce635",
+    "code": "CE 635",
+    "title": "Water and Climate, Sustainability and Policies",
+    "uniqueFeatures": "Integrates hydrology, climate science, sustainability frameworks, governance and policy analysis",
+    "methodology": "Lectures, policy evaluation, sustainability assessment frameworks, case studies, interdisciplinary discussions"
+  },
+  {
+    "id": "design-aa481-681",
+    "code": "AA 481 / AA 681",
+    "title": "Introduction to Climate and Climate Change",
+    "uniqueFeatures": "Fundamental understanding of climate systems, climate variability and anthropogenic climate change",
+    "methodology": "Climate data analysis, atmospheric process interpretation, climate modelling concepts, literature review"
+  },
+  {
+    "id": "design-ce621",
+    "code": "CE 621",
+    "title": "Water Quality and Treatment",
+    "uniqueFeatures": "Combines water chemistry with treatment technologies and laboratory analysis",
+    "methodology": "Water sampling, laboratory testing, contaminant analysis, treatment process design, practical experiments",
+    "practicalComponent": "Water quality testing, laboratory experiments, treatment process evaluation"
+  },
+  {
+    "id": "design-hs618",
+    "code": "HS 618",
+    "title": "Sustainability Studies",
+    "uniqueFeatures": "Multidisciplinary approach linking environment, society, economics and sustainable development goals",
+    "methodology": "Case studies, sustainability indicators, systems thinking, stakeholder analysis, project-based learning"
+  },
+  {
+    "id": "design-aa607-407",
+    "code": "AA 607 / AA 407",
+    "title": "Remote Sensing for Atmospheric and Space Sciences",
+    "uniqueFeatures": "Application of satellite observations for environmental and climate monitoring",
+    "methodology": "Satellite image processing, geospatial analysis, remote sensing software exercises, practical data interpretation",
+    "practicalComponent": "Satellite image processing and remote sensing software applications"
+  },
+  {
+    "id": "design-ce623",
+    "code": "CE 623",
+    "title": "Glaciology",
+    "uniqueFeatures": "Specialized study of glaciers, snow processes and cryosphere dynamics",
+    "methodology": "Glacier mass balance analysis, climate-glacier interactions, field observations, data interpretation"
+  },
+  {
+    "id": "design-ce625",
+    "code": "CE 625",
+    "title": "Water Supply and Distribution Systems",
+    "uniqueFeatures": "Focuses on design and operation of urban water supply networks",
+    "methodology": "Hydraulic calculations, network modelling, demand forecasting, system optimization"
+  },
+  {
+    "id": "design-bse641",
+    "code": "BSE 641",
+    "title": "Engineered Systems Analysis",
+    "uniqueFeatures": "Systems-based approach for solving complex environmental and engineering problems",
+    "methodology": "Mathematical modelling, optimization techniques, systems engineering tools, decision analysis"
+  },
+  {
+    "id": "design-hs626",
+    "code": "HS 626",
+    "title": "Environment and Natural Resource Economics",
+    "uniqueFeatures": "Economic valuation of environmental resources and sustainability policies",
+    "methodology": "Cost-benefit analysis, economic modelling, policy evaluation, resource allocation studies"
+  },
+  {
+    "id": "design-ce653",
+    "code": "CE 653",
+    "title": "Technical Site Visit(s) – Immersion Program",
+    "uniqueFeatures": "Real-world exposure to water infrastructure, treatment plants and sustainability projects",
+    "methodology": "Industrial visits, field observations, technical reporting, interaction with practitioners",
+    "practicalComponent": "Field visits and technical reporting"
+  },
+  {
+    "id": "design-ce602-402",
+    "code": "CE 602 / CE 402",
+    "title": "Water Resources Engineering",
+    "uniqueFeatures": "Core hydrology and water resources planning course",
+    "methodology": "Rainfall-runoff analysis, watershed modelling, reservoir analysis, hydrological computations"
+  },
+  {
+    "id": "design-aa410-610",
+    "code": "AA 410 / AA 610",
+    "title": "Spatial Informatics (Including GIS)",
+    "uniqueFeatures": "GIS-based spatial analysis and geospatial decision support",
+    "methodology": "GIS software applications, spatial database creation, mapping, geoprocessing and spatial modelling",
+    "practicalComponent": "GIS mapping, spatial analysis, geospatial database development"
+  },
+  {
+    "id": "design-ce620",
+    "code": "CE 620",
+    "title": "Climate Applications and Practices",
+    "uniqueFeatures": "Practical implementation of climate science for adaptation and risk management",
+    "methodology": "Climate data analysis, vulnerability assessment, climate impact modelling, laboratory exercises",
+    "practicalComponent": "Climate data analysis, modelling exercises and practical assessments"
+  },
+  {
+    "id": "design-ce-seminar",
+    "code": "CE XXX",
+    "title": "PG Seminar Course",
+    "uniqueFeatures": "Research communication and scientific presentation skills",
+    "methodology": "Literature review, seminar presentation, scientific discussion, peer evaluation"
+  },
+  {
+    "id": "design-technical-field-visit",
+    "code": "CE XXX",
+    "title": "Technical Field Visit – Design Thinking",
+    "uniqueFeatures": "Exposure to real-world challenges using innovation and design-thinking approaches",
+    "methodology": "Field studies, stakeholder interaction, problem identification, solution prototyping",
+    "practicalComponent": "Problem identification and field-based solution development"
+  },
+  {
+    "id": "design-ce640",
+    "code": "CE 640",
+    "title": "Industrial Wastewater Management",
+    "uniqueFeatures": "Industrial pollution control and advanced wastewater treatment systems",
+    "methodology": "Wastewater characterization, treatment design, industrial case studies, process evaluation"
+  },
+  {
+    "id": "design-hs6xx",
+    "code": "HS 6XX",
+    "title": "Water Governance and Conflict: A Sociological Approach",
+    "uniqueFeatures": "Examines social, institutional and political dimensions of water resources",
+    "methodology": "Governance analysis, stakeholder mapping, conflict resolution frameworks, policy discussions"
+  },
+  {
+    "id": "design-ce646",
+    "code": "CE 646",
+    "title": "Climate Hazards and Disaster Mitigation",
+    "uniqueFeatures": "Addresses climate-induced disasters and resilience planning",
+    "methodology": "Hazard assessment, risk mapping, disaster modelling, mitigation planning, case studies"
+  },
+  {
+    "id": "design-ce799",
+    "code": "CE 799",
+    "title": "M.Tech Research Project (Stage I)",
+    "uniqueFeatures": "Independent research focusing on problem formulation and methodology development",
+    "methodology": "Literature review, data collection, model development, preliminary experimentation"
+  },
+  {
+    "id": "design-ce800",
+    "code": "CE 800",
+    "title": "M.Tech Research Project (Stage II)",
+    "uniqueFeatures": "Advanced research leading to thesis completion and publication-quality outputs",
+    "methodology": "Model validation, analysis, interpretation, thesis writing, research dissemination"
+  }
+]

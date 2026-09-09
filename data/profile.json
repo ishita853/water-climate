@@ -1,0 +1,58 @@
+{
+  "name": "Prof. Manish Kumar Goyal",
+  "title": "Chair Professor – BIS Standardization",
+  "secondaryTitles": [
+    "Professor, Department of Civil Engineering",
+    "Mehta Family School of Sustainability",
+    "Former Dean of Infrastructure Development (2020–2025)"
+  ],
+  "department": "Department of Civil Engineering",
+  "school": "Mehta Family School of Sustainability",
+  "institution": "Indian Institute of Technology Indore",
+  "email": "mkgoyal@iiti.ac.in",
+  "office": "IIT Indore, Simrol, Indore – 453552, Madhya Pradesh, India",
+  "phone": "+91 94358 80989",
+  "photo": "/assets/images/profile.png",
+  "bio": "I am a Chair Professor for BIS Standardization and Professor in the Department of Civil Engineering at IIT Indore, where I lead research at the intersection of water resources, climate change, and artificial intelligence. My work applies big data, remote sensing, and AI-driven modeling to problems in hydrology, air quality, and climate resilience, with the goal of informing more sustainable and climate-resilient infrastructure and policy.",
+  "researchInterests": [
+    "Water Resources",
+    "Air Pollution",
+    "Climate Change",
+    "Big Data & AI",
+    "Remote Sensing",
+    "Smart Cities"
+  ],
+  "credentials": [
+    "Ph.D.",
+    "JSPS Fellow",
+    "Commonwealth Fellow",
+    "Erasmus Fellow",
+    "P.E. (International)",
+    "Indo-US WARI Fellow",
+    "INSPIRE Fellow"
+  ],
+  "highlight": {
+    "title": "Top 2% Scientists Worldwide",
+    "description": "Ranked among the Top 2% of scientists globally in the environmental engineering subdiscipline by Stanford University, for six consecutive years (2020–2025)."
+  },
+  "bibliometrics": {
+    "citations": 8720,
+    "hIndex": 56,
+    "i10Index": 146,
+    "source": "Google Scholar"
+  },
+  "publicationSummary": {
+    "books": 12,
+    "bookChapters": 35,
+    "journalArticles": 155,
+    "conferenceProceedings": 60,
+    "patents": 17,
+    "total": 274
+  },
+  "socialLinks": {
+    "googleScholar": "https://scholar.google.com/citations?user=In-wqMEAAAAJ&hl=en",
+    "linkedin": "https://in.linkedin.com/in/prof-manish-kumar-goyal-8062b86",
+    "labLinkedin": "https://in.linkedin.com/company/water-and-climate-lab-iit-indore",
+    "youtube": "https://www.youtube.com/@WaterClimateandSustainabilityL"
+  }
+}

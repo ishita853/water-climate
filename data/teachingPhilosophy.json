@@ -1,0 +1,56 @@
+[
+  {
+    "id": "philosophy-curriculum-design",
+    "approach": "Multidisciplinary & Integrated Curriculum Design",
+    "description": "Prof. Goyal designed the M.Tech curriculum by integrating Civil/Water Engineering, Climate Science, Data Analytics, Remote Sensing, AI/ML, and Sustainability Policy, breaking traditional disciplinary silos and preparing students for real-world complex problems.",
+    "mode": "Curriculum Design"
+  },
+  {
+    "id": "philosophy-experiential-learning",
+    "approach": "Experiential & Field-Based Learning (CE 653: Immersion Program)",
+    "description": "A fully unique course where students visit real sites: dams (e.g., Sardar Sarovar), Narmada River Basin, Ramsar Wetlands, water utilities, and river basins. Students prepare field reports, data observations and present findings, learning by doing, not just reading.",
+    "mode": "Experiential / Field"
+  },
+  {
+    "id": "philosophy-research-integrated",
+    "approach": "Research-Integrated Teaching",
+    "description": "Prof. Goyal brings his cutting-edge research directly into the classroom. Students in CE 620, CE 646, and CE 635 work with real CMIP6 climate model data, Google Earth Engine, and published datasets from his own research, making every class connected to active global research.",
+    "mode": "Research-Integrated"
+  },
+  {
+    "id": "philosophy-blended-teaching",
+    "approach": "Blended Online + Offline Teaching",
+    "description": "During COVID-19 and post-pandemic, Prof. Goyal seamlessly shifted to and blended online tools with physical teaching. He conducted a 3-week National Training Program (2020), a 6-day Online STC (2020), and an International Conference (2021) entirely online, reaching 150+ participants across India.",
+    "mode": "Online / Blended"
+  },
+  {
+    "id": "philosophy-industry-integration",
+    "approach": "Industry & Policy Integration in Classroom",
+    "description": "Prof. Goyal regularly invites industry experts (SPML Infra, WAPCOS, BIS Scientists, Narmada Control Authority, EcoSoul Enviro) into his courses and workshops, bridging the gap between textbook knowledge and industry/policy practice, as evident from 38+ industry expert lectures organized.",
+    "mode": "Industry Interface"
+  },
+  {
+    "id": "philosophy-project-assessment",
+    "approach": "Assessment through Real Projects & Case Studies",
+    "description": "Rather than conventional exams alone, students are assessed through real-world projects: e.g., flood risk analysis of Indian cities, flash drought monitoring, water quality assessment of Ramsar wetlands, ensuring effective assessment of learning outcomes aligned with professional practice.",
+    "mode": "Project-Based Assessment"
+  },
+  {
+    "id": "philosophy-ai-ml-tools",
+    "approach": "Use of AI/ML and Modern Computational Tools",
+    "description": "Prof. Goyal teaches students to use Python, R, Google Earth Engine, SWAT, CMIP6 models, and deep learning frameworks, equipping them with cutting-edge computational skills. Several student projects have resulted in published papers and filed patents (e.g., Water Quality Monitoring Patent 576312).",
+    "mode": "Computational / AI-ML"
+  },
+  {
+    "id": "philosophy-mentoring",
+    "approach": "Student-Centered Mentoring and Weak Student Support",
+    "description": "Prof. Goyal provides personal tutoring, online office hours, and individualized guidance to weaker students. His mentoring approach has resulted in consistent improvement in academic results and placement of students in top organizations.",
+    "mode": "Mentoring / Student Support"
+  },
+  {
+    "id": "philosophy-nep-2020",
+    "approach": "NEP 2020 Implementation",
+    "description": "Prof. Goyal implemented NEP 2020 recommendations in curriculum design: multidisciplinary courses (CE 635, CE 646, CE 620), flexibility in course selection, experiential learning (CE 653), and integration of vocational/industry knowledge, making the M.Tech program fully NEP-compliant.",
+    "mode": "NEP 2020 Implementation"
+  }
+]

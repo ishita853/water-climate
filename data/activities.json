@@ -1,0 +1,35 @@
+{
+  "invitedLectures": [
+    { "title": "Hydrological Impacts of Climate Change", "venue": "University of Missouri, USA" },
+    { "title": "Climate Change and Hydrologic Modeling: Challenges and Opportunities", "venue": "Missouri Water Resources Research Center, USA" },
+    { "title": "Some Climate Change Studies at IIT Guwahati", "venue": "School of Civil Engineering, AUTH, Greece" },
+    { "title": "A Comparative Evaluation of Carbon Footprint of Municipal Solid Waste", "venue": "DST–Royal Society Sponsored INDO-UK International Scientific Seminar, NEERI, Nagpur" },
+    { "title": "Climate Change Impact on Agriculture and Soil in Rainfed Areas", "venue": "National Institute of Rural Development" },
+    { "title": "Hydrological Modeling: Recent Advances (short course)", "venue": "NIT Silchar" },
+    { "title": "Statistical Downscaling: Understanding and Applications", "venue": "University of Waterloo, Canada" }
+  ],
+  "workshops": [
+    { "title": "TEQIP Short Term Course on Water Resources", "date": "April 2019", "venue": "IIT Indore" },
+    { "title": "TEQIP Course on Sustainable Water Management", "date": "May–June 2018" },
+    { "title": "GIAN International Course on Groundwater Optimization", "date": "March 2016" },
+    { "title": "Indo-Japan Workshop on Rainfall Disaster (Co-coordinator)", "date": "March 2016" },
+    { "title": "Workshop on Hydrology and Climate Change (Co-coordinator)", "date": "April 2015" },
+    { "title": "TEQIP Course on Water Resources and Climate Impacts", "date": "December 2014" }
+  ],
+  "committees": [
+    { "role": "International Scientific Committee", "event": "Protection and Restoration XIV Conference, Thessaloniki", "date": "July 2018" },
+    { "role": "Advisory Board Member", "event": "ETWREE 2017" },
+    { "role": "Scientific Committee", "event": "PRE Conference, Greece", "date": "July 2016" },
+    { "role": "Chairman / Editor", "event": "International Conference on Residual Science, Beijing", "date": "December 2015" },
+    { "role": "Organizing Committee", "event": "HOAC Conferences, China", "date": "2014–2016" },
+    { "role": "Technical Program Committee", "event": "WICEES 2013, Hunan" }
+  ],
+  "memberships": [
+    "American Society of Civil Engineers (ASCE)",
+    "Indian Science Congress Association (Life Member)",
+    "Indian Society for Technical Education (Life Member)",
+    "International Society for Environmental Information Sciences (ISEIS), Canada",
+    "Asia-Pacific Chemical, Biological & Environmental Engineering Society (APCBEES)",
+    "International Association of Engineers (IAENG)"
+  ]
+}

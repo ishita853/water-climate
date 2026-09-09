@@ -1,0 +1,528 @@
+[
+  {
+    "id": "chapter-01",
+    "title": "India's Ramsar Wetlands: Key Aquatic Ecosystems and Their Significance",
+    "authors": "Manish Kumar Goyal, Vijay Jain, Utkarsh Yadav",
+    "bookTitle": "Monitoring India's Ramsar Wetlands: Water Quality and Ecosystem Health via Remote Sensing and AI",
+    "year": 2025,
+    "link": "https://doi.org/10.1007/978-3-031-96818-1_1"
+  },
+  {
+    "id": "chapter-02",
+    "title": "Approaches and Techniques for Wetland Analysis",
+    "authors": "Manish Kumar Goyal, Vijay Jain, Utkarsh Yadav",
+    "bookTitle": "Monitoring India's Ramsar Wetlands: Water Quality and Ecosystem Health via Remote Sensing and AI",
+    "year": 2025,
+    "link": "https://doi.org/10.1007/978-3-031-96818-1_2"
+  },
+  {
+    "id": "chapter-03",
+    "title": "Coastal Ramsar Wetlands Water Quality Assessment",
+    "authors": "Manish Kumar Goyal, Vijay Jain, Utkarsh Yadav",
+    "bookTitle": "Monitoring India's Ramsar Wetlands: Water Quality and Ecosystem Health via Remote Sensing and AI",
+    "year": 2025,
+    "link": "https://doi.org/10.1007/978-3-031-96818-1_3"
+  },
+  {
+    "id": "chapter-04",
+    "title": "Inland Wetlands Water Quality Assessment",
+    "authors": "Manish Kumar Goyal, Vijay Jain, Utkarsh Yadav",
+    "bookTitle": "Monitoring India's Ramsar Wetlands: Water Quality and Ecosystem Health via Remote Sensing and AI",
+    "year": 2025,
+    "link": "https://doi.org/10.1007/978-3-031-96818-1_4"
+  },
+  {
+    "id": "chapter-05",
+    "title": "Strategies for Wetland Ecosystem Restoration and Monitoring",
+    "authors": "Manish Kumar Goyal, Vijay Jain, Utkarsh Yadav",
+    "bookTitle": "Monitoring India's Ramsar Wetlands: Water Quality and Ecosystem Health via Remote Sensing and AI",
+    "year": 2025,
+    "link": "https://doi.org/10.1007/978-3-031-96818-1_5"
+  },
+  {
+    "id": "chapter-06",
+    "title": "Policy Recommendations and Future Directions",
+    "authors": "Manish Kumar Goyal, Shivukumar Rakkasagi",
+    "bookTitle": "Combating Forest Loss and Fires Technology–Policy Approaches in Key Biodiversity Areas",
+    "year": 2025,
+    "link": "https://doi.org/10.1007/978-3-031-84820-9_5"
+  },
+  {
+    "id": "chapter-07",
+    "title": "Key Biodiversity Areas and Stable Night Lights",
+    "authors": "Manish Kumar Goyal, Shivukumar Rakkasagi",
+    "bookTitle": "Combating Forest Loss and Fires Technology–Policy Approaches in Key Biodiversity Areas",
+    "year": 2025,
+    "link": "https://doi.org/10.1007/978-3-031-84820-9_4"
+  },
+  {
+    "id": "chapter-08",
+    "title": "Key Biodiversity Areas and Forest Fire",
+    "authors": "Manish Kumar Goyal, Shivukumar Rakkasagi",
+    "bookTitle": "Combating Forest Loss and Fires Technology–Policy Approaches in Key Biodiversity Areas",
+    "year": 2025,
+    "link": "https://doi.org/10.1007/978-3-031-84820-9_3"
+  },
+  {
+    "id": "chapter-09",
+    "title": "Key Biodiversity Areas and Forest Cover Loss",
+    "authors": "Manish Kumar Goyal, Shivukumar Rakkasagi",
+    "bookTitle": "Combating Forest Loss and Fires Technology–Policy Approaches in Key Biodiversity Areas",
+    "year": 2025,
+    "link": "https://doi.org/10.1007/978-3-031-84820-9_2"
+  },
+  {
+    "id": "chapter-10",
+    "title": "Key Biodiversity Areas (KBAs)",
+    "authors": "Manish Kumar Goyal, Shivukumar Rakkasagi",
+    "bookTitle": "Combating Forest Loss and Fires Technology–Policy Approaches in Key Biodiversity Areas",
+    "year": 2025,
+    "link": "https://doi.org/10.1007/978-3-031-84820-9_1"
+  },
+  {
+    "id": "chapter-11",
+    "title": "Basics of AI for Water Management",
+    "authors": "Manish Kumar Goyal, Sachidanand Kumar, Akhilesh Gupta",
+    "bookTitle": "AI Innovation for Water Policy and Sustainability",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-72014-7_1"
+  },
+  {
+    "id": "chapter-12",
+    "title": "AI for Water Conservation",
+    "authors": "Manish Kumar Goyal, Sachidanand Kumar, Akhilesh Gupta",
+    "bookTitle": "AI Innovation for Water Policy and Sustainability",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-72014-7_2"
+  },
+  {
+    "id": "chapter-13",
+    "title": "AI for Water Treatment",
+    "authors": "Manish Kumar Goyal, Sachidanand Kumar, Akhilesh Gupta",
+    "bookTitle": "AI Innovation for Water Policy and Sustainability",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-72014-7_3"
+  },
+  {
+    "id": "chapter-14",
+    "title": "AI for Water Policy",
+    "authors": "Manish Kumar Goyal, Sachidanand Kumar, Akhilesh Gupta",
+    "bookTitle": "AI Innovation for Water Policy and Sustainability",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-72014-7_4"
+  },
+  {
+    "id": "chapter-15",
+    "title": "AI Framework for Future Water",
+    "authors": "Manish Kumar Goyal, Sachidanand Kumar, Akhilesh Gupta",
+    "bookTitle": "AI Innovation for Water Policy and Sustainability",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-72014-7_5"
+  },
+  {
+    "id": "chapter-16",
+    "title": "Mitigation, Adaptation, and Resilience Strategies for Extreme Aerosol Pollution",
+    "authors": "Manish Kumar Goyal, Kuldeep Singh Rautela",
+    "bookTitle": "Aerosol Atmospheric Rivers Availability, Spatiotemporal Characterisation, Predictability, and Impacts",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-66758-9_5"
+  },
+  {
+    "id": "chapter-17",
+    "title": "Aerosol Atmospheric Rivers: Impacts on Particulate Matter Concentrations and Risk Assessment",
+    "authors": "Manish Kumar Goyal, Kuldeep Singh Rautela",
+    "bookTitle": "Aerosol Atmospheric Rivers Availability, Spatiotemporal Characterisation, Predictability, and Impacts",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-66758-9_4"
+  },
+  {
+    "id": "chapter-18",
+    "title": "Application of Data Mining and AI&ML in Aerosol Pollution and Aerosol Atmospheric Rivers",
+    "authors": "Manish Kumar Goyal, Kuldeep Singh Rautela",
+    "bookTitle": "Aerosol Atmospheric Rivers Availability, Spatiotemporal Characterisation, Predictability, and Impacts",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-66758-9_3"
+  },
+  {
+    "id": "chapter-19",
+    "title": "Aerosol Atmospheric Rivers: Detection and Spatio-Temporal Patterns",
+    "authors": "Manish Kumar Goyal, Kuldeep Singh Rautela",
+    "bookTitle": "Aerosol Atmospheric Rivers Availability, Spatiotemporal Characterisation, Predictability, and Impacts",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-66758-9_2"
+  },
+  {
+    "id": "chapter-20",
+    "title": "Understanding the Significance of Aerosol Pollution and Aerosol Atmospheric Rivers",
+    "authors": "Manish Kumar Goyal, Kuldeep Singh Rautela",
+    "bookTitle": "Aerosol Atmospheric Rivers Availability, Spatiotemporal Characterisation, Predictability, and Impacts",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-66758-9_1"
+  },
+  {
+    "id": "chapter-21",
+    "title": "Role of Machine Learning in Understanding and Managing Atmospheric Rivers",
+    "authors": "Manish Kumar Goyal, Shivam Singh",
+    "bookTitle": "Understanding Atmospheric Rivers Using Machine Learning",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-63478-9_5"
+  },
+  {
+    "id": "chapter-22",
+    "title": "Major Large-Scale Climate Oscillations and Their Interactions with Atmospheric Rivers",
+    "authors": "Manish Kumar Goyal, Shivam Singh",
+    "bookTitle": "Understanding Atmospheric Rivers Using Machine Learning",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-63478-9_4"
+  },
+  {
+    "id": "chapter-23",
+    "title": "Key Characteristics of Atmospheric Rivers and Associated Precipitation",
+    "authors": "Manish Kumar Goyal, Shivam Singh",
+    "bookTitle": "Understanding Atmospheric Rivers Using Machine Learning",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-63478-9_3"
+  },
+  {
+    "id": "chapter-24",
+    "title": "Characterization and Impacts of Atmospheric Rivers",
+    "authors": "Manish Kumar Goyal, Shivam Singh",
+    "bookTitle": "Understanding Atmospheric Rivers Using Machine Learning",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-63478-9_2"
+  },
+  {
+    "id": "chapter-25",
+    "title": "Understanding Atmospheric Rivers and Exploring Their Role as Climate Extremes",
+    "authors": "Manish Kumar Goyal, Shivam Singh",
+    "bookTitle": "Understanding Atmospheric Rivers Using Machine Learning",
+    "year": 2024,
+    "link": "https://doi.org/10.1007/978-3-031-63478-9_1"
+  },
+  {
+    "id": "chapter-26",
+    "title": "Disaster Risk Reduction through Climate Adaptive Development: Strategies and Road Ahead",
+    "authors": "Anil K Gupta, Shweta Bhardwaj, Manish K Goyal, Akhilesh Gupta",
+    "bookTitle": "Disaster Risk and Management Under Climate Change",
+    "year": 2024,
+    "yearDetail": "13 February 2024",
+    "link": "https://doi.org/10.1007/978-981-99-4105-6_31"
+  },
+  {
+    "id": "chapter-27",
+    "title": "Copula-Based Probabilistic Evaluation of Meteorological Drought Characteristics over India",
+    "authors": "Vikas Poonia, Lixin Wang, Manish Kumar Goyal",
+    "bookTitle": "River, Sediment and Hydrological Extremes: Causes, Impacts and Management",
+    "year": 2023,
+    "yearDetail": "October 2023, Pages 257-270",
+    "link": "https://doi.org/10.1007/978-981-99-4811-6_14"
+  },
+  {
+    "id": "chapter-28",
+    "title": "Analysis of urbanization and assessment of its impact on ground water & land use land cover using GIS techniques - Case study of Bhopal & Gurugram district",
+    "authors": "Shubham Bhardwaj, Prerit Machiwar, Chander Kant, Shivukumar Rakkasagi, Ray Singh Meena, Manish Kumar Goyal",
+    "bookTitle": "Ecosystem Restoration: Towards Sustainability and Resilient Development",
+    "year": 2023,
+    "link": "https://doi.org/10.1007/978-981-99-3687-8_13"
+  },
+  {
+    "id": "chapter-29",
+    "title": "Pathways to build resilience towards the impact of climate change on the Indian Sunderban",
+    "authors": "Sweta Baidya, Pritha Chakraborty, Shivukumar Rakkasagi, Manish Kumar Goyal, Anil K Gupta",
+    "bookTitle": "Ecosystem Restoration: Towards Sustainability and Resilient Development",
+    "year": 2023,
+    "link": "https://doi.org/10.1007/978-981-99-3687-8_17"
+  },
+  {
+    "id": "chapter-30",
+    "title": "Comparison of Probability Distributions for Extreme Value Analysis and Predicting Monthly Rainfall Pattern using Bayesian Regularized-ANN",
+    "authors": "N. Vivekanandan, Shivam Singh, Manish Kumar Goyal",
+    "bookTitle": "Ecosystem Restoration: Towards Sustainability and Resilient Development",
+    "year": 2023,
+    "link": "https://doi.org/10.1007/978-981-99-3687-8_15"
+  },
+  {
+    "id": "chapter-31",
+    "title": "Artificial neural network models for rainfall-runoff modeling in India- studies from of Kolar and Kuttiyadi River watersheds",
+    "authors": "Deepak Kumar Tiwari, Kuldeep Singh Rautela, H. L. Tiwari, Manish Kumar Goyal",
+    "bookTitle": "Ecosystem Restoration: Towards Sustainability and Resilient Development",
+    "year": 2023,
+    "link": "https://doi.org/10.1007/978-981-99-3687-8_12"
+  },
+  {
+    "id": "chapter-32",
+    "title": "Hydrological modelling using HEC-HMS and estimation of the flood peak by Gumbel's method of Hasdeo Basin, Chhattisgarh, India",
+    "authors": "Masood Zafar Ansari, Ishtiyaq Ahmad, Kuldeep Singh Rautela, Manish Kumar Goyal, Pushpendra Kumar Singh",
+    "bookTitle": "Ecosystem Restoration: Towards Sustainability and Resilient Development",
+    "year": 2023,
+    "link": "https://doi.org/10.1007/978-981-99-3687-8_10"
+  },
+  {
+    "id": "chapter-33",
+    "title": "Lifestyle for Environment: Life Mission and Synergies with Eco-restoration",
+    "authors": "Aditi Madan, Anil Kumar Gupta, Manish Kumar Goyal",
+    "bookTitle": "Ecosystem Restoration: Towards Sustainability and Resilient Development",
+    "year": 2023,
+    "link": "https://doi.org/10.1007/978-981-99-3687-8_2"
+  },
+  {
+    "id": "chapter-34",
+    "title": "Ecological restoration: An Overview of Science & Policy Regime",
+    "authors": "Vijay Jain, Kuldeep Singh Rautela, Manish Kumar Goyal, Anil Kumar Gupta",
+    "bookTitle": "Ecosystem Restoration: Towards Sustainability and Resilient Development",
+    "year": 2023,
+    "link": "https://doi.org/10.1007/978-981-99-3687-8_1"
+  },
+  {
+    "id": "chapter-35",
+    "title": "Quantitative Assessment of Impact of Climate Change on Crop Yield over Sikkim and Central Region of India",
+    "authors": "Ankit Balvanshi, Vikas Poonia, HL Tiwari, Manish Kumar Goyal, Anil Kumar Gupta, Akhilesh Gupta",
+    "bookTitle": "Hydro-Meteorological Extremes and Disasters",
+    "year": 2022,
+    "yearDetail": "October 2022, Pages 143–173",
+    "link": "https://10.1007/978-981-19-0725-8_12"
+  },
+  {
+    "id": "chapter-36",
+    "title": "Drought as a Disaster and Its Characterization over Central India",
+    "authors": "Vikas Poonia, Manish Kumar Goyal, Anil Kumar Gupta",
+    "bookTitle": "Hydro-Meteorological Extremes and Disasters",
+    "year": 2022,
+    "yearDetail": "October 2022, Pages 143–174",
+    "link": "https://10.1007/978-981-19-0725-8_14"
+  },
+  {
+    "id": "chapter-37",
+    "title": "Understanding of Future Water Challenges in a River Basin Under Ensemble of CORDEX Simulated Projections",
+    "authors": "Brij Kishore Pandey, Vikas Poonia, Deepak Khare, Manish Kumar Goyal",
+    "bookTitle": "Hydro-Meteorological Extremes and Disasters",
+    "year": 2022,
+    "yearDetail": "October 2022, Pages 225-242",
+    "link": "https://10.1007/978-981-19-0725-8_13"
+  },
+  {
+    "id": "chapter-38",
+    "title": "Integration of Climate Model & Hydrology Model-Tools, Bias-Correction, Downscaling, & Future Focus",
+    "authors": "Jew Das, Manish Kumar Goyal, NV Umamahesh",
+    "bookTitle": "Hydro-Meteorological Extremes and Disasters",
+    "year": 2022,
+    "yearDetail": "October 2022, Pages 143–176",
+    "link": "https://10.1007/978-981-19-0725-8_9"
+  },
+  {
+    "id": "chapter-39",
+    "title": "Relative Contribution of Climate Variables on Long-Term Runoff Using Budyko Framework",
+    "authors": "Uttam Puri Goswami, Manish Kumar Goyal",
+    "bookTitle": "Water Resources Management and Sustainability",
+    "year": 2022,
+    "yearDetail": "February 2022, Pages 147–159",
+    "link": "https://10.1007/978-981-16-6573-8_7"
+  },
+  {
+    "id": "chapter-40",
+    "title": "Madhya Pradesh",
+    "authors": "Lalit Borana, Sanjoy Bhowmik, Vijay Kumar Panwar, Manish Kumar Goyal, Vikas Poonia",
+    "bookTitle": "Geotechnical Characteristics of Soils and Rocks of India",
+    "year": 2021,
+    "yearDetail": "December 2021, Pages 407-427",
+    "link": "https://10.1201/9781003177159-21"
+  },
+  {
+    "id": "chapter-41",
+    "title": "Current Trends and Projections of Water Resources Under Climate Change in Ganga River Basin",
+    "authors": "Jew Das, Manish Kumar Goyal",
+    "bookTitle": "The Ganga River Basin: A Hydrometeorological Approach",
+    "year": 2021,
+    "yearDetail": "January 2021, Pages 233-256",
+    "link": "https://doi.org/10.1007/978-3-030-60869-9_16"
+  },
+  {
+    "id": "chapter-42",
+    "title": "Water Harvesting, Climate Change, and Variability",
+    "authors": "Jew Das, Manish Kumar Goyal, NV Umamahesh",
+    "bookTitle": "Handbook of Water Harvesting and Conservation: Basic Concepts and Fundamentals",
+    "year": 2021,
+    "yearDetail": "January 2021, Pages 427-446",
+    "link": "https://doi.org/10.1002/9781119478911.ch28"
+  },
+  {
+    "id": "chapter-43",
+    "title": "Remote Sensing and GIS Applications in Sustainability",
+    "authors": "Manish Kumar Goyal, Ashutosh Sharma, Rao Y Surampalli",
+    "bookTitle": "Sustainability: Fundamentals and Applications",
+    "year": 2020,
+    "yearDetail": "March 2020, Pages 605-626",
+    "link": "https://doi.org/10.1002/9781119434016.ch28"
+  },
+  {
+    "id": "chapter-44",
+    "title": "Introduction to Sustainability and Sustainable Development",
+    "authors": "Prangya R Rout, Akshaya K Verma, Puspendu Bhunia, Rao Y Surampalli, Tian C Zhang, RD Tyagi, SK Brar, MK Goyal",
+    "bookTitle": "Sustainability: Fundamentals and Applications",
+    "year": 2020,
+    "yearDetail": "March 2020, Pages 1-19",
+    "link": "https://doi.org/10.1002/9781119434016.ch1"
+  },
+  {
+    "id": "chapter-45",
+    "title": "Sustainable Infrastructure",
+    "authors": "Gilbert Hinge, Rao Y Surampalli, Manish Kumar Goyal",
+    "bookTitle": "Sustainability: Fundamentals and Applications",
+    "year": 2020,
+    "yearDetail": "March 2020, Pages 295-311",
+    "link": "https://doi.org/10.1002/9781119434016.ch14"
+  },
+  {
+    "id": "chapter-46",
+    "title": "Sustainable Systems for Groundwater Resource Management",
+    "authors": "Manish Kumar Goyal, Srinidhi Jha, Rao Y Surampalli",
+    "bookTitle": "Sustainability: Fundamentals and Applications",
+    "year": 2020,
+    "yearDetail": "March 2020, Pages 527-552",
+    "link": "https://doi.org/10.1002/9781119434016.ch25"
+  },
+  {
+    "id": "chapter-47",
+    "title": "Challenges of sustainability in agricultural management",
+    "authors": "Jew Das, Srinidhi Jha, Manish Kumar Goyal, Rao Y Surampalli",
+    "bookTitle": "Sustainability: Fundamentals and Applications",
+    "year": 2020,
+    "yearDetail": "March 2020, Pages 339-356",
+    "link": "https://doi.org/10.1002/9781119434016.ch16"
+  },
+  {
+    "id": "chapter-48",
+    "title": "Sustainability of carbon storage and sequestration",
+    "authors": "Gilbert Hinge, Rao Y Surampalli, Manish Kumar Goyal",
+    "bookTitle": "Sustainability: Fundamentals and Applications",
+    "year": 2020,
+    "yearDetail": "March 2020, Pages 465-482",
+    "link": "https://doi.org/10.1002/9781119434016.ch22"
+  },
+  {
+    "id": "chapter-49",
+    "title": "Sustainability of River Water Resources Under the Influence of Climate Change",
+    "authors": "Shivam Gupta, Manish Kumar Goyal",
+    "bookTitle": "Sustainability: Fundamentals and Applications",
+    "year": 2020,
+    "yearDetail": "March 2020, Pages 507-526",
+    "link": "https://doi.org/10.1002/9781119434016.ch24"
+  },
+  {
+    "id": "chapter-50",
+    "title": "Technological advancement and pandemic",
+    "authors": "Nikhil Kumar, Saket Dubey, Manish Kumar Goyal, Carlos Jimenez-Bescos, Amin Talei",
+    "bookTitle": "Integrated Risk of Pandemic: Covid-19 Impacts, Resilience and Recommendations",
+    "year": 2020,
+    "yearDetail": "November 2020, Pages 345-359",
+    "link": "https://doi.org/10.1007/978-981-15-7679-9_17"
+  },
+  {
+    "id": "chapter-51",
+    "title": "Lessons from Trans-Domain Assessment of COVID 19 Outbreak",
+    "authors": "Anjali Barwal, Atisha Sood, Anil Kumar Gupta, Manish Kumar Goyal",
+    "bookTitle": "Integrated Risk of Pandemic: Covid-19 Impacts, Resilience and Recommendations",
+    "year": 2020,
+    "yearDetail": "November 2020, Pages 481-496",
+    "link": "https://doi.org/10.1007/978-981-15-7679-9_24"
+  },
+  {
+    "id": "chapter-52",
+    "title": "Integrated Risk of Virus Outbreaks",
+    "authors": "Gilbert Hinge, Alacrity Muksor, Manish Kumar Goyal, Ravi Kumar Goyal, Mredu Goyal",
+    "bookTitle": "Integrated Risk of Pandemic: Covid-19 Impacts, Resilience and Recommendations",
+    "year": 2020,
+    "yearDetail": "November 2020, Pages 307-330",
+    "link": "https://doi.org/10.1007/978-981-15-7679-9_15"
+  },
+  {
+    "id": "chapter-53",
+    "title": "Psychological Impacts of COVID-19",
+    "authors": "Shivam Singh, Saket Dubey, Nikhil Kumar, Manish Kumar Goyal, Indrajit Pal",
+    "bookTitle": "Integrated Risk of Pandemic: Covid-19 Impacts, Resilience and Recommendations",
+    "year": 2020,
+    "yearDetail": "November 2020, Pages 153-168",
+    "link": "https://doi.org/10.1007/978-981-15-7679-9_7"
+  },
+  {
+    "id": "chapter-54",
+    "title": "Impact of COVID-19 on Agro-Food Industry and Transitions Towards Food Security",
+    "authors": "Vikas Poonia, Manish Kumar Goyal, Chandra A Madramootoo, Anil Kumar Gupta, Chitresh Saraswat",
+    "bookTitle": "Integrated Risk of Pandemic: Covid-19 Impacts, Resilience and Recommendations",
+    "year": 2020,
+    "yearDetail": "November 2020, Pages 255-273",
+    "link": "https://doi.org/10.1007/978-981-15-7679-9_12"
+  },
+  {
+    "id": "chapter-55",
+    "title": "Introduction to Virus Outbreaks",
+    "authors": "Atisha Sood, Anjali Barwal, Anil Kumar Gupta, Manish Kumar Goyal",
+    "bookTitle": "Integrated Risk of Pandemic: Covid-19 Impacts, Resilience and Recommendations",
+    "year": 2020,
+    "yearDetail": "November 2020, Pages 3-20",
+    "link": "https://doi.org/10.1007/978-981-15-7679-9_1"
+  },
+  {
+    "id": "chapter-56",
+    "title": "COVID 19 Threat and the Role of Human and Natural Factors",
+    "authors": "Srinidhi Jha, Manish Kumar Goyal",
+    "bookTitle": "Integrated Risk of Pandemic: Covid-19 Impacts, Resilience and Recommendations",
+    "year": 2020,
+    "yearDetail": "November 2020, Pages 87-103",
+    "link": "https://doi.org/10.1007/978-981-15-7679-9_4"
+  },
+  {
+    "id": "chapter-57",
+    "title": "Subansiri: Largest Tributary of Brahmaputra River, Northeast India",
+    "authors": "Manish Kumar Goyal, Arup K Sarma, Dhruv Sen Singh",
+    "bookTitle": "The Indian Rivers",
+    "year": 2018,
+    "yearDetail": "January 2018, Pages 523-535",
+    "link": "https://doi.org/10.1007/978-981-10-2984-4_36"
+  },
+  {
+    "id": "chapter-58",
+    "title": "Teesta river and its ecosystem",
+    "authors": "Manish Kumar Goyal, Uttam Puri Goswami",
+    "bookTitle": "The Indian Rivers",
+    "year": 2018,
+    "yearDetail": "January 2018, Pages 537-551",
+    "link": "https://doi.org/10.1007/978-981-10-2984-4_37"
+  },
+  {
+    "id": "chapter-59",
+    "title": "Application of machine learning techniques in drought forecasting",
+    "authors": "D. Jhajharia A Sharma, Manish Kumar Goyal",
+    "bookTitle": "Sustainable Holistic Water Resources Management in a Changing Climate, Jain Brothers, New Delhi",
+    "year": 2017,
+    "yearDetail": "April 2017, Volume 1, Pages 510",
+    "isbn": "978-81-8360-253-2"
+  },
+  {
+    "id": "chapter-60",
+    "title": "Machine Learning Algorithms and their application in water resources management",
+    "authors": "Manish Kumar Goyal, Chandra S. P. Ojha, and Donald H. Burn",
+    "bookTitle": "Sustainable Holistic Water Resources Management in a Changing Climate, Jain Brothers, New Delhi",
+    "year": 2017,
+    "yearDetail": "April 2017, Volume 1, Pages 165-178",
+    "isbn": "9780784480908"
+  },
+  {
+    "id": "chapter-61",
+    "title": "Hydrological drought: water surface and duration curve indices",
+    "authors": "Manish Kumar Goyal, Vivek Gupta, Saeid Eslamian",
+    "bookTitle": "Handbook of Drought and Water Scarcity, CRC Press, USA",
+    "year": 2017,
+    "yearDetail": "August 2017, Volume 1, Pages 45-71",
+    "isbn": "9781315404219"
+  },
+  {
+    "id": "chapter-62",
+    "title": "Regionalization of drought prediction",
+    "authors": "Manish Kumar Goyal, Ashutosh Sharma",
+    "bookTitle": "Handbook of Drought and Water Scarcity, CRC Press, USA",
+    "year": 2017,
+    "yearDetail": "August 2017, Volume 1, Pages 253-278",
+    "isbn": "9781315404219"
+  }
+]

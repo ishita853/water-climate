@@ -1,0 +1,28 @@
+[
+  { "id": "ug-ce214-fluid-mechanics-lab", "level": "UG", "code": "CE 214", "title": "Fluid Mechanics Laboratory", "semester": "Spring 2012–2015", "duration": "4 months" },
+  { "id": "ug-me111-engineering-drawing", "level": "UG", "code": "ME 111", "title": "Engineering Drawing", "semester": "Autumn 2013, 2016", "duration": "4 months" },
+  { "id": "ug-ce203-fluid-mechanics-1", "level": "UG", "code": "CE 203", "title": "Fluid Mechanics-I", "semester": "Spring 2014–2015 · Autumn 2018–2020, 2022–2023", "duration": "4 months" },
+  { "id": "ug-ce311-hydrology-water-resources", "level": "UG", "code": "CE 311", "title": "Hydrology and Water Resources Engineering", "semester": "Summer 2014–2015", "duration": "1 month" },
+  { "id": "ug-ce312-hydraulics-structures-lab", "level": "UG", "code": "CE 312", "title": "Hydraulics and Hydraulic Structures Laboratory", "semester": "Autumn 2016", "duration": "4 months" },
+  { "id": "ug-ce204-fluid-mechanics-2", "level": "UG", "code": "CE 204", "title": "Fluid Mechanics-II", "semester": "Spring 2018–2022", "duration": "4 months" },
+  { "id": "ug-ce257-civil-engineering-drawing", "level": "UG", "code": "CE 257", "title": "Civil Engineering Drawing", "semester": "Autumn 2018", "duration": "4 months" },
+  { "id": "ug-ce253-fluid-mechanics-lab-1", "level": "UG", "code": "CE 253", "title": "Fluid Mechanics Lab-I", "semester": "Autumn 2018–2019, 2025", "duration": "4 months" },
+  { "id": "ug-ce254-fluid-mechanics-lab-2", "level": "UG", "code": "CE 254", "title": "Fluid Mechanics Lab-II", "semester": "Spring 2019, 2023–2024", "duration": "4 months" },
+  { "id": "ug-ce402-water-resources-engineering", "level": "UG", "code": "CE 402/602", "title": "Water Resources Engineering", "semester": "Spring 2020, 2023–2024, 2026 · Autumn 2020", "duration": "4 months" },
+  { "id": "ug-ce361-open-channel-flow", "level": "UG", "code": "CE 361", "title": "Design of Open Channel Flow", "semester": "Autumn 2021", "duration": "4 months" },
+  { "id": "ug-ce301-hydrology", "level": "UG", "code": "CE 301", "title": "Hydrology", "semester": "Autumn 2021–2022", "duration": "4 months" },
+  { "id": "ug-ce251-solid-mechanics-lab", "level": "UG", "code": "CE 251", "title": "Solid Mechanics Lab", "semester": "Autumn 2023", "duration": "4 months" },
+  { "id": "ug-ce302-geodesy-2", "level": "UG", "code": "CE 302", "title": "Geodesy-II", "semester": "Spring 2025", "duration": "4 months" },
+  { "id": "ug-ce253n-fluid-mechanics-lab", "level": "UG", "code": "CE 253N", "title": "Fluid Mechanics Lab", "semester": "Autumn 2025", "duration": "4 months" },
+  { "id": "ug-ce320-engineering-hydrology", "level": "UG", "code": "CE 320", "title": "Engineering Hydrology", "semester": "Spring 2026", "duration": "4 months" },
+
+  { "id": "pg-ce558-fuzzy-logic-ai", "level": "PG", "code": "CE 558", "title": "Fuzzy Logic and Artificial Intelligence in Civil Engineering Applications", "semester": "Autumn 2013", "duration": "4 months" },
+  { "id": "pg-ce551-surface-water-hydrology", "level": "PG", "code": "CE 551", "title": "Surface Water Hydrology", "semester": "Autumn 2014–2015", "duration": "4 months" },
+  { "id": "pg-ce586-hydro-climatology", "level": "PG", "code": "CE 586", "title": "Hydro-Climatology", "semester": "Spring 2016–2017", "duration": "4 months" },
+  { "id": "pg-ce635-water-climate-policy", "level": "PG", "code": "CE 635", "title": "Water and Climate: Sustainability and Policies", "semester": "Autumn 2017 (as CE 670), 2019, 2023–2025 · Spring 2018", "duration": "4 months", "description": "Formerly listed as CE 670." },
+  { "id": "pg-ce620-climate-applications", "level": "PG", "code": "CE 620", "title": "Climate Applications and Practices", "semester": "Spring 2024–2025", "duration": "4 months", "description": "Also listed as CE 604." },
+  { "id": "pg-ce646-climate-hazards", "level": "PG", "code": "CE 646", "title": "Climate Hazards and Disaster Mitigation", "semester": "Spring 2024", "duration": "4 months" },
+  { "id": "pg-ce653-technical-site-visit", "level": "PG", "code": "CE 653", "title": "Technical Site Visit(s) – Immersion Program", "semester": "Autumn 2024", "duration": "4 months" },
+  { "id": "pg-ce654-technical-field-visit", "level": "PG", "code": "CE 654", "title": "Technical Field Visit – Design Thinking", "semester": "Spring 2025", "duration": "4 months" },
+  { "id": "pg-wc799-mtech-research-project", "level": "PG", "code": "WC 799", "title": "M.Tech. Research Project (Stage-I)", "semester": "Autumn 2025", "duration": "4 months" }
+]

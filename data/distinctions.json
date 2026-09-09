@@ -1,0 +1,110 @@
+[
+  {
+    "id": "dist-2025-top2percent",
+    "date": "2025",
+    "title": "Ranked in Top 2% Scientists Worldwide",
+    "description": "Named among the Top 2% of scientists globally in the environmental engineering subdiscipline by Stanford University, for six consecutive years (2020–2025)."
+  },
+  {
+    "id": "dist-2021-sn-gupta-award",
+    "date": "2021",
+    "title": "Prof S N Gupta Memorial Lecture Award",
+    "description": "Awarded the Prof S N Gupta Memorial Lecture Award by the Indian Society of Hydraulics."
+  },
+  {
+    "id": "dist-2020-best-researcher",
+    "date": "2020",
+    "title": "Best Researcher of the Year Award",
+    "description": "Received the Best Researcher of the Year Award from the Institution of Engineers (India)."
+  },
+  {
+    "id": "dist-2020-rsri-young-researcher",
+    "date": "2020",
+    "title": "RSRI Young Researcher Award",
+    "description": "Recipient of the Young Researcher Award from the Rajasthan Society for Radiation and Instrumentation (RSRI)."
+  },
+  {
+    "id": "dist-2019-asce-fellowship",
+    "date": "2019",
+    "title": "ASCE Visiting International Fellowship",
+    "description": "Awarded the Visiting International Fellowship by the American Society of Civil Engineers (ASCE) Environmental and Water Resources Institute (EWRI)."
+  },
+  {
+    "id": "dist-2019-rj-garde",
+    "date": "2019",
+    "title": "Prof R J Garde Research Award",
+    "description": "Recipient of the Prof R J Garde Research Award from the Indian Society of Hydraulics."
+  },
+  {
+    "id": "dist-2018-asce-best-paper",
+    "date": "2018",
+    "title": "Best Theoretical-Oriented Paper Award",
+    "description": "Received the Best Theoretical-Oriented Paper Award from the American Society of Civil Engineers (ASCE)."
+  },
+  {
+    "id": "dist-2018-nvidia-gpu-grant",
+    "date": "2018",
+    "title": "NVIDIA GPU Research Grant",
+    "description": "Awarded a GPU Research Grant by NVIDIA to support deep learning-based research computing."
+  },
+  {
+    "id": "dist-2017-brns-young-scientist",
+    "date": "2017",
+    "title": "BRNS Young Scientist Research Grant",
+    "description": "Awarded a Young Scientist Research Grant by the Board of Research in Nuclear Sciences (BRNS)."
+  },
+  {
+    "id": "dist-other-guest-professor-notre-dame",
+    "date": "N/A",
+    "title": "Guest Professor, University of Notre Dame, USA",
+    "description": "Appointed Guest Professor at the University of Notre Dame, USA."
+  },
+  {
+    "id": "dist-other-chair-professor",
+    "date": "N/A",
+    "title": "Chair Professor of BIS Standardization",
+    "description": "Appointed the first Chair Professor for Bureau of Indian Standards (BIS) Standardization at the Institute."
+  },
+  {
+    "id": "dist-other-narmada-centre-pi",
+    "date": "N/A",
+    "title": "PI & Coordinator, Centre for Narmada River Basin Management Studies",
+    "description": "Principal Investigator and Coordinator of the Centre for Narmada River Basin Management Studies, Government of India."
+  },
+  {
+    "id": "dist-other-dst-water-climate-policy-pi",
+    "date": "N/A",
+    "title": "PI & Coordinator, DST-Centre for Policy Research on Water and Climate",
+    "description": "Principal Investigator and Coordinator of the DST-Centre for Policy Research on Water and Climate, Government of India."
+  },
+  {
+    "id": "dist-other-editor-plos-scientific-reports",
+    "date": "N/A",
+    "title": "Editor, PLOS Climate & Scientific Reports",
+    "description": "Serves as an Editor for PLOS Climate and for Scientific Reports, published by the Nature Publishing Group."
+  },
+  {
+    "id": "dist-other-associate-editor",
+    "date": "N/A",
+    "title": "Associate Editor, ASCE Journal of Hazardous, Toxic, and Radioactive Waste",
+    "description": "Serves as Associate Editor for the ASCE Journal of Hazardous, Toxic, and Radioactive Waste, the International Journal of Cloud Applications and Computing, and the International Journal of Software Science and Computational Intelligence."
+  },
+  {
+    "id": "dist-other-iei-young-engineers",
+    "date": "N/A",
+    "title": "IEI Young Engineers Award, Civil Engineering Division",
+    "description": "Received the Institution of Engineers (India) Young Engineers Award in the Civil Engineering Division."
+  },
+  {
+    "id": "dist-other-dst-fast-track",
+    "date": "N/A",
+    "title": "DST Young Scientist – Fast Track Grant",
+    "description": "Awarded the Department of Science and Technology (DST) Young Scientist Fast Track Grant."
+  },
+  {
+    "id": "dist-other-inspire-faculty",
+    "date": "N/A",
+    "title": "INSPIRE Faculty Fellowship Award",
+    "description": "Recipient of the INSPIRE Faculty Fellowship Award."
+  }
+]
