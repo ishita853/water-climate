@@ -22,7 +22,7 @@ function ScholarCard({ entries }: ScholarCardProps) {
           key={entry.name}
           className={`group flex flex-col overflow-hidden rounded-xl border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-stone-900 ${cardHover}`}
         >
-          <div className="aspect-[4/5] w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
+          <div className="aspect-square w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
             {entry.photo ? (
               <img
                 src={entry.photo}
