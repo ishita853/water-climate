@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { domains } from '../data/researchDomainsData'
 import type { Domain } from '../data/researchDomainsData'
+import { usePrefersReducedMotion } from '../hooks/usePrefersReducedMotion'
 
 const AUTO_ADVANCE_MS = 6000
 const TRANSITION_MS = 4000
@@ -21,7 +22,7 @@ const captionChild = {
  * shrinks (never crops, via object-contain) to whatever space remains. Remounts fresh
  * on every slide change (parent keys on activeIndex), so the Ken Burns zoom and the
  * caption stagger both replay automatically — no manual re-trigger bookkeeping needed. */
-function DomainCardBody({ domain }: { domain: Domain }) {
+function DomainCardBody({ domain, reducedMotion }: { domain: Domain; reducedMotion: boolean }) {
   return (
     <article className="flex h-full flex-col overflow-hidden rounded-[18px] border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-stone-900">
       <div className="flex min-h-0 flex-1 items-center justify-center overflow-hidden bg-stone-50 dark:bg-stone-800">
@@ -29,7 +30,7 @@ function DomainCardBody({ domain }: { domain: Domain }) {
           src={domain.image}
           alt={domain.title}
           className="max-h-full max-w-full object-contain"
-          style={{ animation: 'carousel-kenburns 8s ease-out forwards' }}
+          style={reducedMotion ? undefined : { animation: 'carousel-kenburns 8s ease-out forwards' }}
         />
       </div>
 
@@ -64,10 +65,12 @@ function ProgressIndicator({
   active,
   total,
   onSelect,
+  reducedMotion,
 }: {
   active: number
   total: number
   onSelect: (index: number) => void
+  reducedMotion: boolean
 }) {
   return (
     <div className="flex shrink-0 flex-col items-center gap-3 pt-6">
@@ -96,12 +99,16 @@ function ProgressIndicator({
         <div
           key={active}
           className="h-full origin-left rounded-full bg-teal-600 dark:bg-teal-500"
-          style={{
-            animationName: 'carousel-progress-fill',
-            animationDuration: `${AUTO_ADVANCE_MS}ms`,
-            animationTimingFunction: 'linear',
-            animationFillMode: 'forwards',
-          }}
+          style={
+            reducedMotion
+              ? { transform: 'scaleX(1)' }
+              : {
+                  animationName: 'carousel-progress-fill',
+                  animationDuration: `${AUTO_ADVANCE_MS}ms`,
+                  animationTimingFunction: 'linear',
+                  animationFillMode: 'forwards',
+                }
+          }
         />
       </div>
     </div>
@@ -111,15 +118,18 @@ function ProgressIndicator({
 function ResearchDomains() {
   const [activeIndex, setActiveIndex] = useState(0)
   const total = domains.length
+  const prefersReducedMotion = usePrefersReducedMotion()
 
   // Runs continuously — never paused by hover, focus, or scroll — so the section is
-  // always visibly sliding on its own.
+  // always visibly sliding on its own. Skipped entirely when the visitor prefers reduced
+  // motion: the domain stays put until manually selected via the dots below.
   useEffect(() => {
+    if (prefersReducedMotion) return
     const id = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % total)
     }, AUTO_ADVANCE_MS)
     return () => clearInterval(id)
-  }, [total])
+  }, [total, prefersReducedMotion])
 
   return (
     <div className="flex flex-col items-center">
@@ -128,17 +138,22 @@ function ResearchDomains() {
           <motion.div
             key={activeIndex}
             className="absolute inset-0"
-            initial={{ opacity: 0, x: 60, scale: 0.96, filter: 'blur(6px)' }}
+            initial={prefersReducedMotion ? false : { opacity: 0, x: 60, scale: 0.96, filter: 'blur(6px)' }}
             animate={{ opacity: 1, x: 0, scale: 1, filter: 'blur(0px)' }}
-            exit={{ opacity: 0, x: -60, scale: 0.96, filter: 'blur(6px)' }}
-            transition={{ duration: TRANSITION_MS / 1000, ease: EASE }}
+            exit={prefersReducedMotion ? { opacity: 0 } : { opacity: 0, x: -60, scale: 0.96, filter: 'blur(6px)' }}
+            transition={{ duration: prefersReducedMotion ? 0.15 : TRANSITION_MS / 1000, ease: EASE }}
           >
-            <DomainCardBody domain={domains[activeIndex]} />
+            <DomainCardBody domain={domains[activeIndex]} reducedMotion={prefersReducedMotion} />
           </motion.div>
         </AnimatePresence>
       </div>
 
-      <ProgressIndicator active={activeIndex} total={total} onSelect={setActiveIndex} />
+      <ProgressIndicator
+        active={activeIndex}
+        total={total}
+        onSelect={setActiveIndex}
+        reducedMotion={prefersReducedMotion}
+      />
     </div>
   )
 }

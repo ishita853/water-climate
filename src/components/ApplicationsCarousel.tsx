@@ -61,22 +61,28 @@ function ApplicationsCarousel({ apps, intervalMs = 5000 }: ApplicationsCarouselP
             className="group grid grid-cols-1 lg:grid-cols-2"
             aria-label={`View application: ${app.title}`}
           >
-            <div className="flex items-center justify-center overflow-hidden bg-stone-50 dark:bg-stone-800">
-              <img
-                src={app.image}
-                alt={app.title}
-                className="w-full transition-transform duration-500 group-hover:scale-[1.03]"
-              />
+            <div
+              className="flex items-center justify-center overflow-hidden bg-stone-50 p-10 dark:bg-stone-800 sm:p-14"
+              style={{ background: `linear-gradient(135deg, ${app.accent}14, transparent 65%)` }}
+            >
+              <div
+                className="flex h-32 w-32 shrink-0 items-center justify-center overflow-hidden rounded-3xl border border-stone-200 bg-white shadow-sm transition-transform duration-500 group-hover:scale-[1.04] dark:border-stone-700 dark:bg-stone-900 sm:h-40 sm:w-40"
+                style={{ boxShadow: `0 4px 20px ${app.accent}22` }}
+              >
+                <img src={app.icon} alt="" className="h-full w-full object-cover" />
+              </div>
             </div>
 
             <div className="flex flex-col justify-center p-8 sm:p-10">
               <p className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: app.accent }}>
-                Application {index + 1} of {total}
+                {app.domainTag} &middot; Application {index + 1} of {total}
               </p>
               <h3 className="mt-3 font-serif text-2xl font-semibold text-stone-900 transition-colors duration-300 group-hover:text-teal-800 dark:text-stone-50 dark:group-hover:text-teal-300 sm:text-3xl">
                 {app.title}
               </h3>
-              <p className="mt-3 text-base leading-[1.7] text-stone-600 dark:text-stone-400">{app.tagline}</p>
+              {app.description && (
+                <p className="mt-3 text-base leading-[1.7] text-stone-600 dark:text-stone-400">{app.description}</p>
+              )}
               <span className="mt-5 inline-flex w-fit items-center gap-1.5 text-sm font-semibold text-teal-700 dark:text-teal-400">
                 View Application
                 <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />

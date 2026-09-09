@@ -6,6 +6,7 @@ import updates from '../../data/linkedinUpdates.json'
 import profile from '../../data/profile.json'
 import Reveal from './Reveal'
 import LinkedinIcon from './icons/LinkedinIcon'
+import { usePrefersReducedMotion } from '../hooks/usePrefersReducedMotion'
 import type { LinkedInUpdate } from '../types'
 
 // pdfjs-dist is a heavy dependency (~1MB) needed by only one slide — code-split it out of
@@ -56,7 +57,15 @@ const captionChild = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.45, ease: EASE } },
 }
 
-function SlideCard({ item, isActive }: { item: LinkedInUpdate; isActive: boolean }) {
+function SlideCard({
+  item,
+  isActive,
+  reducedMotion,
+}: {
+  item: LinkedInUpdate
+  isActive: boolean
+  reducedMotion: boolean
+}) {
   const date = formatDate(item.date)
 
   // Replays the caption's entrance animation only on the transition INTO active —
@@ -68,7 +77,7 @@ function SlideCard({ item, isActive }: { item: LinkedInUpdate; isActive: boolean
     wasActiveRef.current = isActive
   }, [isActive])
 
-  const kenBurns: CSSProperties = isActive ? { animation: 'carousel-kenburns 7s ease-out forwards' } : {}
+  const kenBurns: CSSProperties = isActive && !reducedMotion ? { animation: 'carousel-kenburns 7s ease-out forwards' } : {}
 
   return (
     <article className="flex h-full flex-col overflow-hidden rounded-[18px] border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-stone-900">
@@ -179,6 +188,7 @@ function SlideCard({ item, isActive }: { item: LinkedInUpdate; isActive: boolean
 function RecentUpdates() {
   const items = updates as LinkedInUpdate[]
   const total = items.length
+  const prefersReducedMotion = usePrefersReducedMotion()
 
   const [activeIndex, setActiveIndex] = useState(0)
   const [trackIndex, setTrackIndex] = useState(1)
@@ -205,12 +215,13 @@ function RecentUpdates() {
 
   // Autoplay — resets on every slide change (manual or automatic), so a manual
   // click restarts the dwell time rather than fighting an in-flight timer. Runs
-  // continuously and is never paused by hover/focus/scroll/touch.
+  // continuously and is never paused by hover/focus/scroll/touch — except when the
+  // visitor prefers reduced motion, where it's off entirely and navigation is manual-only.
   useEffect(() => {
-    if (total <= 1) return
+    if (total <= 1 || prefersReducedMotion) return
     const id = setInterval(() => paginate(1), AUTOPLAY_MS)
     return () => clearInterval(id)
-  }, [total, paginate, activeIndex])
+  }, [total, paginate, activeIndex, prefersReducedMotion])
 
   // Infinite-loop illusion: after sliding onto a cloned edge slide, snap the track
   // back to the equivalent real slide with transitions off for exactly one frame.
@@ -286,7 +297,7 @@ function RecentUpdates() {
                     }}
                     transition={{ type: 'spring', stiffness: 260, damping: 26, mass: 0.9 }}
                   >
-                    <SlideCard item={item} isActive={isSlideActive} />
+                    <SlideCard item={item} isActive={isSlideActive} reducedMotion={prefersReducedMotion} />
                   </motion.div>
                 )
               })}
@@ -315,12 +326,16 @@ function RecentUpdates() {
                   <div
                     key={activeIndex}
                     className="h-full origin-left rounded-full bg-teal-600 dark:bg-teal-500"
-                    style={{
-                      animationName: 'carousel-progress-fill',
-                      animationDuration: `${AUTOPLAY_MS}ms`,
-                      animationTimingFunction: 'linear',
-                      animationFillMode: 'forwards',
-                    }}
+                    style={
+                      prefersReducedMotion
+                        ? { transform: 'scaleX(1)' }
+                        : {
+                            animationName: 'carousel-progress-fill',
+                            animationDuration: `${AUTOPLAY_MS}ms`,
+                            animationTimingFunction: 'linear',
+                            animationFillMode: 'forwards',
+                          }
+                    }
                   />
                 </div>
               </div>

@@ -1,5 +1,6 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
+import { usePrefersReducedMotion } from './hooks/usePrefersReducedMotion'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { CONTAINER } from './lib/layout'
@@ -14,18 +15,20 @@ import Applications from './pages/Applications'
 import ApplicationDetail from './pages/ApplicationDetail'
 import OtherActivities from './pages/OtherActivities'
 import PositionsAvailable from './pages/PositionsAvailable'
+import Contact from './pages/Contact'
 
 function AnimatedRoutes() {
   const location = useLocation()
+  const prefersReducedMotion = usePrefersReducedMotion()
 
   return (
     <AnimatePresence mode="wait">
       <motion.div
         key={location.pathname}
-        initial={{ opacity: 0, y: 8 }}
+        initial={{ opacity: 0, y: prefersReducedMotion ? 0 : 8 }}
         animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -8 }}
-        transition={{ duration: 0.25, ease: 'easeInOut' }}
+        exit={{ opacity: 0, y: prefersReducedMotion ? 0 : -8 }}
+        transition={{ duration: prefersReducedMotion ? 0 : 0.25, ease: 'easeInOut' }}
       >
         <Routes location={location}>
           <Route path="/" element={<Home />} />
@@ -39,6 +42,7 @@ function AnimatedRoutes() {
           <Route path="/applications/:slug" element={<ApplicationDetail />} />
           <Route path="/other-activities" element={<OtherActivities />} />
           <Route path="/positions-available" element={<PositionsAvailable />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </motion.div>
     </AnimatePresence>

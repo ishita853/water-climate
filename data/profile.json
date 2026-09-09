@@ -54,5 +54,11 @@
     "linkedin": "https://in.linkedin.com/in/prof-manish-kumar-goyal-8062b86",
     "labLinkedin": "https://in.linkedin.com/company/water-and-climate-lab-iit-indore",
     "youtube": "https://www.youtube.com/@WaterClimateandSustainabilityL"
+  },
+  "lab": {
+    "name": "Water, Climate and Sustainability Lab, IIT Indore",
+    "email": "waterandclimate@iiti.ac.in",
+    "phone": "+91 8126 258897",
+    "website": "https://water.iiti.ac.in/"
   }
 }

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { ChevronDown } from 'lucide-react'
-import { NavLink, useLocation } from 'react-router-dom'
+import { Link, NavLink, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import profile from '../../data/profile.json'
 import { buttonHover } from '../data/cardPalette'
@@ -200,12 +200,12 @@ function Navbar() {
         <div className="hidden items-center justify-end gap-3 xl:flex xl:justify-self-end">
           <ThemeToggle />
           <div className="h-5 w-px bg-stone-200 dark:bg-stone-800" />
-          <a
-            href={`mailto:${profile.email}`}
+          <Link
+            to="/contact"
             className={`inline-flex h-11 shrink-0 items-center justify-center whitespace-nowrap rounded-lg bg-teal-600 px-4 text-sm font-semibold text-white shadow-sm hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-400 ${buttonHover}`}
           >
             Contact
-          </a>
+          </Link>
         </div>
 
         {/* Mobile controls */}
@@ -253,13 +253,13 @@ function Navbar() {
                   {link.label}
                 </NavLink>
               ))}
-              <a
-                href={`mailto:${profile.email}`}
+              <Link
+                to="/contact"
                 onClick={() => setIsOpen(false)}
                 className="mt-2 rounded-lg bg-teal-600 px-3 py-2.5 text-center text-sm font-semibold text-white dark:bg-teal-500"
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </motion.div>
         )}

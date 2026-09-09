@@ -1,108 +1,91 @@
-import { flagshipProjects, platformProjects } from './projectsData'
-import { domains } from './researchDomainsData'
-import patents from '../../data/patents.json'
-
 export interface Application {
   slug: string
   title: string
-  tagline: string
-  /** Longer factual description — only flagship projects have one; platform projects rely on `tagline`. */
-  description?: string
-  status: string
-  type: string
-  cta: string
-  link: string
-  /** Illustration used on the index carousel and the Home page's Featured Projects. */
-  image: string
-  /** A more literal artifact (e.g. a screenshot of the live tool) shown large on the detail page. */
-  detailImage: string
+  url: string
+  /** Literal subject noun already present in the app's own title — not an invented category. */
+  domainTag: string
   accent: string
-  tint: string
-  darkTint: string
-  /** Stages paraphrased directly from the project's own description/tagline — no invented architecture. */
-  howItWorks?: string[]
-  /** Eyebrow of the research domain this project is explicitly tied to in existing site copy. */
-  relatedResearchEyebrow?: string
-  /** id of the patent this project is explicitly tied to in existing site copy. */
-  relatedPatentId?: string
+  icon: string
+  /** Only present where an official one-line description exists (sourced from the lab's own
+   * water.iiti.ac.in "Applications Hosted" copy) — left undefined rather than invented where
+   * no official description exists yet (Air Quality Monitoring Portal, DRMP). */
+  description?: string
+  /** Verified against live response headers (no X-Frame-Options/CSP frame-ancestors block) —
+   * still worth re-checking if a target app's hosting changes. */
+  embeddable: boolean
+  status: 'live' | 'unavailable'
 }
 
-interface ApplicationMeta {
-  slug: string
-  type: string
-  detailImage: string
-  howItWorks?: string[]
-  relatedResearchEyebrow?: string
-  relatedPatentId?: string
-}
-
-// Keyed by the project's existing title. Each field here is derived from wording already
-// present in projectsData.ts / researchDomainsData.ts / patents.json — nothing invented.
-const metaByTitle: Record<string, ApplicationMeta> = {
-  'Smart India Flood Analysis Tool': {
-    slug: 'smart-india-flood-analysis',
-    type: 'Tool',
-    detailImage: '/assets/images/flood-c.png',
-    howItWorks: ['Satellite Data', 'AI-Based Analysis', 'Flood Extent Assessment', 'Disaster Response Teams'],
-    relatedResearchEyebrow: 'AI Systems',
-    relatedPatentId: 'patent-2025-flood-risk-assessment',
+// Real, currently-deployed research applications from the Water, Climate and Sustainability
+// Lab, IIT Indore ecosystem (water.iiti.ac.in). Replaces the previous 5 applications derived
+// from projectsData.ts — those flagship/platform projects now surface under Projects on the
+// homepage instead (see FeaturedProjects), so nothing is deleted, just recategorized.
+export const applications: Application[] = [
+  {
+    slug: 'air-quality-monitoring-portal',
+    title: 'Air Quality Monitoring Portal',
+    url: 'https://erc.mp.gov.in/aero/',
+    domainTag: 'Air Quality',
+    accent: '#7c3aed',
+    icon: '/assets/images/app-air-quality-portal-icon.png',
+    embeddable: true,
+    status: 'live',
   },
-  'Central India Water Portal': {
+  {
+    slug: 'district-river-management-plan',
+    title: 'District River Management Plan (DRMP)',
+    url: 'https://district-river-management-plan.netlify.app/',
+    domainTag: 'River Management',
+    accent: '#1e40af',
+    icon: '/assets/images/app-drmp-icon.png',
+    embeddable: true,
+    status: 'live',
+  },
+  {
+    slug: 'heatwave-portal',
+    title: 'Heatwave Portal',
+    url: 'https://heatpulse-india.netlify.app/',
+    domainTag: 'Heatwave & Climate',
+    accent: '#dc2626',
+    icon: '/assets/images/app-heatwave-portal-icon.png',
+    description: 'Climate intelligence and heat risk analytics platform.',
+    embeddable: false,
+    status: 'unavailable',
+  },
+  {
     slug: 'central-india-water-portal',
-    type: 'Portal',
-    detailImage: '/assets/images/wp.png',
-    howItWorks: ['Regional Water-Resource Data', 'Consolidated Access Point', 'Unified Reference', 'Planning & Policy Decisions'],
-    relatedResearchEyebrow: 'AI Systems',
+    title: 'Central India Water Portal',
+    url: 'https://water-portal.netlify.app/',
+    domainTag: 'Water Resources',
+    accent: '#0891b2',
+    icon: '/assets/images/app-water-portal-icon.jpeg',
+    description: 'Water resource monitoring and visualization system.',
+    embeddable: true,
+    status: 'live',
   },
-  'Wetlands Analysis Platform': {
-    slug: 'wetlands-analysis-platform',
-    type: 'Platform',
-    detailImage: '/assets/images/wetlnds-c.png',
-    howItWorks: ['Satellite Remote Sensing', 'Wetland Mapping', 'Ecological Condition Assessment', 'Ramsar Research & Policy Support'],
-    relatedResearchEyebrow: 'Wetlands',
-    relatedPatentId: 'patent-576312-wetland-water-quality',
+  {
+    slug: 'indian-key-biodiversity-areas-portal',
+    title: 'Indian Key Biodiversity Areas Portal',
+    url: 'https://kba-iiti-cb1w.vercel.app/',
+    domainTag: 'Biodiversity',
+    accent: '#16a34a',
+    icon: '/assets/images/app-kba-portal-icon.jpeg',
+    description: 'Biodiversity and ecological assessment tools.',
+    embeddable: true,
+    status: 'live',
   },
-  'Central India Water Body Analysis': {
-    slug: 'central-india-water-body-analysis',
-    type: 'Dashboard',
-    detailImage: '/assets/images/wb.png',
-    howItWorks: ['Continuous Monitoring', 'Water Body Extent & Change Detection', 'Dashboard', 'Drought-Response Planning'],
+  {
+    slug: 'indian-water-audit-portal',
+    title: 'Indian Water Audit Portal',
+    url: 'https://water-audit-azure.vercel.app',
+    domainTag: 'Water Audit',
+    accent: '#2563eb',
+    icon: '/assets/images/app-water-audit-portal-icon.jpeg',
+    description: 'Audit and sustainability reporting framework.',
+    embeddable: true,
+    status: 'live',
   },
-  'Air Quality Prediction System': {
-    slug: 'air-quality-prediction',
-    type: 'System',
-    detailImage: '/assets/images/air-q.png',
-    howItWorks: ['Aerosol & Pollution Research', 'AI Forecasting Model', 'Daily Predictions', 'Public Access'],
-    relatedResearchEyebrow: 'Atmosphere',
-  },
-}
-
-function buildApplication(project: (typeof flagshipProjects)[number] | (typeof platformProjects)[number]): Application {
-  const meta = metaByTitle[project.title]
-  if (!meta) {
-    throw new Error(`No application metadata registered for "${project.title}"`)
-  }
-  return {
-    slug: meta.slug,
-    title: project.title,
-    tagline: project.subtitle,
-    description: 'description' in project ? project.description : undefined,
-    status: project.tag,
-    type: meta.type,
-    cta: project.cta,
-    link: project.link,
-    image: project.image,
-    detailImage: meta.detailImage,
-    accent: project.accent,
-    tint: project.tint,
-    darkTint: project.darkTint,
-    howItWorks: meta.howItWorks,
-    relatedResearchEyebrow: meta.relatedResearchEyebrow,
-    relatedPatentId: meta.relatedPatentId,
-  }
-}
-
-export const applications: Application[] = [...flagshipProjects, ...platformProjects].map(buildApplication)
+]
 
 export function getApplicationBySlug(slug: string | undefined) {
   return applications.find((app) => app.slug === slug)
@@ -116,14 +99,4 @@ export function getAdjacentApplications(slug: string) {
     previous: applications[(index - 1 + total) % total],
     next: applications[(index + 1) % total],
   }
-}
-
-export function getRelatedResearchDomain(eyebrow: string | undefined) {
-  if (!eyebrow) return undefined
-  return domains.find((domain) => domain.eyebrow === eyebrow)
-}
-
-export function getRelatedPatent(patentId: string | undefined) {
-  if (!patentId) return undefined
-  return patents.find((patent) => patent.id === patentId)
 }

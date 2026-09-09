@@ -45,7 +45,7 @@ export default {
         },
       },
       maxWidth: {
-        page: '1800px',
+        page: '2160px',
       },
     },
   },
