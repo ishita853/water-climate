@@ -16,7 +16,7 @@ const PdfSlideDeck = lazy(() => import('./PdfSlideDeck'))
 function PdfDeckFallback() {
   return (
     <div className="relative flex min-h-0 flex-1 items-center justify-center overflow-hidden bg-stone-50 p-2 sm:p-3 dark:bg-stone-800">
-      <div className="flex flex-col items-center gap-2 text-stone-400 dark:text-stone-500">
+      <div className="flex flex-col items-center gap-2 text-stone-700 dark:text-stone-200">
         <FileText className="h-6 w-6 animate-pulse" />
         <p className="text-sm">Loading slides&hellip;</p>
       </div>
@@ -80,7 +80,7 @@ function SlideCard({
   const kenBurns: CSSProperties = isActive && !reducedMotion ? { animation: 'carousel-kenburns 7s ease-out forwards' } : {}
 
   return (
-    <article className="flex h-full flex-col overflow-hidden rounded-[18px] border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-stone-900">
+    <article className="flex h-full flex-col overflow-hidden rounded-lg border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-stone-900">
       {item.video ? (
         <div className="relative flex min-h-0 flex-1 items-center justify-center overflow-hidden bg-stone-50 p-2 sm:p-3 dark:bg-stone-800">
           <video
@@ -118,7 +118,7 @@ function SlideCard({
         </div>
       ) : (
         <div className="relative flex min-h-0 flex-1 flex-col justify-center overflow-hidden bg-stone-50 p-8 sm:p-10 dark:bg-stone-950/40">
-          <LinkedinIcon className="h-6 w-6 text-teal-600/70 dark:text-teal-400/70" />
+          <LinkedinIcon className="h-6 w-6 text-teal-600 dark:text-teal-400" />
           <p className="mt-6 font-serif text-2xl font-semibold leading-snug text-stone-800 sm:text-3xl dark:text-stone-100">
             &ldquo;{item.title}&rdquo;
           </p>
@@ -139,9 +139,9 @@ function SlideCard({
           variants={captionChild}
           className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-700 dark:text-teal-400"
         >
-          From the Professor
+          News &amp; Updates
         </motion.p>
-        <motion.p variants={captionChild} className="mt-1 text-xs font-medium text-stone-400 dark:text-stone-500">
+        <motion.p variants={captionChild} className="mt-1 text-xs font-medium text-stone-700 dark:text-stone-200">
           {profile.name}
           {item.category && <> &middot; {item.category}</>}
         </motion.p>
@@ -156,7 +156,7 @@ function SlideCard({
         {item.excerpt && (
           <motion.p
             variants={captionChild}
-            className="mt-2 line-clamp-2 text-sm leading-relaxed text-stone-600 dark:text-stone-400"
+            className="mt-2 line-clamp-2 text-base leading-relaxed text-stone-700 dark:text-stone-200"
           >
             {item.excerpt}
           </motion.p>
@@ -164,7 +164,7 @@ function SlideCard({
 
         <motion.div variants={captionChild} className="mt-4 flex items-center justify-between gap-3">
           {date ? (
-            <span className="text-xs font-medium uppercase tracking-wide text-stone-400 dark:text-stone-500">
+            <span className="text-xs font-medium uppercase tracking-wide text-stone-700 dark:text-stone-200">
               {date}
             </span>
           ) : (
@@ -215,13 +215,13 @@ function RecentUpdates() {
 
   // Autoplay — resets on every slide change (manual or automatic), so a manual
   // click restarts the dwell time rather than fighting an in-flight timer. Runs
-  // continuously and is never paused by hover/focus/scroll/touch — except when the
-  // visitor prefers reduced motion, where it's off entirely and navigation is manual-only.
+  // continuously and is never paused by hover/focus/scroll/touch, and never stopped by
+  // reduced motion — only the transition itself simplifies (see SlideCard/track below).
   useEffect(() => {
-    if (total <= 1 || prefersReducedMotion) return
+    if (total <= 1) return
     const id = setInterval(() => paginate(1), AUTOPLAY_MS)
     return () => clearInterval(id)
-  }, [total, paginate, activeIndex, prefersReducedMotion])
+  }, [total, paginate, activeIndex])
 
   // Infinite-loop illusion: after sliding onto a cloned edge slide, snap the track
   // back to the equivalent real slide with transitions off for exactly one frame.
@@ -256,12 +256,12 @@ function RecentUpdates() {
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-700 dark:text-teal-400">
-              From the Professor
+              News &amp; Updates
             </p>
-            <h2 className="mt-2 font-serif text-2xl font-semibold text-stone-900 dark:text-stone-50">
+            <h2 className="mt-2 font-serif text-2xl font-semibold text-stone-900 sm:text-3xl dark:text-stone-50">
               Recent Updates
             </h2>
-            <p className="mt-2 max-w-xl text-sm text-stone-600 dark:text-stone-400">
+            <p className="mt-3 max-w-2xl text-base leading-relaxed text-stone-700 dark:text-stone-200 sm:text-lg">
               Selected research, achievements, announcements, and professional updates.
             </p>
           </div>
@@ -313,13 +313,13 @@ function RecentUpdates() {
                 whileHover={{ scale: 1.15 }}
                 whileTap={{ scale: 0.9 }}
                 transition={{ type: 'spring', stiffness: 400, damping: 20 }}
-                className="flex h-8 w-8 items-center justify-center rounded-full text-stone-500 transition-colors hover:bg-stone-100 hover:text-teal-700 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-teal-400"
+                className="flex h-8 w-8 items-center justify-center rounded-full text-stone-700 transition-colors hover:bg-stone-100 hover:text-teal-700 dark:text-stone-200 dark:hover:bg-stone-800 dark:hover:text-teal-400"
               >
                 <ArrowLeft className="h-4 w-4" />
               </motion.button>
 
               <div className="flex flex-col items-center gap-2">
-                <p className="text-xs font-medium tracking-wide text-stone-400 dark:text-stone-500">
+                <p className="text-xs font-medium tracking-wide text-stone-700 dark:text-stone-200">
                   {String(activeIndex + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}
                 </p>
                 <div className="h-[3px] w-24 overflow-hidden rounded-full bg-stone-200 dark:bg-stone-800">
@@ -347,7 +347,7 @@ function RecentUpdates() {
                 whileHover={{ scale: 1.15 }}
                 whileTap={{ scale: 0.9 }}
                 transition={{ type: 'spring', stiffness: 400, damping: 20 }}
-                className="flex h-8 w-8 items-center justify-center rounded-full text-stone-500 transition-colors hover:bg-stone-100 hover:text-teal-700 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-teal-400"
+                className="flex h-8 w-8 items-center justify-center rounded-full text-stone-700 transition-colors hover:bg-stone-100 hover:text-teal-700 dark:text-stone-200 dark:hover:bg-stone-800 dark:hover:text-teal-400"
               >
                 <ArrowRight className="h-4 w-4" />
               </motion.button>

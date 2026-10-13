@@ -5,6 +5,7 @@ import EventCard from '../components/EventCard'
 import EventTextCard from '../components/EventTextCard'
 import RecentEventsSlideshow from '../components/RecentEventsSlideshow'
 import Reveal from '../components/Reveal'
+import MaskedHeading from '../components/MaskedHeading'
 import YearFilterDropdown, { type YearFilter } from '../components/YearFilterDropdown'
 import { usePrefersReducedMotion } from '../hooks/usePrefersReducedMotion'
 import { getEventYear, getRecentEvents } from '../lib/events'
@@ -75,16 +76,16 @@ function Events() {
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-700 dark:text-teal-400">
           Field &amp; Outreach
         </p>
-        <h1 className="mt-2 font-serif text-4xl font-bold tracking-tight text-stone-900 dark:text-stone-50 sm:text-5xl">
+        <MaskedHeading as="h1" className="mt-2 font-serif text-4xl font-bold tracking-tight text-stone-900 dark:text-stone-50 sm:text-5xl">
           Events
-        </h1>
-        <p className="mt-4 max-w-2xl text-base leading-[1.7] text-stone-600 dark:text-stone-400">
+        </MaskedHeading>
+        <p className="mt-4 max-w-2xl text-base leading-[1.7] text-stone-700 dark:text-stone-200">
           Workshops, capacity-building programs, and outreach activities from the field.
         </p>
       </div>
 
       {items.length === 0 ? (
-        <p className="text-stone-500 dark:text-stone-500">Nothing to show yet.</p>
+        <p className="text-stone-700 dark:text-stone-200">Nothing to show yet.</p>
       ) : (
         <>
           {recentEvents.length > 0 && (
@@ -103,7 +104,7 @@ function Events() {
               <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
                 <h2 className="font-serif text-2xl font-semibold text-stone-900 dark:text-stone-50">All Events</h2>
                 <div className="flex items-center gap-3">
-                  <p className="text-sm text-stone-500 dark:text-stone-500">
+                  <p className="text-sm text-stone-700 dark:text-stone-200">
                     Showing {filtered.length} of {items.length} events
                   </p>
                   <YearFilterDropdown value={yearFilter} availableYears={availableYears} onChange={setYearFilter} />
@@ -121,7 +122,7 @@ function Events() {
                 className="flex flex-col gap-12"
               >
                 {groups.length === 0 && (
-                  <p className="text-stone-500 dark:text-stone-500">No events for this year.</p>
+                  <p className="text-stone-700 dark:text-stone-200">No events for this year.</p>
                 )}
                 {groups.map((group) => (
                   <div key={group.year}>

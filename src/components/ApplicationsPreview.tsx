@@ -11,12 +11,12 @@ function ApplicationsPreview() {
         <div className="flex items-baseline justify-between gap-4">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-700 dark:text-teal-400">
-              Digital Platforms
+              Applications
             </p>
-            <h2 className="mt-2 font-serif text-2xl font-semibold text-stone-900 dark:text-stone-50">
+            <h2 className="mt-2 font-serif text-2xl font-semibold text-stone-900 sm:text-3xl dark:text-stone-50">
               We build research tools for a sustainable future.
             </h2>
-            <p className="mt-2 max-w-xl text-sm text-stone-600 dark:text-stone-400">
+            <p className="mt-3 max-w-2xl text-base leading-relaxed text-stone-700 dark:text-stone-200 sm:text-lg">
               Our platforms span climate, water, and air quality, making complex environmental
               data accessible and actionable for India.
             </p>

@@ -78,7 +78,7 @@ function ResearchSnapshot() {
             <h3 className="mt-3 font-serif text-base font-semibold text-stone-900 dark:text-stone-50">
               {item.title}
             </h3>
-            <p className="mt-1.5 text-sm leading-relaxed text-stone-600 dark:text-stone-400">
+            <p className="mt-1.5 text-base leading-relaxed text-stone-700 dark:text-stone-200">
               {item.sentence}
             </p>
           </div>

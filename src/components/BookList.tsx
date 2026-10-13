@@ -24,7 +24,7 @@ function groupByYear(books: Book[]) {
 
 function BookList({ books }: BookListProps) {
   if (books.length === 0) {
-    return <p className="text-stone-500 dark:text-stone-500">No books yet.</p>
+    return <p className="text-stone-700 dark:text-stone-200">No books yet.</p>
   }
 
   const groups = groupByYear(books)
@@ -50,18 +50,18 @@ function BookList({ books }: BookListProps) {
                     className="h-28 w-20 shrink-0 rounded-md border border-stone-200 object-cover shadow-sm dark:border-stone-700"
                   />
                 ) : (
-                  <div className="flex h-28 w-20 shrink-0 items-center justify-center rounded-md border border-stone-200 bg-stone-50 text-stone-300 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-600">
+                  <div className="flex h-28 w-20 shrink-0 items-center justify-center rounded-md border border-stone-200 bg-stone-50 text-stone-300 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-200">
                     <BookOpen className="h-7 w-7" strokeWidth={1.5} />
                   </div>
                 )}
 
                 <div className="min-w-0">
                   <p className="font-medium leading-snug text-stone-900 dark:text-stone-100">{book.title}</p>
-                  <p className="mt-1.5 text-sm text-stone-600 dark:text-stone-400">{book.authors}</p>
+                  <p className="mt-1.5 text-sm text-stone-700 dark:text-stone-200">{book.authors}</p>
                   <p className="text-sm italic text-teal-700 dark:text-teal-400">
                     {book.publisher}
                     {book.isbn && (
-                      <span className="ml-2 not-italic text-stone-400 dark:text-stone-500">· ISBN {book.isbn}</span>
+                      <span className="ml-2 not-italic text-stone-700 dark:text-stone-200">· ISBN {book.isbn}</span>
                     )}
                   </p>
                   {book.doi && (
@@ -70,7 +70,7 @@ function BookList({ books }: BookListProps) {
                         href={`https://doi.org/${book.doi}`}
                         target="_blank"
                         rel="noreferrer"
-                        className="inline-flex items-center gap-1.5 font-medium text-stone-500 transition-colors hover:text-teal-700 dark:text-stone-500 dark:hover:text-teal-400"
+                        className="inline-flex items-center gap-1.5 font-medium text-stone-700 transition-colors hover:text-teal-700 dark:text-stone-200 dark:hover:text-teal-400"
                       >
                         <ExternalLink className="h-3.5 w-3.5" strokeWidth={1.75} />
                         DOI

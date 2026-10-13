@@ -13,8 +13,8 @@ function ProfileCard() {
           className="h-28 w-28 rounded-full border border-stone-200 object-cover object-top dark:border-stone-700"
         />
         <p className="mt-4 font-serif text-lg font-semibold text-stone-900 dark:text-stone-50">{profile.name}</p>
-        <p className="text-sm text-stone-600 dark:text-stone-400">{profile.title}</p>
-        <p className="text-sm text-stone-500 dark:text-stone-500">{profile.institution}</p>
+        <p className="text-sm text-stone-700 dark:text-stone-200">{profile.title}</p>
+        <p className="text-sm text-stone-700 dark:text-stone-200">{profile.institution}</p>
 
         <div className="mt-4 flex gap-4 border-t border-stone-200 pt-4 dark:border-stone-800">
           <a
@@ -49,14 +49,14 @@ function ProfileCard() {
           })}
         </div>
 
-        <p className="mt-4 w-full border-t border-stone-200 pt-4 text-left text-xs font-semibold uppercase tracking-wide text-stone-400 dark:border-stone-800 dark:text-stone-500">
+        <p className="mt-4 w-full border-t border-stone-200 pt-4 text-left text-xs font-semibold uppercase tracking-wide text-stone-700 dark:border-stone-800 dark:text-stone-200">
           Key Fellowships
         </p>
         <ul className="mt-2 flex flex-wrap justify-center gap-1.5">
           {profile.credentials.map((credential) => (
             <li
               key={credential}
-              className="rounded bg-stone-100 px-2 py-0.5 text-xs text-stone-600 dark:bg-stone-800 dark:text-stone-300"
+              className="rounded bg-stone-100 px-2 py-0.5 text-xs text-stone-700 dark:bg-stone-800 dark:text-stone-200"
             >
               {credential}
             </li>

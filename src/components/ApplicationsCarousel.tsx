@@ -42,7 +42,7 @@ function ApplicationsCarousel({ apps, intervalMs = 5000 }: ApplicationsCarouselP
 
   return (
     <div
-      className="relative overflow-hidden rounded-[24px] border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-stone-900"
+      className="relative overflow-hidden rounded-lg border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-stone-900"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
@@ -66,7 +66,7 @@ function ApplicationsCarousel({ apps, intervalMs = 5000 }: ApplicationsCarouselP
               style={{ background: `linear-gradient(135deg, ${app.accent}14, transparent 65%)` }}
             >
               <div
-                className="flex h-32 w-32 shrink-0 items-center justify-center overflow-hidden rounded-3xl border border-stone-200 bg-white shadow-sm transition-transform duration-500 group-hover:scale-[1.04] dark:border-stone-700 dark:bg-stone-900 sm:h-40 sm:w-40"
+                className="flex h-32 w-32 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-stone-200 bg-white shadow-sm transition-transform duration-500 group-hover:scale-[1.04] dark:border-stone-700 dark:bg-stone-900 sm:h-40 sm:w-40"
                 style={{ boxShadow: `0 4px 20px ${app.accent}22` }}
               >
                 <img src={app.icon} alt="" className="h-full w-full object-cover" />
@@ -81,7 +81,7 @@ function ApplicationsCarousel({ apps, intervalMs = 5000 }: ApplicationsCarouselP
                 {app.title}
               </h3>
               {app.description && (
-                <p className="mt-3 text-base leading-[1.7] text-stone-600 dark:text-stone-400">{app.description}</p>
+                <p className="mt-3 text-base leading-[1.7] text-stone-700 dark:text-stone-200">{app.description}</p>
               )}
               <span className="mt-5 inline-flex w-fit items-center gap-1.5 text-sm font-semibold text-teal-700 dark:text-teal-400">
                 View Application
@@ -98,7 +98,7 @@ function ApplicationsCarousel({ apps, intervalMs = 5000 }: ApplicationsCarouselP
             type="button"
             onClick={() => paginate(-1)}
             aria-label="Previous application"
-            className="absolute left-3 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-stone-600 shadow-md transition-colors hover:text-teal-700 dark:bg-stone-900/90 dark:text-stone-300 dark:hover:text-teal-400"
+            className="absolute left-3 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-stone-700 shadow-md transition-colors hover:text-teal-700 dark:bg-stone-900/90 dark:text-stone-200 dark:hover:text-teal-400"
           >
             <ChevronLeft className="h-5 w-5" />
           </button>
@@ -106,7 +106,7 @@ function ApplicationsCarousel({ apps, intervalMs = 5000 }: ApplicationsCarouselP
             type="button"
             onClick={() => paginate(1)}
             aria-label="Next application"
-            className="absolute right-3 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-stone-600 shadow-md transition-colors hover:text-teal-700 dark:bg-stone-900/90 dark:text-stone-300 dark:hover:text-teal-400"
+            className="absolute right-3 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-stone-700 shadow-md transition-colors hover:text-teal-700 dark:bg-stone-900/90 dark:text-stone-200 dark:hover:text-teal-400"
           >
             <ChevronRight className="h-5 w-5" />
           </button>

@@ -1,3 +1,4 @@
+import { ArrowUpRight } from 'lucide-react'
 import type { StudentEntry } from '../types'
 import { cardHover } from '../data/cardPalette'
 
@@ -27,21 +28,29 @@ function ScholarCard({ entries }: ScholarCardProps) {
               <img
                 src={entry.photo}
                 alt={entry.name}
-                className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.035]"
               />
             ) : (
-              <div className="flex h-full w-full items-center justify-center font-serif text-3xl font-semibold text-stone-400 dark:text-stone-600">
+              <div className="flex h-full w-full items-center justify-center font-serif text-3xl font-semibold text-stone-700 dark:text-stone-200">
                 {initials(entry.name)}
               </div>
             )}
           </div>
 
           <div className="flex flex-1 flex-col p-5">
-            <p className="font-serif text-lg font-semibold text-teal-700 dark:text-teal-400">{entry.name}</p>
-            {entry.year && <p className="mt-0.5 text-sm text-stone-500 dark:text-stone-500">{entry.year}</p>}
+            <div className="flex items-start justify-between gap-2">
+              <p className="font-serif text-lg font-semibold text-teal-700 transition-transform duration-500 ease-out group-hover:-translate-y-0.5 dark:text-teal-400">
+                {entry.name}
+              </p>
+              <ArrowUpRight
+                className="mt-1 h-4 w-4 shrink-0 text-stone-300 opacity-0 transition-all duration-300 ease-out group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:opacity-100 dark:text-stone-200"
+                strokeWidth={1.75}
+              />
+            </div>
+            {entry.year && <p className="mt-0.5 text-sm text-stone-700 dark:text-stone-200">{entry.year}</p>}
             {entry.topic && (
-              <p className="mt-3 text-sm leading-relaxed text-stone-600 dark:text-stone-400">
-                <span className="font-semibold text-stone-700 dark:text-stone-300">Key research: </span>
+              <p className="mt-3 text-base leading-relaxed text-stone-700 dark:text-stone-200">
+                <span className="font-semibold text-stone-700 dark:text-stone-200">Key research: </span>
                 {entry.topic}
               </p>
             )}

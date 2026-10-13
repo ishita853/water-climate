@@ -1,5 +1,6 @@
 import Hero from '../components/Hero'
 import AboutSection from '../components/AboutSection'
+import ResearchDomainsPreview from '../components/ResearchDomainsPreview'
 import ApplicationsPreview from '../components/ApplicationsPreview'
 import HighlightsStrip from '../components/HighlightsStrip'
 import FeaturedProjects from '../components/FeaturedProjects'
@@ -11,13 +12,16 @@ import Reveal from '../components/Reveal'
 
 function Home() {
   return (
-    <div className="flex flex-col gap-16 pb-8">
+    <div className="flex flex-col gap-16 pb-8 sm:gap-20">
       <Hero />
       <Reveal>
         <AboutSection />
       </Reveal>
-      <ApplicationsPreview />
+      <Reveal>
+        <ResearchDomainsPreview />
+      </Reveal>
       <HighlightsStrip />
+      <ApplicationsPreview />
       <Reveal>
         <FeaturedProjects />
       </Reveal>

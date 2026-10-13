@@ -7,7 +7,7 @@ interface TeachingPhilosophyListProps {
 
 function TeachingPhilosophyList({ items }: TeachingPhilosophyListProps) {
   if (items.length === 0) {
-    return <p className="text-stone-500 dark:text-stone-500">No entries yet.</p>
+    return <p className="text-stone-700 dark:text-stone-200">No entries yet.</p>
   }
 
   return (
@@ -21,11 +21,11 @@ function TeachingPhilosophyList({ items }: TeachingPhilosophyListProps) {
                 <span className="h-2 w-2 shrink-0 rounded-full" style={{ backgroundColor: style.dot }} />
                 <p className="font-medium text-stone-900 dark:text-stone-100">{item.approach}</p>
               </div>
-              <span className="shrink-0 rounded-full bg-white/70 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-stone-700 dark:bg-stone-900/60 dark:text-stone-300">
+              <span className="shrink-0 rounded-full bg-white/70 px-2.5 py-1 text-[0.8125rem] font-semibold uppercase tracking-wide text-stone-700 dark:bg-stone-900/60 dark:text-stone-200">
                 {item.mode}
               </span>
             </div>
-            <p className="mt-2 text-sm leading-relaxed text-stone-600 dark:text-stone-400">{item.description}</p>
+            <p className="mt-2 text-base leading-relaxed text-stone-700 dark:text-stone-200 sm:text-lg">{item.description}</p>
           </li>
         )
       })}

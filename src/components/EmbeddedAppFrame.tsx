@@ -47,13 +47,13 @@ function EmbeddedAppFrame({ url, title, accent }: EmbeddedAppFrameProps) {
     <div
       ref={containerRef}
       className={`flex flex-col overflow-hidden border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-stone-900 ${
-        isFullscreen ? 'h-screen rounded-none' : 'h-[70vh] min-h-[520px] rounded-2xl'
+        isFullscreen ? 'h-screen rounded-none' : 'h-[88vh] min-h-[720px] rounded-2xl'
       }`}
     >
       <div className="flex shrink-0 items-center justify-between gap-3 border-b border-stone-200 px-4 py-2.5 dark:border-stone-800">
         <div className="flex min-w-0 items-center gap-2">
           <span className="h-2 w-2 shrink-0 rounded-full" style={{ backgroundColor: accent }} aria-hidden />
-          <p className="truncate text-sm font-medium text-stone-700 dark:text-stone-300">{title}</p>
+          <p className="truncate text-sm font-medium text-stone-700 dark:text-stone-200">{title}</p>
         </div>
         <div className="flex shrink-0 items-center gap-1">
           <a
@@ -62,7 +62,7 @@ function EmbeddedAppFrame({ url, title, accent }: EmbeddedAppFrameProps) {
             rel="noreferrer"
             aria-label="Open externally"
             title="Open externally"
-            className="flex h-8 w-8 items-center justify-center rounded-md text-stone-500 transition-colors hover:bg-stone-100 hover:text-teal-700 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-teal-400"
+            className="flex h-8 w-8 items-center justify-center rounded-md text-stone-700 transition-colors hover:bg-stone-100 hover:text-teal-700 dark:text-stone-200 dark:hover:bg-stone-800 dark:hover:text-teal-400"
           >
             <ExternalLink className="h-4 w-4" />
           </a>
@@ -71,7 +71,7 @@ function EmbeddedAppFrame({ url, title, accent }: EmbeddedAppFrameProps) {
             onClick={toggleFullscreen}
             aria-label={isFullscreen ? 'Exit fullscreen' : 'Fullscreen'}
             title={isFullscreen ? 'Exit fullscreen' : 'Fullscreen'}
-            className="flex h-8 w-8 items-center justify-center rounded-md text-stone-500 transition-colors hover:bg-stone-100 hover:text-teal-700 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-teal-400"
+            className="flex h-8 w-8 items-center justify-center rounded-md text-stone-700 transition-colors hover:bg-stone-100 hover:text-teal-700 dark:text-stone-200 dark:hover:bg-stone-800 dark:hover:text-teal-400"
           >
             {isFullscreen ? <Minimize2 className="h-4 w-4" /> : <Maximize2 className="h-4 w-4" />}
           </button>
@@ -80,7 +80,7 @@ function EmbeddedAppFrame({ url, title, accent }: EmbeddedAppFrameProps) {
 
       <div className="relative min-h-0 flex-1 bg-stone-50 dark:bg-stone-950/40">
         {!isLoaded && (
-          <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-3 bg-stone-50 text-stone-400 dark:bg-stone-950 dark:text-stone-500">
+          <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-3 bg-stone-50 text-stone-700 dark:bg-stone-950 dark:text-stone-200">
             <Loader2 className="h-6 w-6 animate-spin" />
             <p className="text-sm">Loading application&hellip;</p>
           </div>

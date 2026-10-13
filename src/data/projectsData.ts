@@ -15,6 +15,7 @@ export interface PlatformProject {
   tag: string
   title: string
   subtitle: string
+  description?: string
   cta: string
   link: string
   image: string

@@ -1,6 +1,7 @@
-import { Award, Sparkles } from 'lucide-react'
+import { motion } from 'framer-motion'
+import { Sparkles } from 'lucide-react'
 import type { Distinction } from '../types'
-import { cardHover } from '../data/cardPalette'
+import { usePrefersReducedMotion } from '../hooks/usePrefersReducedMotion'
 
 interface DistinctionsListProps {
   items: Distinction[]
@@ -24,8 +25,10 @@ function sortKey(date: string) {
 }
 
 function DistinctionsList({ items }: DistinctionsListProps) {
+  const prefersReducedMotion = usePrefersReducedMotion()
+
   if (items.length === 0) {
-    return <p className="text-stone-500 dark:text-stone-500">Nothing to show yet.</p>
+    return <p className="text-stone-700 dark:text-stone-200">Nothing to show yet.</p>
   }
 
   const dated = [...items].filter((item) => item.date !== 'N/A').sort((a, b) => sortKey(b.date) - sortKey(a.date))
@@ -37,28 +40,33 @@ function DistinctionsList({ items }: DistinctionsListProps) {
         <div className="relative">
           <div
             aria-hidden
-            className="absolute left-[13px] top-1.5 bottom-1.5 w-px bg-gradient-to-b from-teal-600 via-stone-200 to-transparent dark:from-teal-500 dark:via-stone-800 sm:left-[15px]"
+            className="absolute left-0 top-2 bottom-2 w-px bg-gradient-to-b from-teal-600 via-stone-200 to-transparent dark:from-teal-500 dark:via-stone-800"
           />
-          <ul className="flex flex-col gap-5">
-            {dated.map((item) => {
+          <ul className="flex flex-col">
+            {dated.map((item, i) => {
               const formatted = formatDate(item.date)
               return (
-                <li key={item.id} className="relative flex gap-4 pl-9 sm:gap-5 sm:pl-11">
-                  <span className="absolute left-0 top-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full border-2 border-teal-600 bg-white text-teal-700 shadow-[0_0_0_4px_rgba(255,255,255,1)] dark:border-teal-500 dark:bg-stone-950 dark:text-teal-400 dark:shadow-[0_0_0_4px_rgba(9,9,11,1)] sm:h-8 sm:w-8">
-                    <Award className="h-3.5 w-3.5" strokeWidth={1.75} />
-                  </span>
-                  <div className={`flex-1 rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-stone-900 sm:p-6 ${cardHover}`}>
-                    {formatted && (
-                      <p className="text-xs font-semibold uppercase tracking-[0.12em] text-teal-700 dark:text-teal-400">
-                        {formatted}
-                      </p>
-                    )}
-                    <p className="mt-1.5 font-serif text-lg font-semibold text-stone-900 dark:text-stone-50">
-                      {item.title}
+                <motion.li
+                  key={item.id}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: '-40px' }}
+                  transition={{ duration: 0.5, delay: prefersReducedMotion ? 0 : Math.min(i, 8) * 0.04, ease: [0.22, 1, 0.36, 1] }}
+                  className="relative border-b border-stone-200 py-6 pl-8 last:border-b-0 dark:border-stone-800 sm:pl-10"
+                >
+                  <span className="absolute left-[-4px] top-8 h-2 w-2 rounded-full bg-teal-600 dark:bg-teal-400" />
+                  {formatted && (
+                    <p className="text-xs font-semibold uppercase tracking-[0.12em] text-teal-700 dark:text-teal-400">
+                      {formatted}
                     </p>
-                    <p className="mt-1.5 text-sm leading-relaxed text-stone-600 dark:text-stone-400">{item.description}</p>
-                  </div>
-                </li>
+                  )}
+                  <p className="mt-1.5 font-serif text-xl font-semibold sm:text-2xl text-stone-900 dark:text-stone-50">
+                    {item.title}
+                  </p>
+                  <p className="mt-1.5 max-w-2xl text-base leading-relaxed text-stone-700 dark:text-stone-200 sm:text-lg">
+                    {item.description}
+                  </p>
+                </motion.li>
               )
             })}
           </ul>
@@ -67,19 +75,23 @@ function DistinctionsList({ items }: DistinctionsListProps) {
 
       {undated.length > 0 && (
         <div>
-          <h2 className="mb-5 flex items-center gap-2 font-serif text-lg font-semibold text-stone-900 dark:text-stone-50">
+          <h2 className="mb-6 flex items-center gap-2 font-serif text-lg font-semibold text-stone-900 dark:text-stone-50">
             <Sparkles className="h-4 w-4 text-teal-600 dark:text-teal-400" strokeWidth={1.75} />
             Ongoing Roles &amp; Honors
           </h2>
-          <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {undated.map((item) => (
-              <li
+          <ul className="grid grid-cols-1 gap-x-10 gap-y-6 divide-y divide-stone-200 dark:divide-stone-800 sm:grid-cols-2 sm:divide-y-0">
+            {undated.map((item, i) => (
+              <motion.li
                 key={item.id}
-                className={`rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-stone-900 ${cardHover}`}
+                initial={{ opacity: 0, y: 16 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-40px' }}
+                transition={{ duration: 0.5, delay: prefersReducedMotion ? 0 : Math.min(i, 8) * 0.04, ease: [0.22, 1, 0.36, 1] }}
+                className="pt-6 first:pt-0 sm:pt-0"
               >
                 <p className="font-serif text-base font-semibold text-stone-900 dark:text-stone-50">{item.title}</p>
-                <p className="mt-1.5 text-sm leading-relaxed text-stone-600 dark:text-stone-400">{item.description}</p>
-              </li>
+                <p className="mt-1.5 text-base leading-relaxed text-stone-700 dark:text-stone-200 sm:text-lg">{item.description}</p>
+              </motion.li>
             ))}
           </ul>
         </div>

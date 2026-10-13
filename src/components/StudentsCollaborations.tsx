@@ -1,8 +1,7 @@
-import { ArrowRight, GraduationCap, Users } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import students from '../../data/students.json'
 import Reveal from './Reveal'
-import { cardStyle } from '../data/cardPalette'
 
 const stats = [
   { value: students.phdCompleted.length, label: 'Ph.D. Scholars Completed' },
@@ -23,7 +22,7 @@ function StudentsCollaborations() {
     <Reveal>
       <section>
         <div className="flex items-baseline justify-between gap-4">
-          <h2 className="font-serif text-2xl font-semibold text-stone-900 dark:text-stone-50">
+          <h2 className="font-serif text-2xl font-semibold text-stone-900 dark:text-stone-50 sm:text-3xl">
             Students &amp; Collaborations
           </h2>
           <Link
@@ -35,24 +34,15 @@ function StudentsCollaborations() {
           </Link>
         </div>
 
-        <div className="mt-5 grid grid-cols-2 gap-4 lg:grid-cols-4">
-          {stats.map((stat, i) => {
-            const style = cardStyle(i)
-            return (
-              <div
-                key={stat.label}
-                className={`rounded-xl border p-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${style.card}`}
-              >
-                {stat.label.includes('International') ? (
-                  <Users className="h-6 w-6" style={{ color: style.dot }} strokeWidth={1.5} />
-                ) : (
-                  <GraduationCap className="h-6 w-6" style={{ color: style.dot }} strokeWidth={1.5} />
-                )}
-                <p className="mt-3 font-serif text-2xl font-semibold text-stone-900 dark:text-stone-50">{stat.value}</p>
-                <p className="mt-1 text-sm leading-snug text-stone-600 dark:text-stone-400">{stat.label}</p>
-              </div>
-            )
-          })}
+        <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-8 lg:grid-cols-4">
+          {stats.map((stat, i) => (
+            <div key={stat.label} className={i > 0 ? 'border-stone-200 dark:border-stone-800 sm:border-l sm:pl-6' : ''}>
+              <p className="font-serif text-3xl font-semibold tracking-tight text-stone-900 dark:text-stone-50 sm:text-4xl">
+                {stat.value}
+              </p>
+              <p className="mt-1.5 text-sm leading-snug text-stone-700 dark:text-stone-200">{stat.label}</p>
+            </div>
+          ))}
         </div>
       </section>
     </Reveal>

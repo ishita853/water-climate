@@ -103,12 +103,12 @@ function PdfSlideDeck({ src, active }: PdfSlideDeckProps) {
       {status === 'ready' ? (
         <canvas ref={canvasRef} className="rounded-md shadow-sm" />
       ) : status === 'error' ? (
-        <div className="flex flex-col items-center gap-2 text-stone-400 dark:text-stone-500">
+        <div className="flex flex-col items-center gap-2 text-stone-700 dark:text-stone-200">
           <FileText className="h-6 w-6" />
           <p className="text-sm">Couldn&apos;t load the slide deck.</p>
         </div>
       ) : (
-        <div className="flex flex-col items-center gap-2 text-stone-400 dark:text-stone-500">
+        <div className="flex flex-col items-center gap-2 text-stone-700 dark:text-stone-200">
           <FileText className="h-6 w-6 animate-pulse" />
           <p className="text-sm">Loading slides&hellip;</p>
         </div>
@@ -121,7 +121,7 @@ function PdfSlideDeck({ src, active }: PdfSlideDeckProps) {
             onClick={() => goTo(-1)}
             disabled={pageIndex === 0}
             aria-label="Previous slide"
-            className="absolute left-2 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-stone-600 shadow-sm transition-colors hover:text-teal-700 disabled:opacity-0 dark:bg-stone-900/90 dark:text-stone-300 dark:hover:text-teal-400"
+            className="absolute left-2 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-stone-700 shadow-sm transition-colors hover:text-teal-700 disabled:opacity-0 dark:bg-stone-900/90 dark:text-stone-200 dark:hover:text-teal-400"
           >
             <ChevronLeft className="h-4 w-4" />
           </button>
@@ -130,11 +130,11 @@ function PdfSlideDeck({ src, active }: PdfSlideDeckProps) {
             onClick={() => goTo(1)}
             disabled={pageIndex === numPages - 1}
             aria-label="Next slide"
-            className="absolute right-2 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-stone-600 shadow-sm transition-colors hover:text-teal-700 disabled:opacity-0 dark:bg-stone-900/90 dark:text-stone-300 dark:hover:text-teal-400"
+            className="absolute right-2 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-stone-700 shadow-sm transition-colors hover:text-teal-700 disabled:opacity-0 dark:bg-stone-900/90 dark:text-stone-200 dark:hover:text-teal-400"
           >
             <ChevronRight className="h-4 w-4" />
           </button>
-          <div className="absolute bottom-2 left-1/2 -translate-x-1/2 rounded-full bg-white/90 px-2.5 py-1 text-[11px] font-medium tabular-nums text-stone-500 shadow-sm dark:bg-stone-900/90 dark:text-stone-400">
+          <div className="absolute bottom-2 left-1/2 -translate-x-1/2 rounded-full bg-white/90 px-2.5 py-1 text-[0.8125rem] font-medium tabular-nums text-stone-700 shadow-sm dark:bg-stone-900/90 dark:text-stone-200">
             {pageIndex + 1} / {numPages}
           </div>
         </>

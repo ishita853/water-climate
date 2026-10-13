@@ -5,4 +5,4 @@ export const CONTAINER = 'mx-auto w-full max-w-page px-5 sm:px-6 md:px-8 lg:px-1
 
 /** Header row height: compact on mobile, a touch taller on tablet, standard academic-site
  * height on desktop. */
-export const HEADER_HEIGHT = 'h-16 md:h-[72px] lg:h-20'
+export const HEADER_HEIGHT = 'h-16 md:h-[4.75rem] lg:h-[5.5rem]'

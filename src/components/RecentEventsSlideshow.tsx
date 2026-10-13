@@ -143,7 +143,7 @@ function RecentEventsSlideshow({ events }: RecentEventsSlideshowProps) {
                 type="button"
                 onClick={() => advance(-1)}
                 aria-label="Previous image"
-                className="flex h-8 w-8 items-center justify-center rounded-full bg-white/90 text-stone-600 shadow-md transition-colors hover:text-teal-700 dark:bg-stone-900/90 dark:text-stone-300 dark:hover:text-teal-400"
+                className="flex h-8 w-8 items-center justify-center rounded-full bg-white/90 text-stone-700 shadow-md transition-colors hover:text-teal-700 dark:bg-stone-900/90 dark:text-stone-200 dark:hover:text-teal-400"
               >
                 <ChevronUp className="h-4 w-4" />
               </button>
@@ -151,14 +151,14 @@ function RecentEventsSlideshow({ events }: RecentEventsSlideshowProps) {
                 type="button"
                 onClick={() => advance(1)}
                 aria-label="Next image"
-                className="flex h-8 w-8 items-center justify-center rounded-full bg-white/90 text-stone-600 shadow-md transition-colors hover:text-teal-700 dark:bg-stone-900/90 dark:text-stone-300 dark:hover:text-teal-400"
+                className="flex h-8 w-8 items-center justify-center rounded-full bg-white/90 text-stone-700 shadow-md transition-colors hover:text-teal-700 dark:bg-stone-900/90 dark:text-stone-200 dark:hover:text-teal-400"
               >
                 <ChevronDown className="h-4 w-4" />
               </button>
             </div>
 
             <div className="absolute bottom-3 left-3 z-10 flex items-center gap-2 rounded-full bg-stone-900/60 px-2.5 py-1 backdrop-blur-sm">
-              <span className="text-[11px] font-medium tabular-nums tracking-wide text-white">
+              <span className="text-[0.8125rem] font-medium tabular-nums tracking-wide text-white">
                 {String(imageIndex + 1).padStart(2, '0')} / {String(photoCount).padStart(2, '0')}
               </span>
               <div className="flex items-center gap-1">
@@ -198,7 +198,7 @@ function RecentEventsSlideshow({ events }: RecentEventsSlideshowProps) {
           <h3 className="font-serif text-xl font-semibold leading-snug text-stone-900 dark:text-stone-50 sm:text-2xl">
             {event.name}
           </h3>
-          <div className="flex flex-wrap items-center gap-x-5 gap-y-1.5 text-sm text-stone-500 dark:text-stone-500">
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-1.5 text-sm text-stone-700 dark:text-stone-200">
             <span className="inline-flex items-center gap-1.5">
               <Calendar className="h-3.5 w-3.5 shrink-0" strokeWidth={1.75} />
               {event.date}

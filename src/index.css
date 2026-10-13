@@ -4,28 +4,16 @@
 
 html {
   scroll-behavior: smooth;
+  /* Fluid root size: 16px up to ~1366px wide, then grows with the viewport so text and
+     rem-based spacing don't look tiny on large monitors (~18px at 1920, ~20px at 2560,
+     capped at 24px on 4K). */
+  font-size: clamp(16px, 0.335vw + 11.42px, 24px);
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  @apply overflow-x-hidden bg-stone-50 text-stone-700 transition-colors duration-200 dark:bg-stone-950 dark:text-stone-300;
-  /* Ambient page backdrop: a soft cool-to-warm wash (teal near the top, a touch of amber
-     near the bottom) pinned to the viewport, not the document, so it reads as consistent
-     depth behind the white/off-white surfaces rather than a shape that scrolls past. Kept
-     light — this is atmosphere, not a visual feature. */
-  background-image:
-    radial-gradient(60% 50% at 10% -5%, rgba(0, 109, 104, 0.07), transparent 60%),
-    radial-gradient(55% 45% at 100% 0%, rgba(45, 191, 176, 0.05), transparent 55%),
-    radial-gradient(65% 55% at 100% 100%, rgba(217, 119, 6, 0.05), transparent 60%),
-    radial-gradient(50% 45% at 0% 95%, rgba(217, 119, 6, 0.04), transparent 55%);
-  background-attachment: fixed;
-}
-
-.dark body {
-  background-image:
-    radial-gradient(60% 50% at 10% -5%, rgba(45, 212, 191, 0.06), transparent 60%),
-    radial-gradient(55% 45% at 100% 0%, rgba(45, 212, 191, 0.04), transparent 55%),
-    radial-gradient(65% 55% at 100% 100%, rgba(245, 158, 11, 0.045), transparent 60%),
-    radial-gradient(50% 45% at 0% 95%, rgba(245, 158, 11, 0.03), transparent 55%);
+  /* Flat, restrained surface — deliberately no decorative gradient wash or corner blobs. */
+  @apply overflow-x-hidden bg-stone-50 text-stone-800 antialiased transition-colors duration-200 dark:bg-stone-950 dark:text-stone-100;
 }
 
 @keyframes carousel-progress-fill {

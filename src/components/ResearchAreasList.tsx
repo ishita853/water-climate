@@ -1,4 +1,5 @@
-import { cardStyle, cardHover } from '../data/cardPalette'
+import { motion } from 'framer-motion'
+import { usePrefersReducedMotion } from '../hooks/usePrefersReducedMotion'
 import type { ResearchArea } from '../types'
 
 interface ResearchAreasListProps {
@@ -6,20 +7,32 @@ interface ResearchAreasListProps {
 }
 
 function ResearchAreasList({ areas }: ResearchAreasListProps) {
+  const prefersReducedMotion = usePrefersReducedMotion()
+
   return (
-    <ul className="grid grid-cols-1 gap-3 md:grid-cols-2">
-      {areas.map((area, i) => {
-        const style = cardStyle(i)
-        return (
-          <li key={area.name} className={`rounded-lg border p-4 ${style.card} ${cardHover}`}>
-            <div className="flex items-center gap-2">
-              <span className="h-2 w-2 shrink-0 rounded-full" style={{ backgroundColor: style.dot }} />
-              <p className="font-medium text-stone-900 dark:text-stone-100">{area.name}</p>
-            </div>
-            <p className="mt-1 text-sm text-stone-600 dark:text-stone-400">{area.description}</p>
-          </li>
-        )
-      })}
+    <ul className="flex flex-col divide-y divide-stone-200 dark:divide-stone-800">
+      {areas.map((area, i) => (
+        <motion.li
+          key={area.name}
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-40px' }}
+          transition={{ duration: 0.5, delay: prefersReducedMotion ? 0 : i * 0.06, ease: [0.22, 1, 0.36, 1] }}
+          className="group flex items-start gap-5 py-6 sm:gap-8"
+        >
+          <span className="font-serif text-2xl font-semibold text-teal-600 tabular-nums dark:text-teal-400 sm:text-3xl">
+            {String(i + 1).padStart(2, '0')}
+          </span>
+          <div>
+            <p className="font-serif text-lg font-semibold text-stone-900 dark:text-stone-50 sm:text-xl">
+              {area.name}
+            </p>
+            <p className="mt-1.5 max-w-2xl text-base leading-relaxed text-stone-700 dark:text-stone-200 sm:text-base">
+              {area.description}
+            </p>
+          </div>
+        </motion.li>
+      ))}
     </ul>
   )
 }

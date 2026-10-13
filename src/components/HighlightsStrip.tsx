@@ -1,54 +1,39 @@
-import type { LucideIcon } from 'lucide-react'
-import { Award, BookOpen, Building2, Quote } from 'lucide-react'
 import profile from '../../data/profile.json'
 import Reveal from './Reveal'
-import { cardStyle } from '../data/cardPalette'
 
 const deanLine = profile.secondaryTitles.find((line) => line.includes('Dean'))
 
-interface Highlight {
-  icon: LucideIcon
+interface Stat {
   value: string
   label: string
 }
 
-const highlights: Highlight[] = [
-  { icon: Award, value: 'Top 2%', label: profile.highlight?.title ?? 'Scientists Worldwide' },
-  {
-    icon: BookOpen,
-    value: String(profile.publicationSummary.total),
-    label: 'Publications & Patents',
-  },
-  { icon: Building2, value: 'Former Dean', label: deanLine ?? 'Infrastructure Development' },
-  {
-    icon: Quote,
-    value: String(profile.bibliometrics.citations),
-    label: `Citations · h-index ${profile.bibliometrics.hIndex}`,
-  },
+const stats: Stat[] = [
+  { value: 'Top 2%', label: profile.highlight?.title ?? 'Scientists Worldwide' },
+  { value: String(profile.publicationSummary.total), label: 'Publications & Patents' },
+  { value: String(profile.bibliometrics.citations), label: `Citations · h-index ${profile.bibliometrics.hIndex}` },
+  { value: String(profile.publicationSummary.patents), label: 'Patents' },
 ]
 
 function HighlightsStrip() {
   return (
     <Reveal>
-      <section>
-        <h2 className="font-serif text-2xl font-semibold text-stone-900 dark:text-stone-50">Highlights</h2>
-        <div className="mt-5 grid grid-cols-2 gap-4 lg:grid-cols-4">
-          {highlights.map((item, i) => {
-            const style = cardStyle(i)
-            return (
-              <div
-                key={item.label}
-                className={`rounded-xl border p-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${style.card}`}
-              >
-                <item.icon className="h-6 w-6" style={{ color: style.dot }} strokeWidth={1.5} />
-                <p className="mt-3 font-serif text-xl font-semibold text-stone-900 dark:text-stone-50">
-                  {item.value}
-                </p>
-                <p className="mt-1 text-sm leading-snug text-stone-600 dark:text-stone-400">{item.label}</p>
-              </div>
-            )
-          })}
+      <section className="border-y border-stone-200 py-10 dark:border-stone-800 sm:py-12">
+        <div className="grid grid-cols-2 gap-x-6 gap-y-8 lg:grid-cols-4">
+          {stats.map((stat, i) => (
+            <div key={stat.label} className={i > 0 ? 'border-stone-200 dark:border-stone-800 sm:border-l sm:pl-6' : ''}>
+              <p className="font-serif text-4xl font-semibold tracking-tight text-stone-900 dark:text-stone-50 sm:text-5xl">
+                {stat.value}
+              </p>
+              <p className="mt-2 text-base leading-snug text-stone-700 dark:text-stone-200 sm:text-lg">{stat.label}</p>
+            </div>
+          ))}
         </div>
+        {deanLine && (
+          <p className="mt-8 text-base text-stone-800 dark:text-stone-100 sm:text-lg">
+            {deanLine} &middot; {profile.department}, {profile.institution}
+          </p>
+        )}
       </section>
     </Reveal>
   )

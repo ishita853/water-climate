@@ -1,15 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-const sansStack = [
-  'Inter',
-  'ui-sans-serif',
-  'system-ui',
-  '-apple-system',
-  'Segoe UI',
-  'Roboto',
-  'Helvetica Neue',
-  'Arial',
-  'sans-serif',
-]
+// One consistent, professional serif across the whole site (headings, body, UI).
+// Times New Roman ships with Windows/macOS; Tinos / Liberation Serif are its
+// metric-compatible equivalents on Linux/Android, so layouts don't shift.
+const fontStack = ['"Times New Roman"', 'Times', 'Tinos', '"Liberation Serif"', 'ui-serif', 'Georgia', 'serif']
 
 export default {
   darkMode: 'class',
@@ -17,32 +10,68 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // One professional family site-wide. `font-serif` is kept as an alias (rather than
-        // removed) so existing heading classNames don't need to be touched file-by-file.
-        sans: sansStack,
-        serif: sansStack,
+        sans: fontStack,
+        serif: fontStack,
       },
       colors: {
+        // Neutral scale — warm research-white through to a deep navy/charcoal, NOT Tailwind's
+        // default warm-gray-black. `stone-900` (light-mode heading text) is a deep navy rather
+        // than near-black, and `stone-800/900/950` (dark-mode surfaces) form a genuine
+        // "atmosphere / ocean at night" ramp rather than an inverted gray scale.
         stone: {
-          50: '#FAFAF8',
-          900: '#171717',
+          50: '#F7F8F6',
+          // 100–600 inherit Tailwind's default warm-neutral stone scale for body/muted text
+          // and light-mode borders — those steps already read correctly.
+          700: '#2A3942',
+          800: '#1B2830',
+          900: '#101B24',
+          950: '#08121A',
         },
-        // Muted deep-teal accent ramp anchored at #006D68 (primary accent), replacing
-        // Tailwind's brighter default teal so every existing `teal-*` class site-wide
-        // repaints to the restrained brand color without per-file edits.
+        // The site's one accent family — deep ocean to atmospheric-ice blue. Water + climate
+        // science, not sustainability-green: no other hue competes with this one for UI
+        // chrome (nav, buttons, links, borders, progress, cards). Named `teal` only so the
+        // ~30 files already using `teal-*` utility classes repaint without per-file edits;
+        // the actual hues are unambiguously blue (hue ~198-205°), not teal/cyan-green.
         teal: {
-          50: '#EAF5F4',
-          100: '#CFE8E5',
-          200: '#A3D2CC',
-          300: '#6FB6AE',
-          400: '#3D968D',
-          500: '#1C7D74',
-          600: '#006D68',
-          700: '#005852',
-          800: '#04443F',
-          900: '#0A332F',
-          950: '#051D1A',
+          50: '#EFF6FA',
+          100: '#DCECF3', // "Ice / Mist"
+          200: '#B8DAEA',
+          300: '#8FC3DD',
+          400: '#5BAED6', // "Atmospheric Blue"
+          500: '#2E93C4',
+          600: '#168CC7', // "Water Blue" — primary interactive shade (buttons, links, active states)
+          700: '#0B5E8E', // "Marine Blue"
+          800: '#083B5C', // "Deep Ocean"
+          900: '#062A42',
+          950: '#061B2B', // "Midnight / Deep Water"
         },
+        // Header/footer-only tokens — a light "mineral" neutral family and a dark "abyss" navy
+        // family, kept separate from `stone` so this pass (global chrome only) can't ripple
+        // into every page's card surfaces. Light mode uses `mineral` (near-white, cool-toned,
+        // never dark); dark mode uses `abyss` (genuine midnight navy, tuned to read as blue at
+        // low brightness, never green-black).
+        mineral: {
+          50: '#F7FAFC', // Mineral white
+          100: '#EEF7FB', // Soft ice
+          200: '#DCEFF7', // Pale water
+          300: '#B9DCEB', // Light blue
+        },
+        abyss: {
+          700: '#193C52', // Blue-gray
+          800: '#0A3048', // Marine navy
+          900: '#071E30', // Deep ocean
+          950: '#06131F', // Midnight
+        },
+      },
+      // Slightly larger text scale than Tailwind's default so body copy, captions and
+      // labels stay comfortably readable. Everything is rem-based, so it also scales with
+      // the fluid root font-size set in index.css on large screens.
+      fontSize: {
+        xs: ['0.875rem', { lineHeight: '1.35rem' }],
+        sm: ['1.0625rem', { lineHeight: '1.65rem' }],
+        base: ['1.125rem', { lineHeight: '1.8rem' }],
+        lg: ['1.25rem', { lineHeight: '1.9rem' }],
+        xl: ['1.375rem', { lineHeight: '2rem' }],
       },
       maxWidth: {
         page: '2160px',

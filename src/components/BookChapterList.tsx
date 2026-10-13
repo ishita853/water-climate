@@ -39,7 +39,7 @@ function BookChapterList({ chapters }: BookChapterListProps) {
   }, [chapters, yearFilter])
 
   if (chapters.length === 0) {
-    return <p className="text-stone-500 dark:text-stone-500">No book chapters yet.</p>
+    return <p className="text-stone-700 dark:text-stone-200">No book chapters yet.</p>
   }
 
   const groups = groupByYear(filtered)
@@ -47,13 +47,13 @@ function BookChapterList({ chapters }: BookChapterListProps) {
   return (
     <div className="flex flex-col gap-8">
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <p className="text-sm text-stone-500 dark:text-stone-500">
+        <p className="text-sm text-stone-700 dark:text-stone-200">
           Showing {filtered.length} of {chapters.length} book chapters
         </p>
         <YearFilterDropdown value={yearFilter} availableYears={availableYears} onChange={setYearFilter} />
       </div>
 
-      {groups.length === 0 && <p className="text-stone-500 dark:text-stone-500">No book chapters for this year.</p>}
+      {groups.length === 0 && <p className="text-stone-700 dark:text-stone-200">No book chapters for this year.</p>}
 
       {groups.map((group) => (
         <div key={group.year}>
@@ -68,11 +68,11 @@ function BookChapterList({ chapters }: BookChapterListProps) {
                 className={`rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-800 dark:bg-stone-900 ${cardHover}`}
               >
                 <p className="font-medium leading-snug text-stone-900 dark:text-stone-100">{chapter.title}</p>
-                <p className="mt-1.5 text-sm text-stone-600 dark:text-stone-400">{chapter.authors}</p>
+                <p className="mt-1.5 text-sm text-stone-700 dark:text-stone-200">{chapter.authors}</p>
                 <p className="text-sm italic text-teal-700 dark:text-teal-400">
                   {chapter.bookTitle}
                   {chapter.yearDetail && chapter.yearDetail !== String(chapter.year) && (
-                    <span className="ml-2 not-italic text-stone-400 dark:text-stone-500">· {chapter.yearDetail}</span>
+                    <span className="ml-2 not-italic text-stone-700 dark:text-stone-200">· {chapter.yearDetail}</span>
                   )}
                 </p>
                 {(chapter.link || chapter.isbn) && (
@@ -82,14 +82,14 @@ function BookChapterList({ chapters }: BookChapterListProps) {
                         href={chapter.link}
                         target="_blank"
                         rel="noreferrer"
-                        className="inline-flex items-center gap-1.5 font-medium text-stone-500 transition-colors hover:text-teal-700 dark:text-stone-500 dark:hover:text-teal-400"
+                        className="inline-flex items-center gap-1.5 font-medium text-stone-700 transition-colors hover:text-teal-700 dark:text-stone-200 dark:hover:text-teal-400"
                       >
                         <ExternalLink className="h-3.5 w-3.5" strokeWidth={1.75} />
                         DOI
                       </a>
                     )}
                     {chapter.isbn && (
-                      <span className="text-stone-400 dark:text-stone-500">ISBN {chapter.isbn}</span>
+                      <span className="text-stone-700 dark:text-stone-200">ISBN {chapter.isbn}</span>
                     )}
                   </div>
                 )}

@@ -14,7 +14,7 @@ function LeadershipRoles() {
     <Reveal>
       <section>
         <div className="flex items-baseline justify-between gap-4">
-          <h2 className="font-serif text-2xl font-semibold text-stone-900 dark:text-stone-50">
+          <h2 className="font-serif text-2xl font-semibold text-stone-900 dark:text-stone-50 sm:text-3xl">
             Leadership &amp; Editorial Roles
           </h2>
           <Link
@@ -32,14 +32,14 @@ function LeadershipRoles() {
             return (
               <div
                 key={role.id}
-                className={`flex gap-3 rounded-xl border p-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${style.card}`}
+                className={`flex gap-3 rounded-lg border p-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-md ${style.card}`}
               >
                 <Landmark className="mt-0.5 h-5 w-5 shrink-0" style={{ color: style.dot }} strokeWidth={1.5} />
                 <div>
                   <p className="font-serif text-base font-semibold text-stone-900 dark:text-stone-50">
                     {role.title}
                   </p>
-                  <p className="mt-1 text-sm leading-relaxed text-stone-600 dark:text-stone-400">
+                  <p className="mt-1 text-base leading-relaxed text-stone-700 dark:text-stone-200 sm:text-lg">
                     {role.description}
                   </p>
                 </div>

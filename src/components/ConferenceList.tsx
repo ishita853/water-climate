@@ -23,7 +23,7 @@ function groupByYear(events: ConferenceEvent[]) {
 
 function ConferenceList({ events }: ConferenceListProps) {
   if (events.length === 0) {
-    return <p className="text-stone-500 dark:text-stone-500">No events yet.</p>
+    return <p className="text-stone-700 dark:text-stone-200">No events yet.</p>
   }
 
   const groups = groupByYear(events)
@@ -45,22 +45,22 @@ function ConferenceList({ events }: ConferenceListProps) {
                 <div className="flex flex-wrap items-start justify-between gap-2">
                   <p className="font-medium leading-snug text-stone-900 dark:text-stone-100">{event.title}</p>
                   {event.type && (
-                    <span className="shrink-0 rounded-full bg-teal-50 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-teal-700 dark:bg-teal-950 dark:text-teal-400">
+                    <span className="shrink-0 rounded-full bg-teal-50 px-2.5 py-1 text-[0.8125rem] font-semibold uppercase tracking-wide text-teal-700 dark:bg-teal-950 dark:text-teal-400">
                       {event.type}
                     </span>
                   )}
                 </div>
-                <p className="mt-1.5 text-sm text-stone-600 dark:text-stone-400">
+                <p className="mt-1.5 text-sm text-stone-700 dark:text-stone-200">
                   {[event.date, event.duration].filter(Boolean).join(' · ')}
                 </p>
                 {event.organizer && (
-                  <p className="mt-1 text-sm text-stone-500 dark:text-stone-500">{event.organizer}</p>
+                  <p className="mt-1 text-sm text-stone-700 dark:text-stone-200">{event.organizer}</p>
                 )}
                 <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm">
                   {event.role && <span className="italic text-teal-700 dark:text-teal-400">{event.role}</span>}
-                  {event.venue && <span className="text-stone-500 dark:text-stone-500">{event.venue}</span>}
+                  {event.venue && <span className="text-stone-700 dark:text-stone-200">{event.venue}</span>}
                   {event.participants && (
-                    <span className="text-stone-400 dark:text-stone-500">{event.participants} participants</span>
+                    <span className="text-stone-700 dark:text-stone-200">{event.participants} participants</span>
                   )}
                 </div>
               </li>

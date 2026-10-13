@@ -24,7 +24,7 @@ const captionChild = {
  * caption stagger both replay automatically — no manual re-trigger bookkeeping needed. */
 function DomainCardBody({ domain, reducedMotion }: { domain: Domain; reducedMotion: boolean }) {
   return (
-    <article className="flex h-full flex-col overflow-hidden rounded-[18px] border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-stone-900">
+    <article className="flex h-full flex-col overflow-hidden rounded-lg border border-stone-200 bg-white shadow-sm dark:border-stone-800 dark:bg-stone-900">
       <div className="flex min-h-0 flex-1 items-center justify-center overflow-hidden bg-stone-50 dark:bg-stone-800">
         <img
           src={domain.image}
@@ -53,7 +53,7 @@ function DomainCardBody({ domain, reducedMotion }: { domain: Domain; reducedMoti
         >
           {domain.title}
         </motion.h3>
-        <motion.p variants={captionChild} className="mt-3 text-[15px] leading-[1.7] text-stone-600 dark:text-stone-400">
+        <motion.p variants={captionChild} className="mt-3 text-[1.0625rem] leading-[1.7] text-stone-700 dark:text-stone-200">
           {domain.description}
         </motion.p>
       </motion.div>
@@ -92,7 +92,7 @@ function ProgressIndicator({
           />
         ))}
       </div>
-      <p className="text-xs font-medium tracking-wide text-stone-400 dark:text-stone-500">
+      <p className="text-xs font-medium tracking-wide text-stone-700 dark:text-stone-200">
         {String(active + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}
       </p>
       <div className="h-[3px] w-24 overflow-hidden rounded-full bg-stone-200 dark:bg-stone-800">
@@ -120,20 +120,19 @@ function ResearchDomains() {
   const total = domains.length
   const prefersReducedMotion = usePrefersReducedMotion()
 
-  // Runs continuously — never paused by hover, focus, or scroll — so the section is
-  // always visibly sliding on its own. Skipped entirely when the visitor prefers reduced
-  // motion: the domain stays put until manually selected via the dots below.
+  // Runs continuously — never paused by hover, focus, or scroll, and never stopped by
+  // reduced-motion (only the transition itself simplifies below) — so the section is
+  // always visibly advancing on its own.
   useEffect(() => {
-    if (prefersReducedMotion) return
     const id = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % total)
     }, AUTO_ADVANCE_MS)
     return () => clearInterval(id)
-  }, [total, prefersReducedMotion])
+  }, [total])
 
   return (
     <div className="flex flex-col items-center">
-      <div className="relative h-[600px] w-full max-w-3xl overflow-hidden sm:h-[640px] lg:h-[680px]">
+      <div className="relative h-[600px] w-full max-w-6xl overflow-hidden sm:h-[640px] lg:h-[680px]">
         <AnimatePresence initial={false}>
           <motion.div
             key={activeIndex}

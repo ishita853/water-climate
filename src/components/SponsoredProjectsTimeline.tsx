@@ -37,7 +37,7 @@ function SponsoredProjectsTimeline({ projects }: SponsoredProjectsTimelineProps)
                     {project.duration}
                   </p>
                   <span
-                    className={`shrink-0 rounded-full border px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide ${
+                    className={`shrink-0 rounded-full border px-2.5 py-1 text-[0.8125rem] font-semibold uppercase tracking-wide ${
                       isPI
                         ? 'border-teal-600 bg-teal-600 text-white dark:border-teal-500 dark:bg-teal-500'
                         : 'border-teal-600/50 text-teal-700 dark:border-teal-500/40 dark:text-teal-400'
@@ -49,7 +49,7 @@ function SponsoredProjectsTimeline({ projects }: SponsoredProjectsTimelineProps)
                 <p className="mt-1.5 font-serif text-lg font-semibold leading-snug text-stone-900 dark:text-stone-50">
                   {project.title}
                 </p>
-                <p className="mt-1.5 inline-flex items-center gap-1.5 text-sm italic text-stone-500 dark:text-stone-500">
+                <p className="mt-1.5 inline-flex items-center gap-1.5 text-sm italic text-stone-700 dark:text-stone-200">
                   <Landmark className="h-3.5 w-3.5 shrink-0" strokeWidth={1.75} />
                   {project.agency}
                 </p>

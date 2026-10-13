@@ -10,10 +10,10 @@ function ResearchDomainsPreview() {
         <div className="flex items-baseline justify-between gap-4">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-700 dark:text-teal-400">
-              Our Laboratory
+              Research Areas
             </p>
-            <h2 className="mt-2 font-serif text-2xl font-semibold text-stone-900 dark:text-stone-50">
-              Research Domains
+            <h2 className="mt-2 font-serif text-2xl font-semibold text-stone-900 sm:text-3xl dark:text-stone-50 sm:text-3xl">
+              Where the lab works
             </h2>
           </div>
           <Link

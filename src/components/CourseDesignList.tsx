@@ -1,45 +1,61 @@
+import { motion } from 'framer-motion'
 import type { DesignedCourse } from '../types'
-import { cardStyle, cardHover } from '../data/cardPalette'
+import { usePrefersReducedMotion } from '../hooks/usePrefersReducedMotion'
 
 interface CourseDesignListProps {
   courses: DesignedCourse[]
 }
 
 function CourseDesignList({ courses }: CourseDesignListProps) {
+  const prefersReducedMotion = usePrefersReducedMotion()
+
   if (courses.length === 0) {
-    return <p className="text-stone-500 dark:text-stone-500">No courses listed yet.</p>
+    return <p className="text-stone-700 dark:text-stone-200">No courses listed yet.</p>
   }
 
   return (
-    <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-      {courses.map((course, i) => {
-        const style = cardStyle(i)
-        return (
-          <li key={course.id} className={`rounded-xl border p-4 ${style.card} ${cardHover}`}>
-            <div className="flex items-center gap-2">
-              <span className="h-2 w-2 shrink-0 rounded-full" style={{ backgroundColor: style.dot }} />
-              <p className="text-xs font-semibold uppercase tracking-wide text-stone-500 dark:text-stone-400">
-                {course.code}
-              </p>
+    <ul className="flex flex-col divide-y divide-stone-200 dark:divide-stone-800">
+      {courses.map((course, i) => (
+        <motion.li
+          key={course.id}
+          initial={{ opacity: 0, y: 14 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-40px' }}
+          transition={{ duration: 0.5, delay: prefersReducedMotion ? 0 : Math.min(i, 8) * 0.04, ease: [0.22, 1, 0.36, 1] }}
+          className="py-6"
+        >
+          <span className="text-xs font-semibold uppercase tracking-wide text-teal-700 dark:text-teal-400">
+            {course.code}
+          </span>
+          <p className="mt-1 font-serif text-lg font-semibold text-stone-900 dark:text-stone-50">{course.title}</p>
+          <dl className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-3">
+            <div>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-stone-700 dark:text-stone-200">
+                Unique Features
+              </dt>
+              <dd className="mt-1 text-base leading-relaxed text-stone-700 dark:text-stone-200">
+                {course.uniqueFeatures}
+              </dd>
             </div>
-            <p className="mt-1 font-medium text-stone-900 dark:text-stone-100">{course.title}</p>
-            <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">
-              <span className="font-semibold text-stone-500 dark:text-stone-500">Unique features: </span>
-              {course.uniqueFeatures}
-            </p>
-            <p className="mt-1.5 text-sm text-stone-600 dark:text-stone-400">
-              <span className="font-semibold text-stone-500 dark:text-stone-500">Methodology: </span>
-              {course.methodology}
-            </p>
+            <div>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-stone-700 dark:text-stone-200">
+                Methodology
+              </dt>
+              <dd className="mt-1 text-base leading-relaxed text-stone-700 dark:text-stone-200">{course.methodology}</dd>
+            </div>
             {course.practicalComponent && (
-              <p className="mt-1.5 text-sm text-stone-600 dark:text-stone-400">
-                <span className="font-semibold text-stone-500 dark:text-stone-500">Practical component: </span>
-                {course.practicalComponent}
-              </p>
+              <div>
+                <dt className="text-xs font-semibold uppercase tracking-wide text-stone-700 dark:text-stone-200">
+                  Practical Component
+                </dt>
+                <dd className="mt-1 text-base leading-relaxed text-stone-700 dark:text-stone-200">
+                  {course.practicalComponent}
+                </dd>
+              </div>
             )}
-          </li>
-        )
-      })}
+          </dl>
+        </motion.li>
+      ))}
     </ul>
   )
 }
