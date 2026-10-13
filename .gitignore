@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Generated portfolio archives
+portfolio-dist.zip
+porfolio-dist.zip
